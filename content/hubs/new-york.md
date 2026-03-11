@@ -35,6 +35,7 @@ relationships:
   region: "northeast"
   venues:
     - "madison-square-garden"
+    - "palladium-times-square"
 featured_focus:
   title: "Browse all New York events"
   description: "Open the full event list for the latest dates, then come back here when you want a city-first route."
@@ -49,6 +50,8 @@ key_facts:
 related_pages:
   - label: "Madison Square Garden"
     url: "/madison-square-garden/"
+  - label: "Palladium Times Square"
+    url: "/palladium-times-square/"
   - label: "All events"
     url: "/events/"
 faq:
