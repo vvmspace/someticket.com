@@ -25,6 +25,7 @@ relationships:
   region: "west"
   venues:
     - "dolby-live-at-park-mgm"
+    - "sphere"
 featured_focus:
   title: "Browse all event pages"
   description: "Open the event index to compare current dates and buying options."
@@ -32,18 +33,22 @@ featured_focus:
 key_facts:
   - label: "Best for"
     value: "Concerts and major Las Vegas dates"
-  - label: "Popular venue"
-    value: "Dolby Live at Park MGM"
+  - label: "Popular venues"
+    value: "Dolby Live at Park MGM and Sphere"
   - label: "Region"
     value: "West"
 related_pages:
   - label: "Dolby Live at Park MGM"
     url: "/dolby-live-at-park-mgm/"
+  - label: "Sphere"
+    url: "/sphere/"
   - label: "All events"
     url: "/events/"
 faq:
   - question: "What can I do on the Las Vegas page?"
     answer: "You can open current event pages in Las Vegas and jump to venue-specific ticket guides."
+  - question: "Can I compare Las Vegas venues before buying?"
+    answer: "Yes. Use related venue pages like Dolby Live at Park MGM and Sphere, then choose the event page that matches your date and budget."
 breadcrumbs:
   - name: "Home"
     url: "/"
