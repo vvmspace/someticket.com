@@ -80,6 +80,11 @@
           {{ end }}
         {{ end }}
       </div>
+      {{ if and (eq .Params.page_type "event") .Params.offers.ticket_url }}
+        <div class="actions actions--single">
+          <button class="button js-open-event" type="button" data-event-url="{{ .Params.offers.ticket_url }}" data-analytics-event="primary_cta_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+        </div>
+      {{ end }}
     </div>
   </section>
 
@@ -140,7 +145,7 @@
                 <p>{{ .notes }}</p>
                 <span>{{ .availability }}</span>
                 <div class="actions">
-                  <button class="button js-open-event" type="button" data-event-url="{{ $.RelPermalink }}#offers" data-analytics-event="buy_ticket_click" data-analytics-label="{{ printf "%s:%s" $.Title .name }}">Buy tickets</button>
+                  <button class="button js-open-event" type="button" data-event-url="{{ .url | default $.Params.offers.ticket_url | default $.RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ printf "%s:%s" $.Title .name }}">Buy tickets</button>
                 </div>
               </article>
             {{ end }}

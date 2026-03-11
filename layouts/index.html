@@ -112,7 +112,7 @@
               <p>{{ .Params.description_short }}</p>
               <span>{{ .Params.event.start_date }} · {{ .Params.location.name }}</span>
               <div class="actions">
-                <button class="button js-open-event" type="button" data-event-url="{{ .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+                <button class="button js-open-event" type="button" data-event-url="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
               </div>
             </article>
           {{ end }}
@@ -125,7 +125,7 @@
                 <p>{{ .Params.description_short }}</p>
                 <span>{{ .Params.event.start_date }} · {{ .Params.location.name }}</span>
                 <div class="actions">
-                  <button class="button js-open-event" type="button" data-event-url="{{ .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+                  <button class="button js-open-event" type="button" data-event-url="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
                 </div>
               </article>
             {{ end }}

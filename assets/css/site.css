@@ -323,6 +323,10 @@ h3 {
   margin-top: 1.3rem;
 }
 
+.actions--single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .button {
   display: inline-flex;
   align-items: center;
