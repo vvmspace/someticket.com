@@ -5,6 +5,9 @@ Add a new event page to `someticket.com` from a verified source listing.
 Requirements:
 
 - Verify the source event data before creating the page.
+- Verify `offers.ticket_url` before writing it into front matter. The final URL must resolve to the exact same event title, event date, and venue as the page being created.
+- Do not copy `ticket_url` from guesswork, search results, or pattern-based URL construction. Open the live event listing and confirm the match first.
+- If the Ticketmaster page does not clearly match the event title, date, and venue, stop and treat the URL as unverified until a correct event page is found.
 - Create or update the event Markdown file in `/Users/vvm/someticket.com/content/events/`.
 - Check all related pages and update them if needed:
   - city page
@@ -25,6 +28,7 @@ Requirements:
 Expected input:
 
 - verified source URL
+- verified `ticket_url` that matches the exact event title, venue, and date
 - event title
 - event date and time
 - venue and full address
@@ -44,4 +48,3 @@ Deliverables:
 3. Watermarked local image asset.
 4. Build result.
 5. Lighthouse result for the new event page.
-
