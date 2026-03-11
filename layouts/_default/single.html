@@ -1,0 +1,187 @@
+{{ define "main" }}
+  {{ partial "breadcrumbs.html" . }}
+
+  <section class="hero">
+    <div class="hero__panel">
+      <span class="eyebrow">{{ .Params.hero.eyebrow | default "Live events" }}</span>
+      <h1 class="page-title--detail">{{ .Title }}</h1>
+      <p class="lede">{{ .Params.description_short | default .Summary }}</p>
+      <div class="page-meta">
+        {{ with .Params.location.city }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.location.region }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.event.start_date }}<span>{{ . }}</span>{{ end }}
+      </div>
+      {{ with .Params.cta }}
+        <div class="actions">
+          {{ with .primary }}
+            <button class="button js-open-event" type="button" data-event-url="{{ .url }}" data-analytics-event="primary_cta_click" data-analytics-label="{{ .label }}">{{ .label }}</button>
+          {{ end }}
+          {{ with .secondary }}
+            <button class="button button--secondary js-open-event" type="button" data-event-url="{{ .url }}" data-analytics-event="secondary_cta_click" data-analytics-label="{{ .label }}">{{ .label }}</button>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="hero__panel hero__panel--contrast">
+      {{ partial "visual.html" (dict "page" . "variant" "hero") }}
+      <div class="fact-grid">
+        {{ if eq .Params.page_type "event" }}
+          <div class="fact-card">
+            <strong>Date</strong>
+            <span>{{ .Params.event.start_date }}</span>
+          </div>
+          <div class="fact-card">
+            <strong>Venue</strong>
+            <span>{{ .Params.location.name }}</span>
+          </div>
+          <div class="fact-card">
+            <strong>From</strong>
+            <span>{{ .Params.offers.price_from }} {{ .Params.offers.currency }}</span>
+          </div>
+        {{ else }}
+          {{ with .Params.location.city }}
+            <div class="fact-card">
+              <strong>City</strong>
+              <span>{{ . }}</span>
+            </div>
+          {{ end }}
+          {{ with .Params.location.region }}
+            <div class="fact-card">
+              <strong>Region</strong>
+              <span>{{ . }}</span>
+            </div>
+          {{ end }}
+          {{ with .Params.featured_focus.title }}
+            <div class="fact-card">
+              <strong>Recommended</strong>
+              <span>{{ . }}</span>
+            </div>
+          {{ end }}
+          {{ if and (not .Params.location.city) (not .Params.location.region) (not .Params.featured_focus.title) }}
+            {{ with .Params.description_short }}
+              <div class="fact-card">
+                <strong>Overview</strong>
+                <span>{{ . }}</span>
+              </div>
+            {{ end }}
+            {{ with .Params.relationships.cities }}
+              <div class="fact-card">
+                <strong>Connected cities</strong>
+                <span>{{ len . }}</span>
+              </div>
+            {{ end }}
+            {{ with .Params.related_pages }}
+              <div class="fact-card">
+                <strong>Related pages</strong>
+                <span>{{ len . }}</span>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <div class="content-shell">
+    <section class="section">
+      <div class="section__inner prose">
+        {{ .Content }}
+      </div>
+    </section>
+
+    {{ if or (eq .Params.page_type "hub") (eq .Params.page_type "landing") (eq .Params.page_type "event") (eq .Params.page_type "static") }}
+      {{ partial "event-list.html" . }}
+    {{ end }}
+
+    {{ with .Params.key_facts }}
+      <section class="section">
+        <div class="section__inner">
+          <div class="section__header">
+            <span class="eyebrow">Key facts</span>
+            <h2>What to know</h2>
+          </div>
+          <div class="fact-grid">
+            {{ range . }}
+              <div class="fact-card">
+                <strong>{{ .label }}</strong>
+                <span>{{ .value }}</span>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    {{ with .Params.featured_focus }}
+      <section class="section">
+        <div class="section__inner">
+          <div class="section__header">
+            <span class="eyebrow">Recommended next step</span>
+            <h2>{{ .title }}</h2>
+            <p>{{ .description }}</p>
+          </div>
+          {{ with .url }}<a class="button" href="{{ . }}" data-analytics-event="featured_focus_click" data-analytics-label="{{ $.Title }}">Open page</a>{{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ with .Params.offers.sources }}
+      <section class="section section--full" id="offers">
+        <div class="section__inner section__inner--contrast">
+          <div class="section__header">
+            <span class="eyebrow">Ticket sources</span>
+            <h2>Available buying options</h2>
+          </div>
+          <div class="offers">
+            {{ range . }}
+              <article class="offer">
+                <strong>{{ .name }}</strong>
+                <p>{{ .notes }}</p>
+                <span>{{ .availability }}</span>
+                <div class="actions">
+                  <button class="button js-open-event" type="button" data-event-url="{{ $.RelPermalink }}#offers" data-analytics-event="buy_ticket_click" data-analytics-label="{{ printf "%s:%s" $.Title .name }}">Buy tickets</button>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    {{ with .Params.related_pages }}
+      <section class="section section--full">
+        <div class="section__inner">
+          <div class="section__header">
+            <span class="eyebrow">More to explore</span>
+            <h2>Related pages</h2>
+          </div>
+          <div class="chip-list">
+            {{ range . }}
+              <a class="chip" href="{{ .url }}" data-analytics-event="related_page_click" data-analytics-label="{{ .label }}">{{ .label }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    {{ with .Params.faq }}
+      <section class="section section--full">
+        <div class="section__inner">
+          <div class="section__header">
+            <span class="eyebrow">FAQ</span>
+            <h2>Common questions</h2>
+          </div>
+          <div class="card-grid">
+            {{ range . }}
+              <article class="card">
+                <strong>{{ .question }}</strong>
+                <p>{{ .answer }}</p>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  </div>
+{{ end }}

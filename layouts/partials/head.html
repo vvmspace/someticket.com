@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ $title := .Params.seo.title | default (printf "%s | %s" .Title site.Title) }}
+{{ $description := .Params.seo.description | default (.Params.description_short | default site.Params.description) }}
+{{ $image := .Params.seo.image | default (.Params.media.hero.src | default (.Params.media.card.src | default site.Params.defaultImage)) }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="robots" content="{{ if .Params.seo.noindex }}noindex, nofollow{{ else }}index, follow{{ end }}">
+<link rel="canonical" href="{{ .Params.seo.canonical | default .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:type" content="{{ if eq .Params.page_type "event" }}event{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $image | absURL }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $image | absURL }}">
+{{ partial "analytics.html" . }}
+{{ with resources.Get "css/site.css" }}
+  {{ $style := . | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ end }}
+<script src="/js/site.js" defer></script>

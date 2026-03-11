@@ -1,0 +1,137 @@
+{{ define "main" }}
+  {{ $events := where site.RegularPages "Params.page_type" "event" }}
+  {{ partial "breadcrumbs.html" . }}
+  <section class="hero">
+    <div class="hero__panel">
+      <span class="eyebrow">{{ .Params.hero.eyebrow | default "Live events" }}</span>
+      <h1 class="page-title--home">{{ .Title }}</h1>
+      <p class="lede">{{ .Params.description_short | default .Site.Params.description }}</p>
+      <div class="signature-strip">
+        <span>Concerts and shows</span>
+        <span>Popular venues</span>
+        <span>Upcoming dates</span>
+      </div>
+      <div class="actions">
+        <a class="button" href="{{ .Params.hero.primary_url | default "/new-york/" }}" data-analytics-event="hero_cta_click" data-analytics-label="primary">{{ .Params.hero.primary_label | default "Open New York" }}</a>
+        <button class="button button--secondary js-open-event" type="button" data-event-url="{{ .Params.hero.secondary_url | default "/events/" }}" data-analytics-event="hero_cta_click" data-analytics-label="secondary">{{ .Params.hero.secondary_label | default "Browse all events" }}</button>
+      </div>
+    </div>
+    <div class="hero__panel hero__panel--contrast">
+      {{ range first 1 $events }}
+        {{ partial "visual.html" (dict "page" . "variant" "hero") }}
+      {{ end }}
+      <div class="editorial-note">
+        <span class="editorial-note__label">This week</span>
+        <p>Start with a featured event, then move into nearby dates, venues, and city pages without losing your place.</p>
+      </div>
+      <div class="stats">
+        <div class="fact-card">
+          <strong>{{ len (where site.RegularPages "Params.page_type" "hub") }}</strong>
+          <span>Places to start</span>
+        </div>
+        <div class="fact-card">
+          <strong>{{ len (where site.RegularPages "Params.page_type" "landing") }}</strong>
+          <span>City picks</span>
+        </div>
+        <div class="fact-card">
+          <strong>{{ len (where site.RegularPages "Params.page_type" "event") }}</strong>
+          <span>Events right now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--full">
+      <div class="section__inner section__inner--soft">
+        <div class="section__header">
+          <span class="eyebrow">Quick picks</span>
+          <h2>Start with a city, venue, or the full event list</h2>
+        </div>
+        <div class="chip-list chip-list--wide">
+        <a class="chip" href="/new-york/" data-analytics-event="route_click" data-analytics-label="new-york">New York</a>
+        <a class="chip" href="/madison-square-garden/" data-analytics-event="route_click" data-analytics-label="msg">Madison Square Garden</a>
+        <a class="chip" href="/events/" data-analytics-event="route_click" data-analytics-label="events">All events</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="content-shell">
+    <section class="section section--full">
+      <div class="section__inner">
+        <div class="section__header">
+          <span class="eyebrow">Browse</span>
+          <h2>Popular starting points</h2>
+          <p>Open a city page, a venue page, or the full event list to narrow down what you want to see next.</p>
+        </div>
+        <div class="card-grid">
+          {{ range where site.RegularPages "Params.page_type" "hub" }}
+            <article class="card">
+              <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="hub_card_click" data-analytics-label="{{ .Title }}"></a>
+              {{ partial "visual.html" (dict "page" . "variant" "card") }}
+              <strong>{{ .Title }}</strong>
+              <p>{{ .Params.description_short }}</p>
+              <span>{{ .Params.location.city | default (.Params.artist.name | default "Open page") }}</span>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__inner">
+        <div class="section__header">
+          <span class="eyebrow">City picks</span>
+          <h2>Pages focused on one city and one category</h2>
+        </div>
+        <div class="link-grid">
+          {{ range where site.RegularPages "Params.page_type" "landing" }}
+            <article class="card">
+              <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="landing_card_click" data-analytics-label="{{ .Title }}"></a>
+              {{ partial "visual.html" (dict "page" . "variant" "card") }}
+              <strong>{{ .Title }}</strong>
+              <p>{{ .Params.description_short }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--full">
+      <div class="section__inner section__inner--contrast">
+        <div class="section__header">
+          <span class="eyebrow">Featured events</span>
+          <h2>Events worth opening now</h2>
+          <p>See the full event details, venue, and buying options on one page.</p>
+        </div>
+        <div class="event-deck">
+          {{ range first 1 $events }}
+            <article class="offer offer--spotlight">
+              <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="event_card_click" data-analytics-label="{{ .Title }}"></a>
+              {{ partial "visual.html" (dict "page" . "variant" "hero") }}
+              <strong>{{ .Title }}</strong>
+              <p>{{ .Params.description_short }}</p>
+              <span>{{ .Params.event.start_date }} · {{ .Params.location.name }}</span>
+              <div class="actions">
+                <button class="button js-open-event" type="button" data-event-url="{{ .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+              </div>
+            </article>
+          {{ end }}
+          <div class="event-stack">
+            {{ range first 3 (after 1 $events) }}
+              <article class="offer">
+                <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="event_card_click" data-analytics-label="{{ .Title }}"></a>
+                {{ partial "visual.html" (dict "page" . "variant" "card") }}
+                <strong>{{ .Title }}</strong>
+                <p>{{ .Params.description_short }}</p>
+                <span>{{ .Params.event.start_date }} · {{ .Params.location.name }}</span>
+                <div class="actions">
+                  <button class="button js-open-event" type="button" data-event-url="{{ .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+{{ end }}

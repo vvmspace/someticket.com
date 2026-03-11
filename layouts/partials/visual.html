@@ -1,0 +1,33 @@
+{{ $page := .page }}
+{{ $variant := .variant | default "hero" }}
+{{ $media := $page.Params.media }}
+{{ $hero := $media.hero }}
+{{ $card := $media.card }}
+{{ $image := cond (and (eq $variant "card") $card.src) $card $hero }}
+{{ $src := $image.src }}
+{{ $alt := $image.alt | default $page.Title }}
+{{ $eyebrow := $page.Params.hero.eyebrow | default "Live events" }}
+
+{{ if $src }}
+  <figure class="visual visual--{{ $variant }}">
+    <img
+      class="visual__image"
+      src="{{ $src }}"
+      alt="{{ $alt }}"
+      {{ if eq $variant "hero" }}loading="eager"{{ else }}loading="lazy"{{ end }}
+      {{ if eq $variant "hero" }}fetchpriority="high"{{ end }}>
+    <figcaption class="visual__caption">
+      <span>{{ $eyebrow }}</span>
+      <strong>{{ $page.Title }}</strong>
+    </figcaption>
+  </figure>
+{{ else }}
+  <div class="visual visual--{{ $variant }} visual--placeholder">
+    <div class="visual__glow"></div>
+    <div class="visual__placeholder-copy">
+      <span>{{ $eyebrow }}</span>
+      <strong>{{ $page.Title }}</strong>
+      <em>{{ $page.Params.description_short | default "Event details and buying options in one place." }}</em>
+    </div>
+  </div>
+{{ end }}

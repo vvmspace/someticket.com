@@ -1,0 +1,114 @@
+{{ $page := . }}
+{{ $allEvents := where site.RegularPages "Params.page_type" "event" }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "matches" (slice) }}
+
+{{ range $allEvents }}
+  {{ $event := . }}
+  {{ if ne $event.RelPermalink $page.RelPermalink }}
+    {{ $score := 0 }}
+    {{ $pageSlug := $page.Params.slug }}
+    {{ $pageEntityType := $page.Params.entity_type }}
+    {{ $pageRelationships := $page.Params.relationships }}
+    {{ $eventTaxonomy := $event.Params.taxonomy }}
+    {{ $eventRelationships := $event.Params.relationships }}
+
+    {{ if and (eq $pageEntityType "city") (in ($eventTaxonomy.cities | default (slice)) $pageSlug) }}
+      {{ $score = add $score 4 }}
+    {{ end }}
+    {{ if and (eq $pageEntityType "region") (in ($eventTaxonomy.regions | default (slice)) $pageSlug) }}
+      {{ $score = add $score 4 }}
+    {{ end }}
+    {{ if and (eq $pageEntityType "category") (in ($eventTaxonomy.categories | default (slice)) $pageSlug) }}
+      {{ $score = add $score 4 }}
+    {{ end }}
+    {{ if and (eq $pageEntityType "artist") (in ($eventTaxonomy.artists | default (slice)) $pageSlug) }}
+      {{ $score = add $score 4 }}
+    {{ end }}
+    {{ if and (eq $pageEntityType "venue") (in ($eventTaxonomy.venues | default (slice)) $pageSlug) }}
+      {{ $score = add $score 4 }}
+    {{ end }}
+
+    {{ if and (eq $pageEntityType "intersection") $pageRelationships.city (eq $eventRelationships.city $pageRelationships.city) }}
+      {{ $score = add $score 3 }}
+    {{ end }}
+    {{ if and (eq $pageEntityType "intersection") $pageRelationships.category (eq $eventRelationships.category $pageRelationships.category) }}
+      {{ $score = add $score 3 }}
+    {{ end }}
+    {{ if and (eq $pageEntityType "intersection") $pageRelationships.artist (eq $eventRelationships.artist $pageRelationships.artist) }}
+      {{ $score = add $score 3 }}
+    {{ end }}
+    {{ if and (eq $pageEntityType "intersection") $pageRelationships.venue (eq $eventRelationships.venue $pageRelationships.venue) }}
+      {{ $score = add $score 3 }}
+    {{ end }}
+
+    {{ if and $pageRelationships.city (eq $eventRelationships.city $pageRelationships.city) }}
+      {{ $score = add $score 2 }}
+    {{ end }}
+    {{ if and $pageRelationships.region (eq $eventRelationships.region $pageRelationships.region) }}
+      {{ $score = add $score 1 }}
+    {{ end }}
+    {{ if and $pageRelationships.category (eq $eventRelationships.category $pageRelationships.category) }}
+      {{ $score = add $score 2 }}
+    {{ end }}
+    {{ if and $pageRelationships.artist (eq $eventRelationships.artist $pageRelationships.artist) }}
+      {{ $score = add $score 2 }}
+    {{ end }}
+    {{ if and $pageRelationships.venue (eq $eventRelationships.venue $pageRelationships.venue) }}
+      {{ $score = add $score 2 }}
+    {{ end }}
+
+    {{ if gt $score 0 }}
+      {{ $scratch.Add "matches" (slice (dict "page" $event "score" $score)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $matches := $scratch.Get "matches" }}
+{{ $sortedMatches := sort $matches "score" "desc" }}
+{{ $label := "Upcoming events" }}
+{{ if eq $page.Params.page_type "event" }}
+  {{ with $page.Params.location.city }}
+    {{ $label = printf "More events in %s" . }}
+  {{ end }}
+{{ else }}
+  {{ $label = "Events to browse next" }}
+{{ end }}
+
+{{ $items := slice }}
+{{ if gt (len $sortedMatches) 0 }}
+  {{ range first 4 $sortedMatches }}
+    {{ $items = $items | append .page }}
+  {{ end }}
+{{ else }}
+  {{ range first 4 $allEvents }}
+    {{ if ne .RelPermalink $page.RelPermalink }}
+      {{ $items = $items | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $items) 0 }}
+  <section class="section section--full">
+    <div class="section__inner">
+      <div class="section__header">
+        <span class="eyebrow">Events</span>
+        <h2>{{ $label }}</h2>
+      </div>
+      <div class="card-grid">
+        {{ range $items }}
+          <article class="card">
+            <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="related_event_click" data-analytics-label="{{ .Title }}"></a>
+            {{ partial "visual.html" (dict "page" . "variant" "card") }}
+            <strong>{{ .Title }}</strong>
+            <p>{{ .Params.description_short }}</p>
+            <span>{{ .Params.event.start_date }}{{ with .Params.location.name }} · {{ . }}{{ end }}</span>
+            <div class="actions">
+              <button class="button js-open-event" type="button" data-event-url="{{ .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

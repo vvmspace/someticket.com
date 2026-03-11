@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}" data-page-type="{{ .Params.page_type | default .Kind }}" data-entity-type="{{ .Params.entity_type | default "" }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    {{ partial "header.html" . }}
+    <main id="content" class="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+    {{ partial "schema.html" . }}
+  </body>
+</html>

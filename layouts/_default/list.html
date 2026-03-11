@@ -1,0 +1,35 @@
+{{ define "main" }}
+  {{ partial "breadcrumbs.html" . }}
+  <section class="hero">
+    <div class="hero__panel">
+      <span class="eyebrow">Events</span>
+      <h1>{{ .Title }}</h1>
+      <p class="lede">{{ .Params.description_short | default "Browse current event pages and open the full details for any date that interests you." }}</p>
+    </div>
+  </section>
+  <section class="section section--full">
+    <div class="section__inner">
+      <div class="card-grid">
+        {{ range .Pages }}
+          <article class="card">
+            <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="list_card_click" data-analytics-label="{{ .Title }}"></a>
+            {{ partial "visual.html" (dict "page" . "variant" "card") }}
+            <strong>{{ .Title }}</strong>
+            <p>{{ .Params.description_short }}</p>
+            <span>
+              {{ with .Params.location.name }}
+                {{ . }}
+              {{ else }}
+                {{ with .Params.location.city }}
+                  {{ . }}
+                {{ else }}
+                  Open page
+                {{ end }}
+              {{ end }}
+            </span>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

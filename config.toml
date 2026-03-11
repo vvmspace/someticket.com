@@ -1,0 +1,23 @@
+baseURL = "https://someticket.com/"
+languageCode = "en-us"
+title = "SomeTicket"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+disableHugoGeneratorInject = true
+
+[params]
+  brand = "SomeTicket"
+  description = "Find tickets for concerts, shows, sports, and live events across major cities."
+  defaultImage = "/images/og-default.svg"
+  [params.analytics]
+    # Set your GA4 measurement ID, for example: G-XXXXXXXXXX
+    google_tag_id = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+[imaging]
+  quality = 82
+  resampleFilter = "Lanczos"

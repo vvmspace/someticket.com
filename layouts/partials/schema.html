@@ -1,0 +1,75 @@
+{{ $data := dict "@context" "https://schema.org" }}
+{{ if .IsHome }}
+  {{ $website := dict
+    "@type" "WebSite"
+    "name" site.Title
+    "url" .Permalink
+    "description" site.Params.description
+  }}
+  <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{ else if eq .Params.page_type "event" }}
+  {{ $location := dict
+    "@type" "Place"
+    "name" (.Params.location.name | default .Title)
+    "address" (dict
+      "@type" "PostalAddress"
+      "streetAddress" .Params.location.address.street
+      "addressLocality" .Params.location.address.city
+      "addressRegion" .Params.location.address.region
+      "postalCode" .Params.location.address.postal_code
+      "addressCountry" .Params.location.address.country
+    )
+  }}
+  {{ $offers := dict
+    "@type" "Offer"
+    "url" (.Params.offers.ticket_url | default .Permalink)
+    "price" .Params.offers.price_from
+    "priceCurrency" .Params.offers.currency
+    "availability" .Params.offers.schema_availability
+  }}
+  {{ $event := dict
+    "@context" "https://schema.org"
+    "@type" (.Params.schema.type | default "Event")
+    "name" .Title
+    "description" (.Params.schema.description | default (.Params.description_short | default .Summary))
+    "startDate" .Params.event.start_date
+    "endDate" .Params.event.end_date
+    "eventAttendanceMode" .Params.schema.attendance_mode
+    "eventStatus" .Params.schema.event_status
+    "image" .Params.schema.images
+    "location" $location
+    "offers" $offers
+    "performer" (apply .Params.performers "dict" "@type" "MusicGroup" "name" ".")
+    "organizer" (dict "@type" "Organization" "name" .Params.organizer.name "url" .Params.organizer.url)
+  }}
+  <script type="application/ld+json">{{ $event | jsonify | safeJS }}</script>
+{{ else }}
+  {{ $pageType := cond (eq .Params.entity_type "artist") "MusicGroup" "WebPage" }}
+  {{ $item := dict
+    "@context" "https://schema.org"
+    "@type" $pageType
+    "name" .Title
+    "description" (.Params.schema.description | default (.Params.description_short | default .Summary))
+    "url" .Permalink
+  }}
+  <script type="application/ld+json">{{ $item | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ with .Params.breadcrumbs }}
+  {{ $list := slice }}
+  {{ range $index, $item := . }}
+    {{ $entry := dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "name" $item.name
+      "item" (cond $item.url (absURL $item.url) $.Permalink)
+    }}
+    {{ $list = $list | append $entry }}
+  {{ end }}
+  {{ $breadcrumbs := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "itemListElement" $list
+  }}
+  <script type="application/ld+json">{{ $breadcrumbs | jsonify | safeJS }}</script>
+{{ end }}
