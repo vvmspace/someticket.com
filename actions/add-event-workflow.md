@@ -24,7 +24,6 @@ Requirements:
 - Preserve the internal purchase flow used by the site.
 - tag, organizer, performers, venue and category pages should exist, be actual, and linked from events pages
 - Run a clean site build after changes.
-- Run Lighthouse for the new event page and record the result.
 
 Expected input:
 
@@ -54,4 +53,3 @@ Deliverables:
 2. Any related page updates required by the new event.
 3. Watermarked local image asset.
 4. Build result.
-5. Lighthouse result for the new event page.
