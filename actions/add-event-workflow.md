@@ -10,12 +10,15 @@ Requirements:
 - If the page does not clearly match the event title, date, and venue, stop and treat the URL as unverified until a correct event page is found.
 - Create or update the event Markdown file in `/Users/vvm/someticket.com/content/events/`.
 - Check all related pages and update them if needed:
+  - tag page
   - city page
   - venue page
   - category page
   - related landing pages
   - homepage or featured sections when the new event should appear there
-- Save only the final processed event image locally and apply the project watermark from `_root_/watermark.png` (bottom right corner) and fit size.
+- Image: google image by event page
+- apply the project watermark from `_root_/watermark.png` (bottom right corner) and fit size
+- don't store original image
 - Do not keep downloaded source image files in the repository after processing.
 - Use a clean public filename for the final image without words like `watermark` in the file name.
 - Connect the final image through `media.hero` and `media.card`.
