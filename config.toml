@@ -2,8 +2,13 @@ baseURL = "https://someticket.com/"
 languageCode = "en-us"
 title = "SomeTicket"
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+disableKinds = ["taxonomy", "term", "RSS"]
 disableHugoGeneratorInject = true
+
+[sitemap]
+  filename = "sitemap.xml"
+  changefreq = "weekly"
+  priority = 0.5
 
 [params]
   brand = "SomeTicket"
