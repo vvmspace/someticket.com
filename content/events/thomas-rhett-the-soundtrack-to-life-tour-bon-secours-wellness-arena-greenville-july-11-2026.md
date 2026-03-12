@@ -93,7 +93,7 @@ faq:
   - question: "What should I confirm before checkout on ticket sites?"
     answer: "Verify the event date, venue, section, row, full price with fees, and ticket delivery timing before you place your order."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

@@ -94,7 +94,7 @@ faq:
   - question: "What should I check before buying Billie Eilish tickets online?"
     answer: "Confirm date and venue, verify section and row, check the full total, and confirm delivery details before payment."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

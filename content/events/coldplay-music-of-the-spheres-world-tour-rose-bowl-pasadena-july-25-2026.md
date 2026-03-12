@@ -90,7 +90,7 @@ faq:
   - question: "What should I check before buying Coldplay tickets online?"
     answer: "Confirm date and venue, verify section and row, review total checkout cost, and confirm your delivery method."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

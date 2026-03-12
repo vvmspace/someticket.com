@@ -102,7 +102,7 @@ faq:
   - question: "What should I verify before buying Forrest Frank tickets online?"
     answer: "Confirm date, venue, section, row, the full total including fees, and delivery details before placing the order."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

@@ -90,7 +90,7 @@ faq:
   - question: "What should I verify before buying The Spinners tickets online?"
     answer: "Check date and start time, section and row, full price with fees, and ticket delivery method before completing payment."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

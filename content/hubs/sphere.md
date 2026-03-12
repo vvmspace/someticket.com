@@ -49,7 +49,7 @@ faq:
   - question: "What can I find on the Sphere page?"
     answer: "You can review venue details and open current event pages scheduled at Sphere in Las Vegas."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Sphere Tickets"
 content_blocks:

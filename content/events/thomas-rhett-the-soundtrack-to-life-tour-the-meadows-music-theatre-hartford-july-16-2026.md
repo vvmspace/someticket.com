@@ -95,7 +95,7 @@ faq:
   - question: "What should I confirm before buying Thomas Rhett tickets online?"
     answer: "Confirm event date, venue, section, row, full price with fees, and ticket delivery timing before placing your order."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

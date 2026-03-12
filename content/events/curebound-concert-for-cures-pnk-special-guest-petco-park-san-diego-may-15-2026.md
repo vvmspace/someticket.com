@@ -101,7 +101,7 @@ faq:
   - question: "What should I verify before buying P!NK tickets online?"
     answer: "Confirm event title, date, and venue, then check section details, full order total with fees, and delivery timing before payment."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

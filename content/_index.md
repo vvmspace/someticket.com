@@ -19,7 +19,7 @@ hero:
   secondary_label: "Browse all events"
   secondary_url: "/events/"
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
 ---
 SomeTicket brings cities, venues, and events into one clean browsing flow.
 

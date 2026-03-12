@@ -92,7 +92,7 @@ faq:
   - question: "What should I check before buying Tim McGraw tickets online?"
     answer: "Confirm event date and time, section and row, final total with fees, and ticket delivery method before paying."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

@@ -60,7 +60,7 @@ faq:
   - question: "Where should I go if I want the full event list?"
     answer: "Use the all events page for the full list, then come back here if you want a city-first route."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "New York Event Tickets"
 content_blocks:

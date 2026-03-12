@@ -101,7 +101,7 @@ faq:
   - question: "What should I check before buying Bruno Mars tickets online?"
     answer: "Confirm event date and venue, section and row, the full total including fees, and delivery details before payment."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

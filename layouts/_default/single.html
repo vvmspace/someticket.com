@@ -4,7 +4,12 @@
   <section class="hero">
     <div class="hero__panel">
       <span class="eyebrow">{{ .Params.hero.eyebrow | default "Live events" }}</span>
-      <h1 class="page-title--detail">{{ .Title }}</h1>
+      <h1
+        class="page-title--detail"
+        data-auto-fit="title"
+        data-auto-fit-min="1.7"
+        data-auto-fit-max="4.9"
+        data-auto-fit-lines="4">{{ .Title }}</h1>
       <p class="lede">{{ .Params.description_short | default .Summary }}</p>
       <div class="page-meta">
         {{ with .Params.location.city }}<span>{{ . }}</span>{{ end }}

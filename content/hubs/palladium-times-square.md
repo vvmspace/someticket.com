@@ -49,7 +49,7 @@ faq:
   - question: "What can I find on the Palladium Times Square page?"
     answer: "You can review venue details and open event pages scheduled at Palladium Times Square."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Palladium Times Square Tickets"
 content_blocks:

@@ -102,7 +102,7 @@ faq:
   - question: "What should I check before buying Katy Perry tickets online?"
     answer: "Confirm the date, venue, section, row, full order total with fees, and ticket delivery timing before checkout."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

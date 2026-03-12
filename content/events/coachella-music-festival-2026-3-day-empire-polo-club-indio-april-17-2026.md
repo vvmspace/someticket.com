@@ -92,7 +92,7 @@ faq:
   - question: "What should I confirm before buying Coachella passes online?"
     answer: "Confirm dates, pass type, total checkout amount, and ticket delivery details before placing your order."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

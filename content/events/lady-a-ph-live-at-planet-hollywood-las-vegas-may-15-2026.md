@@ -94,7 +94,7 @@ faq:
   - question: "What should I verify before buying Lady A tickets online?"
     answer: "Confirm the event date, venue, section, final total with fees, and ticket delivery method before paying."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

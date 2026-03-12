@@ -101,7 +101,7 @@ faq:
   - question: "What should I verify before buying Eagles tickets online?"
     answer: "Confirm event date and time, exact section and row, full checkout total including fees, and ticket delivery details before payment."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

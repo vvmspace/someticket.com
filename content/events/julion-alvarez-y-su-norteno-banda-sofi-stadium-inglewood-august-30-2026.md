@@ -101,7 +101,7 @@ faq:
   - question: "What should I verify before buying Julion Alvarez tickets online?"
     answer: "Confirm date, venue, section, row, full total with fees, and delivery details before placing your order."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

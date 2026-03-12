@@ -104,7 +104,7 @@ faq:
   - question: "What should I verify before buying My Chemical Romance tickets online?"
     answer: "Confirm event date, venue, section, row, full total with fees, and delivery details before placing your order."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

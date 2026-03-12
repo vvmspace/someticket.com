@@ -105,7 +105,7 @@ faq:
   - question: "What should I check before buying MLS tickets online?"
     answer: "Confirm date, stadium, section, row, full order total with fees, and delivery timing before completing payment."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

@@ -92,7 +92,7 @@ faq:
   - question: "What should I check before buying Andrea Bocelli tickets online?"
     answer: "Confirm date, venue, section, row, total order price with fees, and delivery timing before you place the order."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

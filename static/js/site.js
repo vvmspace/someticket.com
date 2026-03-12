@@ -1,4 +1,69 @@
 document.addEventListener("DOMContentLoaded", function () {
+  function autoFitTitle(element) {
+    var min = parseFloat(element.getAttribute("data-auto-fit-min") || "1.7");
+    var max = parseFloat(element.getAttribute("data-auto-fit-max") || "4.9");
+    var maxLines = parseInt(element.getAttribute("data-auto-fit-lines") || "4", 10);
+    var low = min;
+    var high = max;
+    var best = min;
+    var lineHeight;
+    var currentStyle;
+    var lines;
+    var mid;
+
+    element.style.fontSize = max + "rem";
+
+    while (high - low > 0.05) {
+      mid = (low + high) / 2;
+      element.style.fontSize = mid.toFixed(3) + "rem";
+      currentStyle = window.getComputedStyle(element);
+      lineHeight = parseFloat(currentStyle.lineHeight);
+
+      if (!lineHeight) {
+        lineHeight = parseFloat(currentStyle.fontSize) * 1.02;
+      }
+
+      lines = element.scrollHeight / lineHeight;
+
+      if (lines <= maxLines + 0.05) {
+        best = mid;
+        low = mid;
+      } else {
+        high = mid;
+      }
+    }
+
+    element.style.fontSize = best.toFixed(3) + "rem";
+  }
+
+  function setupAutoFitTitles() {
+    var elements = Array.prototype.slice.call(document.querySelectorAll("[data-auto-fit='title']"));
+
+    if (!elements.length) {
+      return;
+    }
+
+    function refresh() {
+      elements.forEach(autoFitTitle);
+    }
+
+    refresh();
+
+    if (typeof ResizeObserver === "function") {
+      var observer = new ResizeObserver(refresh);
+
+      elements.forEach(function (element) {
+        observer.observe(element);
+
+        if (element.parentElement) {
+          observer.observe(element.parentElement);
+        }
+      });
+    } else {
+      window.addEventListener("resize", refresh);
+    }
+  }
+
   function trackEvent(name, params) {
     if (typeof window.gtag !== "function") {
       return;
@@ -71,4 +136,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
   trackPageReady();
   trackOffersView();
+  setupAutoFitTitles();
 });

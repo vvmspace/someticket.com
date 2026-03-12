@@ -49,7 +49,7 @@ faq:
   - question: "What can I find on the Dolby Live at Park MGM page?"
     answer: "You can review venue details and open event pages scheduled at Dolby Live at Park MGM."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Dolby Live at Park MGM Tickets"
 content_blocks:

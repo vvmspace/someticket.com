@@ -56,7 +56,7 @@ faq:
   - question: "What can I find on the Madison Square Garden page?"
     answer: "You can review venue details, jump into the city page, and open event pages scheduled at Madison Square Garden."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Madison Square Garden Tickets"
 content_blocks:

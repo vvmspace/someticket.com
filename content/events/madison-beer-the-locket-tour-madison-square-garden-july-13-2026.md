@@ -105,7 +105,7 @@ faq:
   - question: "What should I verify before buying Madison Beer tickets online?"
     answer: "Confirm event date and time, section and row, final total with fees, and ticket delivery method before payment."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

@@ -13,7 +13,7 @@ seo:
   canonical: "https://someticket.com/events/"
   image: "/images/og-default.svg"
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
 ---

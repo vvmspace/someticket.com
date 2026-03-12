@@ -101,7 +101,7 @@ faq:
   - question: "What should I check before buying J. Cole tickets online?"
     answer: "Confirm event date and venue, section and row, full order total with fees, and delivery timing before payment."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Events"
     url: "/events/"

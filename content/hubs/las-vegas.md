@@ -50,7 +50,7 @@ faq:
   - question: "Can I compare Las Vegas venues before buying?"
     answer: "Yes. Use related venue pages like Dolby Live at Park MGM and Sphere, then choose the event page that matches your date and budget."
 breadcrumbs:
-  - name: "Home"
+  - name: "Some Ticket"
     url: "/"
   - name: "Las Vegas Event Tickets"
 content_blocks:
