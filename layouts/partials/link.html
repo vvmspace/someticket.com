@@ -1,0 +1,21 @@
+{{- $url := .url | default "#" -}}
+{{- $class := .class -}}
+{{- $label := .label -}}
+{{- $event := .event -}}
+{{- $ariaLabel := .ariaLabel -}}
+{{- $text := .text | default "" -}}
+{{- $isExternal := or (hasPrefix $url "http://") (hasPrefix $url "https://") -}}
+
+<a
+  {{- with $class }} class="{{ . }}"{{ end -}}
+  {{- if $isExternal -}}
+    href="#"
+    data-external-link="true"
+    data-external-url="{{ $url | base64Encode }}"
+  {{- else -}}
+    href="{{ $url }}"
+  {{- end -}}
+  {{- with $event }} data-analytics-event="{{ . }}"{{ end -}}
+  {{- with $label }} data-analytics-label="{{ . }}"{{ end -}}
+  {{- with $ariaLabel }} aria-label="{{ . }}"{{ end -}}
+>{{ $text }}</a>

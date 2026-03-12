@@ -12,8 +12,8 @@
         <span>Upcoming dates</span>
       </div>
       <div class="actions">
-        <a class="button" href="{{ .Params.hero.primary_url | default "/new-york/" }}" data-analytics-event="hero_cta_click" data-analytics-label="primary">{{ .Params.hero.primary_label | default "Open New York" }}</a>
-        <a class="button button--secondary" href="{{ .Params.hero.secondary_url | default "/events/" }}" data-analytics-event="hero_cta_click" data-analytics-label="secondary">{{ .Params.hero.secondary_label | default "Browse all events" }}</a>
+        {{ partial "link.html" (dict "url" (.Params.hero.primary_url | default "/new-york/") "class" "button" "event" "hero_cta_click" "label" "primary" "text" (.Params.hero.primary_label | default "Open New York")) }}
+        {{ partial "link.html" (dict "url" (.Params.hero.secondary_url | default "/events/") "class" "button button--secondary" "event" "hero_cta_click" "label" "secondary" "text" (.Params.hero.secondary_label | default "Browse all events")) }}
       </div>
     </div>
     <div class="hero__panel hero__panel--contrast">
@@ -48,9 +48,9 @@
           <h2>Start with a city, venue, or the full event list</h2>
         </div>
         <div class="chip-list chip-list--wide">
-        <a class="chip" href="/new-york/" data-analytics-event="route_click" data-analytics-label="new-york">New York</a>
-        <a class="chip" href="/madison-square-garden/" data-analytics-event="route_click" data-analytics-label="msg">Madison Square Garden</a>
-        <a class="chip" href="/events/" data-analytics-event="route_click" data-analytics-label="events">All events</a>
+        {{ partial "link.html" (dict "url" "/new-york/" "class" "chip" "event" "route_click" "label" "new-york" "text" "New York") }}
+        {{ partial "link.html" (dict "url" "/madison-square-garden/" "class" "chip" "event" "route_click" "label" "msg" "text" "Madison Square Garden") }}
+        {{ partial "link.html" (dict "url" "/events/" "class" "chip" "event" "route_click" "label" "events" "text" "All events") }}
       </div>
     </div>
   </section>
@@ -66,7 +66,7 @@
         <div class="card-grid">
           {{ range where site.RegularPages "Params.page_type" "hub" }}
             <article class="card">
-              <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="hub_card_click" data-analytics-label="{{ .Title }}"></a>
+              {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "hub_card_click" "label" .Title) }}
               {{ partial "visual.html" (dict "page" . "variant" "card") }}
               <strong>{{ .Title }}</strong>
               <p>{{ .Params.description_short }}</p>
@@ -86,7 +86,7 @@
         <div class="link-grid">
           {{ range where site.RegularPages "Params.page_type" "landing" }}
             <article class="card">
-              <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="landing_card_click" data-analytics-label="{{ .Title }}"></a>
+              {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "landing_card_click" "label" .Title) }}
               {{ partial "visual.html" (dict "page" . "variant" "card") }}
               <strong>{{ .Title }}</strong>
               <p>{{ .Params.description_short }}</p>
@@ -106,26 +106,26 @@
         <div class="event-deck">
           {{ range first 1 $events }}
             <article class="offer offer--spotlight">
-              <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="event_card_click" data-analytics-label="{{ .Title }}"></a>
+              {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "event_card_click" "label" .Title) }}
               {{ partial "visual.html" (dict "page" . "variant" "hero") }}
               <strong>{{ .Title }}</strong>
               <p>{{ .Params.description_short }}</p>
               <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
               <div class="actions">
-                <a class="button" href="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
+                {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button" "event" "buy_ticket_click" "label" .Title "text" "Buy tickets") }}
               </div>
             </article>
           {{ end }}
           <div class="event-stack">
             {{ range first 3 (after 1 $events) }}
               <article class="offer">
-                <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="event_card_click" data-analytics-label="{{ .Title }}"></a>
+                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "event_card_click" "label" .Title) }}
                 {{ partial "visual.html" (dict "page" . "variant" "card") }}
                 <strong>{{ .Title }}</strong>
                 <p>{{ .Params.description_short }}</p>
                 <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
                 <div class="actions">
-                  <a class="button" href="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
+                  {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button" "event" "buy_ticket_click" "label" .Title "text" "Buy tickets") }}
                 </div>
               </article>
             {{ end }}

@@ -1,4 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
+  function decodeExternalUrl(element) {
+    var encoded = element.getAttribute("data-external-url");
+
+    if (!encoded) {
+      return "";
+    }
+
+    try {
+      return window.atob(encoded);
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function openExternalLink(element) {
+    var url = decodeExternalUrl(element);
+
+    if (!url) {
+      return;
+    }
+
+    window.location.assign(url);
+  }
+
   function autoFitTitle(element) {
     var min = parseFloat(element.getAttribute("data-auto-fit-min") || "1.7");
     var max = parseFloat(element.getAttribute("data-auto-fit-max") || "4.9");
@@ -122,14 +146,20 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.addEventListener("click", function (event) {
+    var externalLink = event.target.closest("[data-external-link='true']");
     var tracked = event.target.closest("[data-analytics-event]");
+
+    if (externalLink) {
+      event.preventDefault();
+      openExternalLink(externalLink);
+    }
 
     if (tracked) {
       trackEvent(tracked.getAttribute("data-analytics-event"), {
         page_title: document.title,
         page_path: window.location.pathname,
         label: tracked.getAttribute("data-analytics-label") || "",
-        href: tracked.getAttribute("href") || ""
+        href: decodeExternalUrl(tracked) || tracked.getAttribute("href") || ""
       });
     }
   });

@@ -371,7 +371,7 @@ h3 {
 }
 
 .page-title--detail {
-  max-width: 12ch;
+  max-width: 100%;
   font-size: clamp(2.6rem, 6vw, 4.9rem);
 }
 

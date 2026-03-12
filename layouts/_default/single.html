@@ -19,10 +19,10 @@
       {{ with .Params.cta }}
         <div class="actions">
           {{ with .primary }}
-            <a class="button" href="{{ .url }}" data-analytics-event="primary_cta_click" data-analytics-label="{{ .label }}">{{ .label }}</a>
+            {{ partial "link.html" (dict "url" .url "class" "button" "event" "primary_cta_click" "label" .label "text" .label) }}
           {{ end }}
           {{ with .secondary }}
-            <a class="button button--secondary" href="{{ .url }}" data-analytics-event="secondary_cta_click" data-analytics-label="{{ .label }}">{{ .label }}</a>
+            {{ partial "link.html" (dict "url" .url "class" "button button--secondary" "event" "secondary_cta_click" "label" .label "text" .label) }}
           {{ end }}
         </div>
       {{ end }}
@@ -87,7 +87,7 @@
       </div>
       {{ if and (eq .Params.page_type "event") .Params.offers.ticket_url }}
         <div class="actions actions--single">
-          <a class="button" href="{{ .Params.offers.ticket_url }}" data-analytics-event="primary_cta_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
+          {{ partial "link.html" (dict "url" .Params.offers.ticket_url "class" "button" "event" "primary_cta_click" "label" .Title "text" "Buy tickets") }}
         </div>
       {{ end }}
     </div>
@@ -131,7 +131,7 @@
             <h2>{{ .title }}</h2>
             <p>{{ .description }}</p>
           </div>
-          {{ with .url }}<a class="button" href="{{ . }}" data-analytics-event="featured_focus_click" data-analytics-label="{{ $.Title }}">Open page</a>{{ end }}
+          {{ with .url }}{{ partial "link.html" (dict "url" . "class" "button" "event" "featured_focus_click" "label" $.Title "text" "Open page") }}{{ end }}
         </div>
       </section>
     {{ end }}
@@ -150,7 +150,7 @@
                 <p>{{ .notes }}</p>
                 <span>{{ .availability }}</span>
                 <div class="actions">
-                  <a class="button" href="{{ .url | default $.Params.offers.ticket_url | default $.RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ printf "%s:%s" $.Title .name }}">Buy tickets</a>
+                  {{ partial "link.html" (dict "url" (.url | default $.Params.offers.ticket_url | default $.RelPermalink) "class" "button" "event" "buy_ticket_click" "label" (printf "%s:%s" $.Title .name) "text" "Buy tickets") }}
                 </div>
               </article>
             {{ end }}
@@ -168,7 +168,7 @@
           </div>
           <div class="chip-list">
             {{ range . }}
-              <a class="chip" href="{{ .url }}" data-analytics-event="related_page_click" data-analytics-label="{{ .label }}">{{ .label }}</a>
+              {{ partial "link.html" (dict "url" .url "class" "chip" "event" "related_page_click" "label" .label "text" .label) }}
             {{ end }}
           </div>
         </div>

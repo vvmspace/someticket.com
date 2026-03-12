@@ -267,3 +267,8 @@ Keep those three documentation surfaces aligned.
 - No visual bugs such as broken spacing, uneven widths, or misaligned sections.
 - Button "Buy tickets" should open link.
 - Каждая страница должна быть "живая", а не техническая
+
+
+## Внешние ссылки
+
+Все внешние ссылки должны работать через JS. Внешних ссылок на сайте быть не должно.

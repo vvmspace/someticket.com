@@ -98,13 +98,13 @@
       <div class="card-grid">
         {{ range $items }}
           <article class="card">
-            <a class="stretched-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title }}" data-analytics-event="related_event_click" data-analytics-label="{{ .Title }}"></a>
+            {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "related_event_click" "label" .Title) }}
             {{ partial "visual.html" (dict "page" . "variant" "card") }}
             <strong>{{ .Title }}</strong>
             <p>{{ .Params.description_short }}</p>
             <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }}{{ with .Params.location.name }} · {{ . }}{{ end }}</span>
             <div class="actions">
-              <a class="button" href="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
+              {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button" "event" "buy_ticket_click" "label" .Title "text" "Buy tickets") }}
             </div>
           </article>
         {{ end }}

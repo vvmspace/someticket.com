@@ -22,6 +22,7 @@ Requirements:
 - Add meaningful `media.hero.alt` and `media.card.alt` text.
 - Keep all public copy useful for visitors. No technical terms.
 - Preserve the internal purchase flow used by the site.
+- tag, organizer, performers, venue and category pages should exist, be actual, and linked from events pages
 - Run a clean site build after changes.
 - Run Lighthouse for the new event page and record the result.
 
@@ -39,6 +40,10 @@ Expected input:
 - image source
 - SEO текст с ключевыми словами и разбавлением фактами
 - price if available
+- tags
+- event type
+
+
 
 Поля не должны быть однообразными. Прописывай их не технически, а прорабатывай каждый файл с душой.
 
