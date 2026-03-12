@@ -3,3 +3,16 @@
 - Added SEO event article: /Users/vvm/someticket.com/content/events/lady-a-ph-live-at-planet-hollywood-las-vegas-may-15-2026.md
 - Hugo build passed with local cache dir.
 - Included existing deletions per user request and pushed commit 3d0f29d to main.
+- Run timestamp: 2026-03-12T18:08:16+0400
+- Selected verified Ticketmaster event (no search engine): Curebound Concert for Cures: P!NK at Petco Park, San Diego, May 15, 2026 (>1 month from 2026-03-12).
+- Added SEO event article: /Users/vvm/someticket.com/content/events/curebound-concert-for-cures-pnk-special-guest-petco-park-san-diego-may-15-2026.md
+- Added processed local event image with watermark: /Users/vvm/someticket.com/static/images/curebound-concert-for-cures-pnk-petco-park-may-15-2026.jpg
+- Hugo build passed using sandbox-safe cache dir: hugo --gc --minify --cacheDir /tmp/hugo_cache
+- Lighthouse could not run in this environment (npm registry DNS blocked and local port binding denied).
+- Pushed to main: commit 757358b.
+- Run timestamp: 2026-03-12T19:03:26+0400
+- Opened Ticketmaster directly (no search engine), moved to Eagles artist page, and selected a different upcoming event not present in the repo: Eagles: The Long Goodbye Act III at Truist Park (Atlanta, GA) on Tuesday, May 5, 2026 at 7:00 PM.
+- Verified event date is more than one month after current date (2026-03-12).
+- Added SEO event article: /Users/vvm/someticket.com/content/events/eagles-the-long-goodbye-act-iii-truist-park-atlanta-may-05-2026.md
+- Added local event image file wired in front matter: /Users/vvm/someticket.com/static/images/eagles-the-long-goodbye-act-iii-truist-park-may-05-2026.png
+- Built site successfully with `hugo --minify`.
