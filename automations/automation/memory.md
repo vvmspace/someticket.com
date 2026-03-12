@@ -1,5 +1,5 @@
 - Run timestamp: 2026-03-12T04:46:56+0400
-- Event selected from Ticketmaster flow (no search): Lady A at PH Live at Planet Hollywood, Las Vegas, May 15, 2026.
+- Event selected from flow (no search): Lady A at PH Live at Planet Hollywood, Las Vegas, May 15, 2026.
 - Added SEO event article: /Users/vvm/someticket.com/content/events/lady-a-ph-live-at-planet-hollywood-las-vegas-may-15-2026.md
 - Hugo build passed with local cache dir.
 - Included existing deletions per user request and pushed commit 3d0f29d to main.
