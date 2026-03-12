@@ -45,22 +45,22 @@ performers:
   - "2026 Football World Cup Quarter-finals Match 98"
 organizer:
   name: "StubHub"
-  url: "https://www.stubhub.lu/"
+  url: "https://www.stubhub.ie/"
 offers:
-  price_from: "1650"
+  price_from: "1285"
   currency: "USD"
   schema_availability: "https://schema.org/InStock"
-  ticket_url: "https://www.stubhub.lu/football-weltmeisterschaft-2026-viertelfinale-spiel-98-inglewood-tickets-10-7-2026/event/106780116/"
+  ticket_url: "https://www.stubhub.ie/football-world-cup-2026-quarter-finals-match-98-tickets-inglewood-sofi-stadium-10-7-2026/event/106780116/"
   sources:
     - name: "StubHub"
       notes: "Primary listing for 2026 Football World Cup Quarter-finals Match 98 at SoFi Stadium in Inglewood on July 10, 2026."
       availability: "Check live inventory"
-      url: "https://www.stubhub.lu/football-weltmeisterschaft-2026-viertelfinale-spiel-98-inglewood-tickets-10-7-2026/event/106780116/"
+      url: "https://www.stubhub.ie/football-world-cup-2026-quarter-finals-match-98-tickets-inglewood-sofi-stadium-10-7-2026/event/106780116/"
 source_reference:
   - label: "StubHub Los Angeles Metro listings page"
     url: "https://www.stubhub.com/los-angeles-metro-tickets/geography/10/?page=45"
   - label: "StubHub World Cup quarter-finals event page"
-    url: "https://www.stubhub.lu/football-weltmeisterschaft-2026-viertelfinale-spiel-98-inglewood-tickets-10-7-2026/event/106780116/"
+    url: "https://www.stubhub.ie/football-world-cup-2026-quarter-finals-match-98-tickets-inglewood-sofi-stadium-10-7-2026/event/106780116/"
 taxonomy:
   cities:
     - "los-angeles"
@@ -92,7 +92,7 @@ key_facts:
   - label: "Event"
     value: "2026 Football World Cup Quarter-finals Match 98"
   - label: "Price from"
-    value: "$1,650"
+    value: "$1,285"
 related_pages:
   - label: "All Event Pages"
     url: "/events/"
@@ -124,7 +124,7 @@ The match is scheduled for **Friday, July 10, 2026 at 3:00 PM** at **SoFi Stadiu
 
 ## Why This Is a Premium, Not Cheap Ticket Segment
 
-Current entry pricing is in a premium band at around **$1,650**. Searches such as **how much are World Cup quarter-finals tickets**, **best World Cup seats SoFi**, and **VIP World Cup tickets Inglewood** usually come from buyers who are near checkout and want to avoid expensive mistakes.
+Current entry pricing is in a premium band at around **$1,285**. Searches such as **how much are World Cup quarter-finals tickets**, **best World Cup seats SoFi**, and **VIP World Cup tickets Inglewood** usually come from buyers who are near checkout and want to avoid expensive mistakes.
 
 For high-stakes events like this, compare full checkout totals across multiple section tiers in one session instead of watching a single section.
 
