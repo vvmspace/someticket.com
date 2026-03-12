@@ -9,7 +9,7 @@
       <div class="page-meta">
         {{ with .Params.location.city }}<span>{{ . }}</span>{{ end }}
         {{ with .Params.location.region }}<span>{{ . }}</span>{{ end }}
-        {{ with .Params.event.start_date }}<span>{{ . }}</span>{{ end }}
+        {{ with .Params.event.start_date }}<span>{{ partial "event-date.html" (dict "date" . "format" "meta") }}</span>{{ end }}
       </div>
       {{ with .Params.cta }}
         <div class="actions">
@@ -29,7 +29,7 @@
         {{ if eq .Params.page_type "event" }}
           <div class="fact-card">
             <strong>Date</strong>
-            <span>{{ .Params.event.start_date }}</span>
+            <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "full") }}</span>
           </div>
           <div class="fact-card">
             <strong>Venue</strong>

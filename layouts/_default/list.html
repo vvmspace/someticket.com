@@ -17,13 +17,18 @@
             <strong>{{ .Title }}</strong>
             <p>{{ .Params.description_short }}</p>
             <span>
-              {{ with .Params.location.name }}
-                {{ . }}
+              {{ with .Params.event.start_date }}
+                {{ partial "event-date.html" (dict "date" . "format" "meta") }}
+                {{ with $.Params.location.name }} · {{ . }}{{ end }}
               {{ else }}
-                {{ with .Params.location.city }}
+                {{ with .Params.location.name }}
                   {{ . }}
                 {{ else }}
-                  Open page
+                  {{ with .Params.location.city }}
+                    {{ . }}
+                  {{ else }}
+                    Open page
+                  {{ end }}
                 {{ end }}
               {{ end }}
             </span>

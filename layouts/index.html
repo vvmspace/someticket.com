@@ -110,7 +110,7 @@
               {{ partial "visual.html" (dict "page" . "variant" "hero") }}
               <strong>{{ .Title }}</strong>
               <p>{{ .Params.description_short }}</p>
-              <span>{{ .Params.event.start_date }} · {{ .Params.location.name }}</span>
+              <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
               <div class="actions">
                 <a class="button" href="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
               </div>
@@ -123,7 +123,7 @@
                 {{ partial "visual.html" (dict "page" . "variant" "card") }}
                 <strong>{{ .Title }}</strong>
                 <p>{{ .Params.description_short }}</p>
-                <span>{{ .Params.event.start_date }} · {{ .Params.location.name }}</span>
+                <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
                 <div class="actions">
                   <a class="button" href="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
                 </div>

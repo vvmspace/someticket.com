@@ -1,0 +1,14 @@
+{{- $raw := .date -}}
+{{- $format := .format | default "meta" -}}
+{{- with $raw -}}
+  {{- $time := time.AsTime . -}}
+  {{- if eq $format "full" -}}
+    {{- $time | time.Format "Monday, January 2, 2006 at 3:04 PM" -}}
+  {{- else if eq $format "card" -}}
+    {{- $time | time.Format "January 2, 2006" -}}
+  {{- else if eq $format "time" -}}
+    {{- $time | time.Format "3:04 PM" -}}
+  {{- else -}}
+    {{- $time | time.Format "Jan 2, 2006 · 3:04 PM" -}}
+  {{- end -}}
+{{- end -}}
