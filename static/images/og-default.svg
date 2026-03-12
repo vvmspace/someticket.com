@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SomeTicket default social image</title>
+  <desc id="desc">Abstract ticket-themed artwork for SomeTicket sharing cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="118" r="132" fill="#ffffff" fill-opacity="0.14"/>
+  <circle cx="180" cy="526" r="168" fill="#ffffff" fill-opacity="0.1"/>
+  <g fill="#ffffff">
+    <path d="M168 173c0-18 14-32 32-32h305c18 0 32 14 32 32v284c0 18-14 32-32 32H200c-18 0-32-14-32-32V173Zm53 32v220h263V205H221Z" fill-opacity="0.92"/>
+    <circle cx="253" cy="315" r="26" fill-opacity="0.75"/>
+    <circle cx="453" cy="315" r="26" fill-opacity="0.75"/>
+  </g>
+  <text x="594" y="270" fill="#ffffff" font-family="Georgia, serif" font-size="76" font-weight="700">SomeTicket</text>
+  <text x="594" y="338" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="34">Live events, venues, and buying options in one place.</text>
+</svg>

@@ -64,23 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
         page_title: document.title,
         page_path: window.location.pathname,
         label: tracked.getAttribute("data-analytics-label") || "",
-        href: tracked.getAttribute("href") || tracked.getAttribute("data-event-url") || ""
+        href: tracked.getAttribute("href") || ""
       });
     }
-
-    var trigger = event.target.closest(".js-open-event");
-
-    if (!trigger) {
-      return;
-    }
-
-    var targetUrl = trigger.getAttribute("data-event-url");
-
-    if (!targetUrl) {
-      return;
-    }
-
-    window.location.assign(targetUrl);
   });
 
   trackPageReady();

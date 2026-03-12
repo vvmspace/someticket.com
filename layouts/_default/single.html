@@ -14,10 +14,10 @@
       {{ with .Params.cta }}
         <div class="actions">
           {{ with .primary }}
-            <button class="button js-open-event" type="button" data-event-url="{{ .url }}" data-analytics-event="primary_cta_click" data-analytics-label="{{ .label }}">{{ .label }}</button>
+            <a class="button" href="{{ .url }}" data-analytics-event="primary_cta_click" data-analytics-label="{{ .label }}">{{ .label }}</a>
           {{ end }}
           {{ with .secondary }}
-            <button class="button button--secondary js-open-event" type="button" data-event-url="{{ .url }}" data-analytics-event="secondary_cta_click" data-analytics-label="{{ .label }}">{{ .label }}</button>
+            <a class="button button--secondary" href="{{ .url }}" data-analytics-event="secondary_cta_click" data-analytics-label="{{ .label }}">{{ .label }}</a>
           {{ end }}
         </div>
       {{ end }}
@@ -82,7 +82,7 @@
       </div>
       {{ if and (eq .Params.page_type "event") .Params.offers.ticket_url }}
         <div class="actions actions--single">
-          <button class="button js-open-event" type="button" data-event-url="{{ .Params.offers.ticket_url }}" data-analytics-event="primary_cta_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+          <a class="button" href="{{ .Params.offers.ticket_url }}" data-analytics-event="primary_cta_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
         </div>
       {{ end }}
     </div>
@@ -145,7 +145,7 @@
                 <p>{{ .notes }}</p>
                 <span>{{ .availability }}</span>
                 <div class="actions">
-                  <button class="button js-open-event" type="button" data-event-url="{{ .url | default $.Params.offers.ticket_url | default $.RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ printf "%s:%s" $.Title .name }}">Buy tickets</button>
+                  <a class="button" href="{{ .url | default $.Params.offers.ticket_url | default $.RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ printf "%s:%s" $.Title .name }}">Buy tickets</a>
                 </div>
               </article>
             {{ end }}

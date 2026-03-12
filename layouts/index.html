@@ -13,7 +13,7 @@
       </div>
       <div class="actions">
         <a class="button" href="{{ .Params.hero.primary_url | default "/new-york/" }}" data-analytics-event="hero_cta_click" data-analytics-label="primary">{{ .Params.hero.primary_label | default "Open New York" }}</a>
-        <button class="button button--secondary js-open-event" type="button" data-event-url="{{ .Params.hero.secondary_url | default "/events/" }}" data-analytics-event="hero_cta_click" data-analytics-label="secondary">{{ .Params.hero.secondary_label | default "Browse all events" }}</button>
+        <a class="button button--secondary" href="{{ .Params.hero.secondary_url | default "/events/" }}" data-analytics-event="hero_cta_click" data-analytics-label="secondary">{{ .Params.hero.secondary_label | default "Browse all events" }}</a>
       </div>
     </div>
     <div class="hero__panel hero__panel--contrast">
@@ -112,7 +112,7 @@
               <p>{{ .Params.description_short }}</p>
               <span>{{ .Params.event.start_date }} · {{ .Params.location.name }}</span>
               <div class="actions">
-                <button class="button js-open-event" type="button" data-event-url="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+                <a class="button" href="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
               </div>
             </article>
           {{ end }}
@@ -125,7 +125,7 @@
                 <p>{{ .Params.description_short }}</p>
                 <span>{{ .Params.event.start_date }} · {{ .Params.location.name }}</span>
                 <div class="actions">
-                  <button class="button js-open-event" type="button" data-event-url="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</button>
+                  <a class="button" href="{{ .Params.offers.ticket_url | default .RelPermalink }}" data-analytics-event="buy_ticket_click" data-analytics-label="{{ .Title }}">Buy tickets</a>
                 </div>
               </article>
             {{ end }}

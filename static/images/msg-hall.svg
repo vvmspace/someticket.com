@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Madison Square Garden interior illustration</title>
+  <desc id="desc">Stylized arena artwork for the Madison Square Garden hub.</desc>
+  <defs>
+    <linearGradient id="arena" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#arena)"/>
+  <ellipse cx="800" cy="660" rx="520" ry="150" fill="#0f172a"/>
+  <ellipse cx="800" cy="628" rx="420" ry="110" fill="#1d4ed8" fill-opacity="0.3"/>
+  <ellipse cx="800" cy="610" rx="216" ry="58" fill="#f8fafc"/>
+  <g fill="#94a3b8">
+    <path d="M294 322c110-128 902-128 1012 0l-70 56c-92-102-780-102-872 0l-70-56Z"/>
+    <path d="M210 420c165-148 1015-148 1180 0l-78 62c-144-121-880-121-1024 0l-78-62Z"/>
+    <path d="M128 528c220-164 1124-164 1344 0l-84 66c-196-136-980-136-1176 0l-84-66Z"/>
+  </g>
+  <g fill="#f97316" fill-opacity="0.9">
+    <circle cx="584" cy="610" r="12"/>
+    <circle cx="638" cy="610" r="12"/>
+    <circle cx="692" cy="610" r="12"/>
+    <circle cx="746" cy="610" r="12"/>
+    <circle cx="800" cy="610" r="12"/>
+    <circle cx="854" cy="610" r="12"/>
+    <circle cx="908" cy="610" r="12"/>
+    <circle cx="962" cy="610" r="12"/>
+    <circle cx="1016" cy="610" r="12"/>
+  </g>
+  <text x="800" y="218" fill="#f8fafc" font-family="Georgia, serif" font-size="72" font-weight="700" text-anchor="middle">Madison Square Garden</text>
+  <text x="800" y="282" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30" text-anchor="middle">Arena nights, marquee shows, and major-event energy.</text>
+</svg>
