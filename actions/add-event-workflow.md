@@ -17,7 +17,7 @@ Requirements:
   - related landing pages
   - homepage or featured sections when the new event should appear there
 - Image: google image by event page
-- apply the project watermark from `_root_/watermark.png` (bottom right corner) and fit size
+- apply the project watermark from `_root_/watermark.png` (bottom right corner) and fit size (use ffmpeg)
 - don't store original image
 - Do not keep downloaded source image files in the repository after processing.
 - Use a clean public filename for the final image without words like `watermark` in the file name.
