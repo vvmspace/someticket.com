@@ -30,9 +30,9 @@ location:
 relationships:
   city: "yerevan"
 featured_focus:
-  title: "Ara Malikian in Yerevan"
-  description: "Compare sections and all-in totals for the April 9, 2026 performance."
-  url: "/events/ara-malikian-karen-demirchyan-sports-and-concerts-complex-yerevan-april-09-2026/"
+  title: "Lang Lang in Yerevan"
+  description: "Compare premium sections and full totals for the April 14, 2026 performance."
+  url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
 key_facts:
   - label: "Best for"
     value: "Concert and touring artist ticket discovery"
@@ -43,6 +43,8 @@ key_facts:
 related_pages:
   - label: "Yerevan Event Tickets"
     url: "/yerevan/"
+  - label: "Lang Lang Tickets"
+    url: "/lang-lang/"
   - label: "Classical Music Tickets"
     url: "/classical-music-tickets/"
   - label: "All events"

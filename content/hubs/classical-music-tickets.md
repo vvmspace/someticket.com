@@ -20,19 +20,21 @@ schema:
 relationships:
   category: "classical"
 featured_focus:
-  title: "Ara Malikian Tickets in Yerevan"
-  description: "Open the Yerevan concert page and compare sections before checkout."
-  url: "/events/ara-malikian-karen-demirchyan-sports-and-concerts-complex-yerevan-april-09-2026/"
+  title: "Lang Lang Tickets in Yerevan"
+  description: "Open the April 14, 2026 concert page and compare premium sections before checkout."
+  url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
 key_facts:
   - label: "Best for"
     value: "High-intent classical ticket searches"
   - label: "Current focus"
-    value: "Ara Malikian in Yerevan"
+    value: "Lang Lang in Yerevan"
   - label: "Buying flow"
     value: "Compare sections, then confirm full totals"
 related_pages:
   - label: "Yerevan Event Tickets"
     url: "/yerevan/"
+  - label: "Lang Lang Tickets"
+    url: "/lang-lang/"
   - label: "Ara Malikian Tickets"
     url: "/ara-malikian/"
   - label: "All events"

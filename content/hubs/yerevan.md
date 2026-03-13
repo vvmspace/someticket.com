@@ -30,9 +30,9 @@ relationships:
     - "republican-stadium-vazgen-sargsyan"
     - "karen-demirchyan-sports-and-concerts-complex"
 featured_focus:
-  title: "Ara Malikian in Yerevan"
-  description: "Open the April 9, 2026 concert page and compare all-in totals before checkout."
-  url: "/events/ara-malikian-karen-demirchyan-sports-and-concerts-complex-yerevan-april-09-2026/"
+  title: "Lang Lang in Yerevan"
+  description: "Open the April 14, 2026 concert page and compare premium section totals before checkout."
+  url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
 key_facts:
   - label: "Best for"
     value: "International football and premium concert discovery"
@@ -41,6 +41,8 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Lang Lang Tickets"
+    url: "/lang-lang/"
   - label: "Karen Demirchyan Sports and Concerts Complex Tickets"
     url: "/karen-demirchyan-sports-and-concerts-complex/"
   - label: "Republican Stadium Tickets"
