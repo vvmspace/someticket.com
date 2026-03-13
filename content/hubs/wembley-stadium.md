@@ -41,6 +41,8 @@ key_facts:
   - label: "City"
     value: "London"
 related_pages:
+  - label: "Harry Styles at Wembley Stadium"
+    url: "/events/harry-styles-live-on-tour-wembley-stadium-london-june-13-2026/"
   - label: "The Weeknd at Wembley Stadium"
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
   - label: "London"

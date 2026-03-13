@@ -32,6 +32,10 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Harry Styles at Wembley Stadium"
+    url: "/events/harry-styles-live-on-tour-wembley-stadium-london-june-13-2026/"
+  - label: "Harry Styles Tickets"
+    url: "/harry-styles/"
   - label: "The Weeknd at Wembley Stadium"
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
   - label: "The Weeknd Tickets"

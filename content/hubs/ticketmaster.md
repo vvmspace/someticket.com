@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full order total before payment"
 related_pages:
+  - label: "Harry Styles Tickets"
+    url: "/events/harry-styles-live-on-tour-wembley-stadium-london-june-13-2026/"
   - label: "The Weeknd Tickets"
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
   - label: "London Event Tickets"
