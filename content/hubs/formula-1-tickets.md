@@ -20,16 +20,16 @@ schema:
 relationships:
   category: "formula-1"
 featured_focus:
-  title: "Miami Grand Prix Sunday Turn 18 Grandstand"
-  description: "Open the Miami race-day page and compare premium section totals before checkout."
-  url: "/events/formula-1-crypto-com-miami-grand-prix-2026-sunday-turn-18-grandstand-miami-international-autodrome-may-03-2026/"
+  title: "Miami Grand Prix Sunday Marina Grandstands"
+  description: "Open the Marina Grandstands race-day page and compare premium section totals before checkout."
+  url: "/events/formula-1-crypto-com-miami-grand-prix-2026-sunday-marina-grandstands-miami-international-autodrome-may-03-2026/"
 key_facts:
   - label: "Best for"
     value: "High-intent Formula 1 ticket searches"
   - label: "Typical market"
     value: "Premium race-weekend inventory"
   - label: "Current focus"
-    value: "Miami Grand Prix 2026 Sunday Turn 18 Grandstand"
+    value: "Miami Grand Prix 2026 Sunday Marina Grandstands"
 related_pages:
   - label: "Miami Gardens Event Tickets"
     url: "/miami-gardens/"

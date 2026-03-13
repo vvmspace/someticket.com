@@ -29,9 +29,9 @@ relationships:
   venues:
     - "miami-international-autodrome"
 featured_focus:
-  title: "Miami Grand Prix Sunday Turn 18 Grandstand"
+  title: "Miami Grand Prix Sunday Marina Grandstands"
   description: "Open the event page and compare premium section options before checkout."
-  url: "/events/formula-1-crypto-com-miami-grand-prix-2026-sunday-turn-18-grandstand-miami-international-autodrome-may-03-2026/"
+  url: "/events/formula-1-crypto-com-miami-grand-prix-2026-sunday-marina-grandstands-miami-international-autodrome-may-03-2026/"
 key_facts:
   - label: "Best for"
     value: "Major race-day and stadium-area events"
