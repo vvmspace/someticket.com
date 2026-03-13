@@ -30,9 +30,9 @@ location:
 relationships:
   city: "yerevan"
 featured_focus:
-  title: "Lang Lang in Yerevan"
-  description: "Compare premium sections and full totals for the April 14, 2026 performance."
-  url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
+  title: "Lara Fabian in Yerevan"
+  description: "Compare section-level totals for the June 8, 2026 performance before checkout."
+  url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
 key_facts:
   - label: "Best for"
     value: "Concert and touring artist ticket discovery"
@@ -41,10 +41,16 @@ key_facts:
   - label: "City"
     value: "Yerevan"
 related_pages:
+  - label: "Lara Fabian Tickets"
+    url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
   - label: "Yerevan Event Tickets"
     url: "/yerevan/"
+  - label: "Lara Fabian Artist Page"
+    url: "/lara-fabian/"
   - label: "Lang Lang Tickets"
     url: "/lang-lang/"
+  - label: "Pop Concert Tickets"
+    url: "/pop-concert-tickets/"
   - label: "Classical Music Tickets"
     url: "/classical-music-tickets/"
   - label: "All events"

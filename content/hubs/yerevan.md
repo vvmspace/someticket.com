@@ -30,9 +30,9 @@ relationships:
     - "republican-stadium-vazgen-sargsyan"
     - "karen-demirchyan-sports-and-concerts-complex"
 featured_focus:
-  title: "Armenia vs England in Yerevan"
-  description: "Open the October 11, 2026 match page and compare premium section totals before checkout."
-  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
+  title: "Lara Fabian in Yerevan"
+  description: "Open the June 8, 2026 concert page and compare section-level totals before checkout."
+  url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
 key_facts:
   - label: "Best for"
     value: "International football and premium concert discovery"
@@ -41,8 +41,12 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Lara Fabian Tickets"
+    url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
   - label: "Armenia vs England Tickets"
     url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
+  - label: "Lara Fabian Artist Page"
+    url: "/lara-fabian/"
   - label: "Lang Lang Tickets"
     url: "/lang-lang/"
   - label: "England National Team Tickets"
@@ -53,6 +57,8 @@ related_pages:
     url: "/republican-stadium-vazgen-sargsyan/"
   - label: "Classical Music Tickets"
     url: "/classical-music-tickets/"
+  - label: "Pop Concert Tickets"
+    url: "/pop-concert-tickets/"
   - label: "Football Tickets"
     url: "/football/"
 faq:
