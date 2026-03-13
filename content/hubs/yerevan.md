@@ -30,9 +30,9 @@ relationships:
     - "republican-stadium-vazgen-sargsyan"
     - "karen-demirchyan-sports-and-concerts-complex"
 featured_focus:
-  title: "Lang Lang in Yerevan"
-  description: "Open the April 14, 2026 concert page and compare premium section totals before checkout."
-  url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
+  title: "Armenia vs England in Yerevan"
+  description: "Open the October 11, 2026 match page and compare premium section totals before checkout."
+  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
 key_facts:
   - label: "Best for"
     value: "International football and premium concert discovery"
@@ -41,8 +41,12 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Armenia vs England Tickets"
+    url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
   - label: "Lang Lang Tickets"
     url: "/lang-lang/"
+  - label: "England National Team Tickets"
+    url: "/england-national-team/"
   - label: "Karen Demirchyan Sports and Concerts Complex Tickets"
     url: "/karen-demirchyan-sports-and-concerts-complex/"
   - label: "Republican Stadium Tickets"

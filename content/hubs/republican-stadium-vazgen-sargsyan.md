@@ -30,9 +30,9 @@ location:
 relationships:
   city: "yerevan"
 featured_focus:
-  title: "Browse Yerevan ticket hubs"
-  description: "Use the city page to compare this venue with other Yerevan event routes."
-  url: "/yerevan/"
+  title: "Armenia vs England at Republican Stadium"
+  description: "Open the October 11, 2026 match page and compare central and side sections before checkout."
+  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
 key_facts:
   - label: "Best for"
     value: "International football matches"
@@ -41,6 +41,8 @@ key_facts:
   - label: "City"
     value: "Yerevan"
 related_pages:
+  - label: "Armenia vs England Tickets"
+    url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
   - label: "Yerevan Event Tickets"
     url: "/yerevan/"
   - label: "Football Tickets"

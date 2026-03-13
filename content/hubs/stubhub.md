@@ -18,9 +18,9 @@ schema:
   type: "CollectionPage"
   description: "Source hub for ticket pages that route to StubHub listings."
 featured_focus:
-  title: "Lang Lang Source Page in Yerevan"
-  description: "Open the April 14, 2026 concert page and continue to the live StubHub route."
-  url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
+  title: "Armenia vs England Source Page in Yerevan"
+  description: "Open the October 11, 2026 match page and continue to the live StubHub route."
+  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
 key_facts:
   - label: "Best for"
     value: "Source-based ticket buying routes"
@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Armenia vs England Tickets"
+    url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
   - label: "Lang Lang Tickets"
     url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
   - label: "Armenia vs Portugal Tickets"

@@ -20,17 +20,19 @@ schema:
 relationships:
   category: "football"
 featured_focus:
-  title: "Armenia vs Portugal Tickets"
-  description: "Open the Yerevan match page and compare section options before checkout."
-  url: "/events/armenia-vs-portugal-republican-stadium-yerevan-september-06-2026/"
+  title: "Armenia vs England Tickets"
+  description: "Open the Yerevan match page and compare premium section options before checkout."
+  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
 key_facts:
   - label: "Best for"
     value: "High-intent football ticket searches"
   - label: "Popular route"
     value: "City and venue-first browsing"
   - label: "Current focus"
-    value: "Armenia vs Portugal in Yerevan"
+    value: "Armenia vs England in Yerevan"
 related_pages:
+  - label: "Armenia vs England Tickets"
+    url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
   - label: "Yerevan Event Tickets"
     url: "/yerevan/"
   - label: "Republican Stadium Tickets"
