@@ -20,23 +20,23 @@ schema:
 relationships:
   category: "football"
 featured_focus:
-  title: "Armenia vs England Tickets"
-  description: "Open the Yerevan match page and compare premium section options before checkout."
-  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
+  title: "World Cup Match 59 Tickets"
+  description: "Open the SoFi Stadium page and compare premium section options before checkout."
+  url: "/events/football-world-cup-2026-round-of-32-match-59-sofi-stadium-inglewood-june-25-2026/"
 key_facts:
   - label: "Best for"
     value: "High-intent football ticket searches"
   - label: "Popular route"
     value: "City and venue-first browsing"
   - label: "Current focus"
-    value: "Armenia vs England in Yerevan"
+    value: "World Cup Round of 32 Match 59 in Inglewood"
 related_pages:
-  - label: "Armenia vs England Tickets"
-    url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
-  - label: "Yerevan Event Tickets"
-    url: "/yerevan/"
-  - label: "Republican Stadium Tickets"
-    url: "/republican-stadium-vazgen-sargsyan/"
+  - label: "World Cup Match 59 Tickets"
+    url: "/events/football-world-cup-2026-round-of-32-match-59-sofi-stadium-inglewood-june-25-2026/"
+  - label: "Soccer Tickets"
+    url: "/soccer-tickets/"
+  - label: "SoFi Stadium Event Tickets"
+    url: "/sofi-stadium/"
   - label: "All events"
     url: "/events/"
 faq:

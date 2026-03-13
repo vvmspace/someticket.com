@@ -30,9 +30,9 @@ location:
 relationships:
   city: "london"
 featured_focus:
-  title: "The Weeknd at Wembley Stadium"
-  description: "Open the August 14, 2026 Wembley listing and compare sections before checkout."
-  url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
+  title: "Bon Jovi at Wembley Stadium"
+  description: "Open the September 6, 2026 Wembley listing and compare sections before checkout."
+  url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
 key_facts:
   - label: "Best for"
     value: "Stadium concerts and major live shows"
@@ -41,10 +41,14 @@ key_facts:
   - label: "City"
     value: "London"
 related_pages:
+  - label: "Bon Jovi at Wembley Stadium"
+    url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
   - label: "Harry Styles at Wembley Stadium"
     url: "/events/harry-styles-live-on-tour-wembley-stadium-london-june-13-2026/"
   - label: "The Weeknd at Wembley Stadium"
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
+  - label: "Bon Jovi Tickets"
+    url: "/bon-jovi/"
   - label: "London"
     url: "/london/"
   - label: "All events"

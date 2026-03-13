@@ -18,9 +18,9 @@ schema:
   type: "CollectionPage"
   description: "Source hub for ticket pages that route to StubHub listings."
 featured_focus:
-  title: "Armenia vs England Source Page in Yerevan"
-  description: "Open the October 11, 2026 match page and continue to the live StubHub route."
-  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
+  title: "Bon Jovi Source Page in London"
+  description: "Open the September 6, 2026 Wembley page and continue to the live StubHub UK route."
+  url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
 key_facts:
   - label: "Best for"
     value: "Source-based ticket buying routes"
@@ -29,6 +29,10 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Bon Jovi at Wembley Stadium"
+    url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
+  - label: "Bon Jovi Tickets"
+    url: "/bon-jovi/"
   - label: "Armenia vs England Tickets"
     url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
   - label: "Lang Lang Tickets"

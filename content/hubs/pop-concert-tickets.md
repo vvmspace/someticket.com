@@ -33,6 +33,10 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Bon Jovi at Wembley Stadium"
+    url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
+  - label: "Bon Jovi Tickets"
+    url: "/bon-jovi/"
   - label: "Lara Fabian at Karen Demirchyan"
     url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
   - label: "Lara Fabian Tickets"
