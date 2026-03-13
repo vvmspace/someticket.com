@@ -30,9 +30,9 @@ location:
 relationships:
   city: "yerevan"
 featured_focus:
-  title: "Armenia vs England at Republican Stadium"
-  description: "Open the October 11, 2026 match page and compare central and side sections before checkout."
-  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
+  title: "Armenia U21 vs Ireland U21 at Republican Stadium"
+  description: "Open the June 18, 2027 match page and compare central and side sections before checkout."
+  url: "/events/armenia-u21-vs-ireland-u21-republican-stadium-yerevan-june-18-2027/"
 key_facts:
   - label: "Best for"
     value: "International football matches"
@@ -41,14 +41,16 @@ key_facts:
   - label: "City"
     value: "Yerevan"
 related_pages:
+  - label: "Armenia U21 vs Ireland U21 Tickets"
+    url: "/events/armenia-u21-vs-ireland-u21-republican-stadium-yerevan-june-18-2027/"
+  - label: "Armenia vs Portugal Tickets"
+    url: "/events/armenia-vs-portugal-republican-stadium-yerevan-september-06-2026/"
   - label: "Armenia vs England Tickets"
     url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
   - label: "Yerevan Event Tickets"
     url: "/yerevan/"
   - label: "Football Tickets"
     url: "/football/"
-  - label: "All events"
-    url: "/events/"
 faq:
   - question: "What can I find on the Republican Stadium page?"
     answer: "You can check venue details and open event pages for matches scheduled at Republican Stadium in Yerevan."

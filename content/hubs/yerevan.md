@@ -6,12 +6,12 @@ page_type: "hub"
 entity_type: "city"
 layout_key: "hub"
 status: "published"
-description_short: "Browse Yerevan event tickets by venue, artist, and category with direct routes to high-intent football and concert listings."
+description_short: "Browse Yerevan event tickets by venue, performer, and category with direct routes to high-intent football and concert listings."
 hero:
   eyebrow: "Yerevan"
 seo:
   title: "Yerevan Event Tickets: Football, Concerts, and Live Events"
-  description: "Find Yerevan event tickets by venue, artist, and date with buyer-focused pages and current listing routes."
+  description: "Find Yerevan event tickets by venue, performer, and date with buyer-focused pages and active listing routes."
   canonical: "https://someticket.com/yerevan/"
   image: "/images/og-default.svg"
 schema:
@@ -30,42 +30,42 @@ relationships:
     - "republican-stadium-vazgen-sargsyan"
     - "karen-demirchyan-sports-and-concerts-complex"
 featured_focus:
-  title: "Lara Fabian in Yerevan"
-  description: "Open the June 8, 2026 concert page and compare section-level totals before checkout."
-  url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
+  title: "Muma in Yerevan"
+  description: "Open the May 16, 2026 concert page and compare section-level totals before checkout."
+  url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
 key_facts:
   - label: "Best for"
     value: "International football and premium concert discovery"
-  - label: "Top venue"
-    value: "Karen Demirchyan Sports and Concerts Complex"
+  - label: "Top football venue"
+    value: "Republican Stadium"
   - label: "Region"
     value: "Caucasus"
 related_pages:
-  - label: "Lara Fabian Tickets"
-    url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
+  - label: "Muma Tickets"
+    url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
+  - label: "Muma Artist Page"
+    url: "/muma/"
+  - label: "Armenia U21 vs Ireland U21 Tickets"
+    url: "/events/armenia-u21-vs-ireland-u21-republican-stadium-yerevan-june-18-2027/"
   - label: "Armenia vs England Tickets"
     url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
-  - label: "Lara Fabian Artist Page"
-    url: "/lara-fabian/"
+  - label: "Armenia vs Portugal Tickets"
+    url: "/events/armenia-vs-portugal-republican-stadium-yerevan-september-06-2026/"
   - label: "Lang Lang Tickets"
-    url: "/lang-lang/"
-  - label: "England National Team Tickets"
-    url: "/england-national-team/"
-  - label: "Karen Demirchyan Sports and Concerts Complex Tickets"
-    url: "/karen-demirchyan-sports-and-concerts-complex/"
+    url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
   - label: "Republican Stadium Tickets"
     url: "/republican-stadium-vazgen-sargsyan/"
-  - label: "Classical Music Tickets"
-    url: "/classical-music-tickets/"
-  - label: "Pop Concert Tickets"
-    url: "/pop-concert-tickets/"
+  - label: "Karen Demirchyan Complex Tickets"
+    url: "/karen-demirchyan-sports-and-concerts-complex/"
   - label: "Football Tickets"
     url: "/football/"
+  - label: "Classical Music Tickets"
+    url: "/classical-music-tickets/"
 faq:
   - question: "What can I find on the Yerevan page?"
-    answer: "You can open current Yerevan event pages, review key venues, and move directly into active ticket listings."
-  - question: "Where should I start for premium concert tickets in Yerevan?"
-    answer: "Start with the featured Ara Malikian page, then compare venue and category routes before final checkout."
+    answer: "You can open current Yerevan event pages, compare venues, and move directly into active ticket listings."
+  - question: "Where should I start for Yerevan football tickets?"
+    answer: "Start with the featured Yerevan match page and compare section value before checkout."
 breadcrumbs:
   - name: "Some Ticket"
     url: "/"
@@ -77,6 +77,6 @@ content_blocks:
   related_pages: true
   faq: true
 ---
-Use this page to start from a city-first route for Yerevan events, then narrow by venue, artist, or category.
+Use this page to start from a city-first route for Yerevan events, then narrow by venue, performer, or category.
 
 If you are ready to buy now, open the featured event and compare full checkout totals before payment.

@@ -22,9 +22,9 @@ relationships:
     - "yerevan"
     - "london"
 featured_focus:
-  title: "Lara Fabian Yerevan Tickets"
-  description: "Open the June 8, 2026 page for a high-intent Yerevan pop demand date."
-  url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
+  title: "Muma Yerevan Tickets"
+  description: "Open the May 16, 2026 page for a high-intent Yerevan pop demand date."
+  url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena and stadium pop concerts"
@@ -33,6 +33,10 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Muma at Karen Demirchyan"
+    url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
+  - label: "Muma Tickets"
+    url: "/muma/"
   - label: "Bon Jovi at Wembley Stadium"
     url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
   - label: "Bon Jovi Tickets"
