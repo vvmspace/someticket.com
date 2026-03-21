@@ -75,6 +75,7 @@ Required for ticket offer markup and aggregator comparisons.
 | `offers.sources[]` | array | optional | visible comparison cards |
 | `offers.sources[].name` | string | optional | source label |
 | `offers.sources[].availability` | string | optional | visible availability |
+| `offers.sources[].url` | string | optional | CTA link for this source |
 | `offers.sources[].notes` | string | optional | visible source notes |
 
 ## Entity-specific fields
@@ -119,6 +120,18 @@ These are not always directly emitted into schema, but they are required to buil
 | `relationships.artists[]` | array | optional | list relationships |
 | `relationships.venues[]` | array | optional | list relationships |
 
+## Taxonomy fields
+
+Taxonomy arrays let the event list partial match an event to every hub, landing, or intersection that references the same city, region, category, artist, or venue slug.
+
+| Field | Type | Required | Purpose |
+| --- | --- | --- | --- |
+| `taxonomy.cities[]` | array | optional but recommended on events | match city hubs (e.g., `yerevan`) |
+| `taxonomy.regions[]` | array | optional but recommended on events | match region hubs (e.g., `west`) |
+| `taxonomy.categories[]` | array | optional but recommended on events | match category hubs (e.g., `pop`) |
+| `taxonomy.artists[]` | array | optional but recommended on events | signal artist landing relevance |
+| `taxonomy.venues[]` | array | optional but recommended on events | score venue hubs or related event listings |
+
 ## Media fields
 
 These fields are used for visual rendering. They are independent from structured data but should be included in the content contract so pages render well when artwork exists and still degrade gracefully when it does not.
@@ -132,6 +145,58 @@ These fields are used for visual rendering. They are independent from structured
 
 If `media.hero.src` and `media.card.src` are both absent, templates should render a placeholder visual instead of leaving an empty space.
 
+## Hero and presentation helpers
+
+### Hero metadata
+
+| Field | Type | Required | Purpose |
+| --- | --- | --- | --- |
+| `hero.eyebrow` | string | optional | Short caption shown above the hero block; defaults to “Live events” in the visual partial. |
+
+### Featured focus
+
+| Field | Type | Required | Purpose |
+| --- | --- | --- | --- |
+| `featured_focus.title` | string | optional | Highlighted call-to-action title (displayed as the secondary section heading). |
+| `featured_focus.description` | string | optional | Supporting copy for the featured focus section. |
+| `featured_focus.url` | string | optional | Button or link URL for the recommended next step. |
+
+### Key facts
+
+| Field | Type | Required | Purpose |
+| --- | --- | --- | --- |
+| `key_facts[]` | array of objects | optional | populates the “What to know” fact grid below the hero. |
+| `key_facts[].label` | string | yes when `key_facts[]` exists | Fact label (column heading). |
+| `key_facts[].value` | string | yes when `key_facts[]` exists | Textual fact value (detail copy). |
+
+### Related pages
+
+| Field | Type | Required | Purpose |
+| --- | --- | --- | --- |
+| `related_pages[]` | array of objects | optional | Chip list of pages that complement the current guide. |
+| `related_pages[].label` | string | yes when `related_pages[]` exists | Chip label and accessible text. |
+| `related_pages[].url` | string | yes when `related_pages[]` exists | Destination for the related page chip. |
+
+### Source references
+
+| Field | Type | Required | Purpose |
+| --- | --- | --- | --- |
+| `source_reference[]` | array of objects | optional | Editorial references that back each event’s claims. |
+| `source_reference[].label` | string | yes when the array exists | Identification text for the source. |
+| `source_reference[].url` | string | yes when the array exists | Link to the original listing or verification document. |
+
+### Content block toggles
+
+The `content_blocks` object keeps the template aware of which sections should render. Templates currently expose boolean flags for:
+
+- `content_blocks.hero`
+- `content_blocks.key_facts`
+- `content_blocks.featured_focus`
+- `content_blocks.related_pages`
+- `content_blocks.faq`
+
+Set a flag to `true` to render the matching section and make sure the field data exists; omit or set to `false` to hide it.
+
 ## FAQ fields
 
 FAQ data supports both visible content and `FAQPage` schema if enabled later.
@@ -141,6 +206,8 @@ FAQ data supports both visible content and `FAQPage` schema if enabled later.
 | `faq[]` | array | optional | FAQ block source |
 | `faq[].question` | string | yes when FAQ exists | question text |
 | `faq[].answer` | string | yes when FAQ exists | answer text |
+
+Setting `content_blocks.faq` to `true` allows the FAQ section to appear after the related pages block; omit or set to `false` to suppress it.
 
 ## Recommended publishing rule
 
