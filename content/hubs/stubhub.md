@@ -18,9 +18,9 @@ schema:
   type: "CollectionPage"
   description: "Source hub for ticket pages that route to StubHub listings."
 featured_focus:
-  title: "Muma Source Page in Yerevan"
-  description: "Open the May 16, 2026 concert page and continue to the live StubHub listing route."
-  url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
+  title: "Armenia vs Montenegro Source Page"
+  description: "Open the September 24, 2026 match page and continue to the live StubHub-linked listing route."
+  url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
 key_facts:
   - label: "Best for"
     value: "Source-based ticket buying routes"
@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Armenia vs Montenegro Tickets"
+    url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Muma Tickets"
     url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
   - label: "Armenia U21 vs Ireland U21 Tickets"

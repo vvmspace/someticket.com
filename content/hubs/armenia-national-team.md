@@ -20,17 +20,19 @@ schema:
 relationships:
   artist: "armenia-national-team"
 featured_focus:
-  title: "Armenia vs England in Yerevan"
-  description: "Open the match page for October 11, 2026 and compare section options."
-  url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
+  title: "Armenia vs Montenegro in Yerevan"
+  description: "Open the September 24, 2026 Nations League page and compare section options."
+  url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
 key_facts:
   - label: "Best for"
     value: "Armenia home and away ticket tracking"
   - label: "Current match"
-    value: "Armenia vs England"
+    value: "Armenia vs Montenegro"
   - label: "City focus"
     value: "Yerevan"
 related_pages:
+  - label: "Armenia vs Montenegro Tickets"
+    url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Armenia vs England Tickets"
     url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
   - label: "Yerevan Event Tickets"

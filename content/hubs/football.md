@@ -20,17 +20,19 @@ schema:
 relationships:
   category: "football"
 featured_focus:
-  title: "Armenia U21 vs Ireland U21 Tickets"
-  description: "Open the Yerevan match page and compare premium section options before checkout."
-  url: "/events/armenia-u21-vs-ireland-u21-republican-stadium-yerevan-june-18-2027/"
+  title: "Armenia vs Montenegro Tickets"
+  description: "Open the Yerevan Nations League page and compare section options before checkout."
+  url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
 key_facts:
   - label: "Best for"
     value: "High-intent football ticket searches"
   - label: "Popular route"
     value: "City and venue-first browsing"
   - label: "Current focus"
-    value: "Armenia U21 vs Ireland U21 in Yerevan"
+    value: "Armenia vs Montenegro in Yerevan"
 related_pages:
+  - label: "Armenia vs Montenegro Tickets"
+    url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Armenia U21 vs Ireland U21 Tickets"
     url: "/events/armenia-u21-vs-ireland-u21-republican-stadium-yerevan-june-18-2027/"
   - label: "Armenia vs Portugal Tickets"

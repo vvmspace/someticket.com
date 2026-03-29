@@ -41,6 +41,8 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Armenia vs Montenegro Tickets"
+    url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Muma Tickets"
     url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
   - label: "Muma Artist Page"
@@ -55,6 +57,8 @@ related_pages:
     url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
   - label: "Republican Stadium Tickets"
     url: "/republican-stadium-vazgen-sargsyan/"
+  - label: "Yerevan Venue TBA Tickets"
+    url: "/yerevan-venue-tba/"
   - label: "Karen Demirchyan Complex Tickets"
     url: "/karen-demirchyan-sports-and-concerts-complex/"
   - label: "Football Tickets"
