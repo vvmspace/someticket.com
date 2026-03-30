@@ -22,9 +22,9 @@ relationships:
     - "yerevan"
     - "london"
 featured_focus:
-  title: "Muma Yerevan Tickets"
-  description: "Open the May 16, 2026 page for a high-intent Yerevan pop demand date."
-  url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
+  title: "Janaga Yerevan Tickets"
+  description: "Open the November 21, 2026 page for a high-intent Yerevan pop demand date."
+  url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena and stadium pop concerts"
@@ -33,6 +33,10 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Janaga at Karen Demirchyan"
+    url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
+  - label: "Janaga Tickets"
+    url: "/janaga/"
   - label: "Bruno Mars at Wembley Stadium"
     url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
   - label: "Bruno Mars Tickets"

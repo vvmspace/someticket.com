@@ -30,9 +30,9 @@ location:
 relationships:
   city: "yerevan"
 featured_focus:
-  title: "Muma in Yerevan"
-  description: "Compare section-level totals for the May 16, 2026 performance before checkout."
-  url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
+  title: "Janaga in Yerevan"
+  description: "Compare section-level totals for the November 21, 2026 performance before checkout."
+  url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
 key_facts:
   - label: "Best for"
     value: "Concert and touring artist ticket discovery"
@@ -41,6 +41,10 @@ key_facts:
   - label: "City"
     value: "Yerevan"
 related_pages:
+  - label: "Janaga Tickets"
+    url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
+  - label: "Janaga Artist Page"
+    url: "/janaga/"
   - label: "Muma Tickets"
     url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
   - label: "Muma Artist Page"

@@ -30,9 +30,9 @@ relationships:
     - "republican-stadium-vazgen-sargsyan"
     - "karen-demirchyan-sports-and-concerts-complex"
 featured_focus:
-  title: "Muma in Yerevan"
-  description: "Open the May 16, 2026 concert page and compare section-level totals before checkout."
-  url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
+  title: "Janaga in Yerevan"
+  description: "Open the November 21, 2026 concert page and compare section-level totals before checkout."
+  url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
 key_facts:
   - label: "Best for"
     value: "International football and premium concert discovery"
@@ -41,6 +41,12 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Janaga Tickets"
+    url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
+  - label: "Janaga Artist Page"
+    url: "/janaga/"
+  - label: "TicketOn Ticket Guide"
+    url: "/ticketon/"
   - label: "Armenia vs Montenegro Tickets"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Muma Tickets"
