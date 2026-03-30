@@ -26,9 +26,9 @@ relationships:
   venues:
     - "wembley-stadium"
 featured_focus:
-  title: "Bon Jovi at Wembley Stadium"
-  description: "Open the September 6, 2026 page for a premium London stadium buying route."
-  url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
+  title: "Bruno Mars at Wembley Stadium"
+  description: "Open the July 18, 2026 page for a premium London stadium buying route."
+  url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
 key_facts:
   - label: "Best for"
     value: "Concerts and high-demand London dates"
@@ -37,6 +37,10 @@ key_facts:
   - label: "Region"
     value: "Europe"
 related_pages:
+  - label: "Bruno Mars at Wembley Stadium"
+    url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
+  - label: "Bruno Mars Tickets"
+    url: "/bruno-mars/"
   - label: "Bon Jovi at Wembley Stadium"
     url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
   - label: "Harry Styles at Wembley Stadium"

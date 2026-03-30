@@ -18,9 +18,9 @@ schema:
   type: "CollectionPage"
   description: "Source hub for ticket pages that route to StubHub listings."
 featured_focus:
-  title: "Armenia vs Montenegro Source Page"
-  description: "Open the September 24, 2026 match page and continue to the live StubHub-linked listing route."
-  url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
+  title: "Bruno Mars London Source Page"
+  description: "Open the July 18, 2026 Wembley page and continue to the live StubHub listing route."
+  url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
 key_facts:
   - label: "Best for"
     value: "Source-based ticket buying routes"
@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Bruno Mars at Wembley Stadium"
+    url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
   - label: "Armenia vs Montenegro Tickets"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Muma Tickets"

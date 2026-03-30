@@ -33,6 +33,10 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Bruno Mars at Wembley Stadium"
+    url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
+  - label: "Bruno Mars Tickets"
+    url: "/bruno-mars/"
   - label: "Muma at Karen Demirchyan"
     url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
   - label: "Muma Tickets"
