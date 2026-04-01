@@ -30,9 +30,9 @@ location:
 relationships:
   city: "yerevan"
 featured_focus:
-  title: "Janaga in Yerevan"
-  description: "Compare section-level totals for the November 21, 2026 performance before checkout."
-  url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
+  title: "Maxim Galkin in Yerevan"
+  description: "Compare section-level totals for the May 6, 2026 performance before checkout."
+  url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
 key_facts:
   - label: "Best for"
     value: "Concert and touring artist ticket discovery"
@@ -41,6 +41,10 @@ key_facts:
   - label: "City"
     value: "Yerevan"
 related_pages:
+  - label: "Maxim Galkin Tickets"
+    url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
+  - label: "Maxim Galkin Artist Page"
+    url: "/maxim-galkin/"
   - label: "Janaga Tickets"
     url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
   - label: "Janaga Artist Page"
@@ -61,6 +65,8 @@ related_pages:
     url: "/pop-concert-tickets/"
   - label: "Classical Music Tickets"
     url: "/classical-music-tickets/"
+  - label: "Comedy Show Tickets"
+    url: "/comedy-show-tickets/"
   - label: "All events"
     url: "/events/"
 faq:

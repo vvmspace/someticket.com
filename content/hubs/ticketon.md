@@ -18,9 +18,9 @@ schema:
   type: "CollectionPage"
   description: "Source hub for ticket pages that route to TicketOn listings."
 featured_focus:
-  title: "Janaga in Yerevan"
-  description: "Open the November 21, 2026 event page and continue to the live TicketOn checkout route."
-  url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
+  title: "Maxim Galkin in Yerevan"
+  description: "Open the May 6, 2026 event page and continue to the live TicketOn checkout route."
+  url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
 key_facts:
   - label: "Best for"
     value: "Source-based ticket buying routes"
@@ -29,6 +29,10 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Maxim Galkin Tickets"
+    url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
+  - label: "Maxim Galkin Artist Page"
+    url: "/maxim-galkin/"
   - label: "Janaga Tickets"
     url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
   - label: "Janaga Artist Page"

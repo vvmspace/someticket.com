@@ -30,9 +30,9 @@ relationships:
     - "republican-stadium-vazgen-sargsyan"
     - "karen-demirchyan-sports-and-concerts-complex"
 featured_focus:
-  title: "Janaga in Yerevan"
-  description: "Open the November 21, 2026 concert page and compare section-level totals before checkout."
-  url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
+  title: "Maxim Galkin in Yerevan"
+  description: "Open the May 6, 2026 comedy show page and compare section-level totals before checkout."
+  url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
 key_facts:
   - label: "Best for"
     value: "International football and premium concert discovery"
@@ -41,6 +41,12 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Maxim Galkin Tickets"
+    url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
+  - label: "Maxim Galkin Artist Page"
+    url: "/maxim-galkin/"
+  - label: "Comedy Show Tickets"
+    url: "/comedy-show-tickets/"
   - label: "Janaga Tickets"
     url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
   - label: "Janaga Artist Page"
