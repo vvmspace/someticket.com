@@ -21,17 +21,23 @@ relationships:
   cities:
     - "las-vegas"
 featured_focus:
-  title: "Carin Leon in Las Vegas"
-  description: "Open the Sphere date page and verify all details before checkout."
-  url: "/events/carin-leon-boca-chueca-tour-2026-sphere-las-vegas-september-04-2026/"
+  title: "Grupo Frontera in San Jose"
+  description: "Open the August 9, 2026 SAP Center event page and verify all details before checkout."
+  url: "/events/grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026/"
 key_facts:
   - label: "Best for"
     value: "High-demand Latin concerts and arena dates"
   - label: "Common goal"
     value: "Find the right section at a clear all-in total"
   - label: "Current focus"
-    value: "Carin Leon at Sphere in Las Vegas"
+    value: "Grupo Frontera at SAP Center at San Jose"
 related_pages:
+  - label: "Grupo Frontera Tickets"
+    url: "/grupo-frontera/"
+  - label: "San Jose"
+    url: "/san-jose/"
+  - label: "SAP Center at San Jose"
+    url: "/sap-center-at-san-jose/"
   - label: "Carin Leon Tickets"
     url: "/carin-leon/"
   - label: "Las Vegas"

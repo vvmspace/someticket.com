@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Grupo Frontera tickets for SAP Center at San Jose on August 9, 2026</title>
+  <desc id="desc">Promotional ticket artwork for Grupo Frontera in San Jose with venue, date, and SomeTicket watermark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="45%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111827" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#1f2937" stop-opacity="0.82" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <circle cx="1280" cy="150" r="280" fill="#60a5fa" fill-opacity="0.18" />
+  <circle cx="1420" cy="280" r="180" fill="#f59e0b" fill-opacity="0.18" />
+  <rect x="0" y="620" width="1600" height="280" fill="url(#panel)" />
+  <rect x="86" y="90" width="360" height="40" rx="20" fill="#fbbf24" />
+  <text x="112" y="118" fill="#111827" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="2">SILICON VALLEY EVENT</text>
+
+  <text x="86" y="250" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="700">GRUPO</text>
+  <text x="86" y="360" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="700">FRONTERA</text>
+  <text x="90" y="440" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="50">Triste Pero Bien C*bron Tour</text>
+
+  <text x="90" y="705" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">SAP Center at San Jose</text>
+  <text x="90" y="770" fill="#bfdbfe" font-family="Arial, Helvetica, sans-serif" font-size="34">Sunday, August 9, 2026 | 8:00 PM | San Jose, California</text>
+  <text x="90" y="825" fill="#e5e7eb" font-family="Arial, Helvetica, sans-serif" font-size="30">Premium-demand arena show built for ticket buyers ready to compare live inventory.</text>
+
+  <image href="/watermark.png" x="1260" y="790" width="288" height="77" />
+</svg>

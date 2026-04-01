@@ -18,9 +18,9 @@ schema:
   type: "CollectionPage"
   description: "Source hub for ticket pages that route to Ticketmaster listings."
 featured_focus:
-  title: "The Weeknd at Wembley Stadium"
-  description: "Open the August 14, 2026 listing page and continue to the live Ticketmaster checkout flow."
-  url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
+  title: "Grupo Frontera at SAP Center at San Jose"
+  description: "Open the August 9, 2026 event page and continue to the live Ticketmaster checkout flow."
+  url: "/events/grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026/"
 key_facts:
   - label: "Best for"
     value: "Verified direct event routes"
@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full order total before payment"
 related_pages:
+  - label: "Grupo Frontera Tickets"
+    url: "/events/grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026/"
   - label: "Harry Styles Tickets"
     url: "/events/harry-styles-live-on-tour-wembley-stadium-london-june-13-2026/"
   - label: "The Weeknd Tickets"
