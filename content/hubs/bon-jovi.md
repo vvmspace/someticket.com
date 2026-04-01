@@ -23,9 +23,9 @@ relationships:
   cities:
     - "london"
 featured_focus:
-  title: "Bon Jovi at Wembley Stadium"
-  description: "Open the September 6, 2026 London page and compare inventory before checkout."
-  url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
+  title: "Bon Jovi at Wembley Stadium (Sep 9)"
+  description: "Open the September 9, 2026 London page and compare premium inventory before checkout."
+  url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
 key_facts:
   - label: "Best for"
     value: "Fans ready to buy by exact date"
@@ -34,6 +34,8 @@ key_facts:
   - label: "Category"
     value: "Rock Concert"
 related_pages:
+  - label: "Bon Jovi at Wembley Stadium (Sep 9)"
+    url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
   - label: "Bon Jovi at Wembley Stadium"
     url: "/events/bon-jovi-wembley-stadium-london-september-06-2026/"
   - label: "London Event Tickets"

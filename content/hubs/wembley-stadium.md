@@ -30,9 +30,9 @@ location:
 relationships:
   city: "london"
 featured_focus:
-  title: "Bruno Mars at Wembley Stadium"
-  description: "Open the July 18, 2026 Wembley listing and compare sections before checkout."
-  url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
+  title: "Bon Jovi at Wembley Stadium (Sep 9)"
+  description: "Open the September 9, 2026 Wembley listing and compare resale sections before checkout."
+  url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
 key_facts:
   - label: "Best for"
     value: "Stadium concerts and major live shows"
@@ -41,6 +41,8 @@ key_facts:
   - label: "City"
     value: "London"
 related_pages:
+  - label: "Bon Jovi at Wembley Stadium (Sep 9)"
+    url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
   - label: "Bruno Mars at Wembley Stadium"
     url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
   - label: "Bon Jovi at Wembley Stadium"

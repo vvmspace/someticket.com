@@ -33,6 +33,8 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Bon Jovi at Wembley Stadium (Sep 9)"
+    url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
   - label: "Janaga at Karen Demirchyan"
     url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
   - label: "Janaga Tickets"

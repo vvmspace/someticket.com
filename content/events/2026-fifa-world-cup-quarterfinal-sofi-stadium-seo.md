@@ -13,8 +13,12 @@ seo:
     - "SoFi Stadium World Cup tickets"
     - "World Cup travel guide Inglewood"
 relationships:
-  - type: event
-    slug: "2026-fifa-world-cup-quarter-final-sofi-stadium"
+  city: "los-angeles"
+  region: "north-america"
+  category: "football"
+  venue: "sofi-stadium"
+  cities:
+    - "los-angeles"
 ---
 
 # 2026 FIFA World Cup Quarter-Final: How to Dominate Organic Search for SoFi Stadium Tickets
