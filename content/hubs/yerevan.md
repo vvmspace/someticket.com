@@ -41,6 +41,8 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Armenia vs Montenegro Tickets (Sep 28)"
+    url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026/"
   - label: "Armenia vs Cyprus Tickets"
     url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Maxim Galkin Tickets"

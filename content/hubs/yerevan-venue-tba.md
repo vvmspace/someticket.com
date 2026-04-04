@@ -35,6 +35,8 @@ key_facts:
   - label: "Current listing"
     value: "Armenia vs Cyprus"
 related_pages:
+  - label: "Armenia vs Montenegro Tickets (Sep 28)"
+    url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026/"
   - label: "Armenia vs Cyprus Tickets"
     url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Armenia vs Montenegro Tickets"

@@ -31,6 +31,8 @@ key_facts:
 related_pages:
   - label: "2026 FIFA World Cup Final Tickets"
     url: "/events/fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026/"
+  - label: "Armenia vs Montenegro Tickets (Sep 28)"
+    url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026/"
   - label: "Armenia vs Cyprus Tickets"
     url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Bruno Mars at Wembley Stadium"

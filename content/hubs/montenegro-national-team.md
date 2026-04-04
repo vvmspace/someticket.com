@@ -31,6 +31,8 @@ key_facts:
   - label: "Category"
     value: "Football"
 related_pages:
+  - label: "Armenia vs Montenegro Tickets (Sep 28)"
+    url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026/"
   - label: "Armenia vs Montenegro Tickets"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Football Tickets"
