@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Armenia vs Cyprus Tickets"
+    url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Bruno Mars at Wembley Stadium"
     url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
   - label: "Armenia vs Montenegro Tickets"

@@ -41,6 +41,8 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Armenia vs Cyprus Tickets"
+    url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Maxim Galkin Tickets"
     url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
   - label: "Maxim Galkin Artist Page"

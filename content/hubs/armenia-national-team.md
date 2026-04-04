@@ -31,6 +31,8 @@ key_facts:
   - label: "City focus"
     value: "Yerevan"
 related_pages:
+  - label: "Armenia vs Cyprus Tickets"
+    url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Armenia vs Montenegro Tickets"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Armenia vs England Tickets"

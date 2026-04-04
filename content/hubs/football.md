@@ -20,17 +20,19 @@ schema:
 relationships:
   category: "football"
 featured_focus:
-  title: "Armenia vs Montenegro Tickets"
-  description: "Open the Yerevan Nations League page and compare section options before checkout."
-  url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
+  title: "Armenia vs Cyprus Tickets"
+  description: "Open the November 12, 2026 Yerevan Nations League page and compare section options before checkout."
+  url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
 key_facts:
   - label: "Best for"
     value: "High-intent football ticket searches"
   - label: "Popular route"
     value: "City and venue-first browsing"
   - label: "Current focus"
-    value: "Armenia vs Montenegro in Yerevan"
+    value: "Armenia vs Cyprus in Yerevan"
 related_pages:
+  - label: "Armenia vs Cyprus Tickets"
+    url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Armenia vs Montenegro Tickets"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Armenia U21 vs Ireland U21 Tickets"

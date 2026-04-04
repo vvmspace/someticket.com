@@ -24,17 +24,19 @@ location:
 relationships:
   venue: "yerevan-venue-tba"
 featured_focus:
-  title: "Armenia vs Montenegro in Yerevan"
-  description: "Open the September 24, 2026 match page and monitor venue confirmation before checkout."
-  url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
+  title: "Armenia vs Cyprus in Yerevan"
+  description: "Open the November 12, 2026 match page and monitor venue confirmation before checkout."
+  url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
 key_facts:
   - label: "Best for"
     value: "Early buyers tracking venue confirmation"
   - label: "City"
     value: "Yerevan"
   - label: "Current listing"
-    value: "Armenia vs Montenegro"
+    value: "Armenia vs Cyprus"
 related_pages:
+  - label: "Armenia vs Cyprus Tickets"
+    url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Armenia vs Montenegro Tickets"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-24-2026/"
   - label: "Yerevan Event Tickets"
