@@ -28,9 +28,9 @@ relationships:
   cities:
     - "yerevan"
 featured_focus:
-  title: "World Cup Match 59 at SoFi Stadium"
-  description: "Open the Inglewood match page and compare sections before checkout."
-  url: "/events/football-world-cup-2026-round-of-32-match-59-sofi-stadium-inglewood-june-25-2026/"
+  title: "2026 FIFA World Cup Final at MetLife Stadium"
+  description: "Open the East Rutherford final page and compare premium sections before checkout."
+  url: "/events/fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026/"
 key_facts:
   - label: "Best for"
     value: "International and club football matches"
@@ -39,10 +39,12 @@ key_facts:
   - label: "Includes"
     value: "World Cup qualifiers and major fixtures"
 related_pages:
-  - label: "World Cup Match 59 Tickets"
-    url: "/events/football-world-cup-2026-round-of-32-match-59-sofi-stadium-inglewood-june-25-2026/"
-  - label: "SoFi Stadium"
-    url: "/sofi-stadium/"
+  - label: "2026 FIFA World Cup Final Tickets"
+    url: "/events/fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026/"
+  - label: "MetLife Stadium"
+    url: "/metlife-stadium/"
+  - label: "East Rutherford"
+    url: "/east-rutherford/"
   - label: "All events"
     url: "/events/"
 faq:

@@ -18,9 +18,9 @@ schema:
   type: "CollectionPage"
   description: "Source hub for ticket pages that route to StubHub listings."
 featured_focus:
-  title: "Bruno Mars London Source Page"
-  description: "Open the July 18, 2026 Wembley page and continue to the live StubHub listing route."
-  url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
+  title: "2026 FIFA World Cup Final Source Page"
+  description: "Open the MetLife Stadium final page and continue to the verified live StubHub listing."
+  url: "/events/fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026/"
 key_facts:
   - label: "Best for"
     value: "Source-based ticket buying routes"
@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "2026 FIFA World Cup Final Tickets"
+    url: "/events/fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026/"
   - label: "Armenia vs Cyprus Tickets"
     url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
   - label: "Bruno Mars at Wembley Stadium"

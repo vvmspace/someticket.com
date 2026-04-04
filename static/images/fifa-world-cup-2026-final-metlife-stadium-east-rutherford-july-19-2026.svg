@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">2026 FIFA World Cup Final at MetLife Stadium ticket artwork</title>
+  <desc id="desc">Editorial ticket artwork for the 2026 FIFA World Cup Final in East Rutherford on July 19, 2026, with a SomeTicket watermark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1d35" />
+      <stop offset="100%" stop-color="#143863" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#102844" />
+      <stop offset="100%" stop-color="#0d2239" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <circle cx="1320" cy="140" r="220" fill="#1a4a7a" opacity="0.2" />
+  <circle cx="1440" cy="240" r="160" fill="#5eb8ff" opacity="0.13" />
+  <rect x="72" y="80" width="1456" height="742" rx="28" fill="#173658" />
+  <rect x="72" y="80" width="1456" height="12" rx="6" fill="#60bdfd" />
+  <rect x="110" y="150" width="980" height="300" rx="24" fill="url(#panel)" />
+  <rect x="110" y="500" width="610" height="190" rx="20" fill="#102947" />
+  <rect x="760" y="500" width="648" height="190" rx="20" fill="#102947" />
+  <text x="110" y="214" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700">2026 FIFA WORLD CUP FINAL</text>
+  <text x="110" y="284" fill="#8fd1ff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">MetLife Stadium, East Rutherford, New Jersey</text>
+  <text x="110" y="338" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34">Sunday, July 19, 2026</text>
+  <text x="110" y="388" fill="#d9efff" font-family="Arial, Helvetica, sans-serif" font-size="34">Kickoff: 3:00 PM  |  Match 104  |  Premium resale market</text>
+  <text x="110" y="548" fill="#8fd1ff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Verified pricing signal</text>
+  <text x="110" y="594" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28">StubHub listings opened above $7,500 per ticket.</text>
+  <text x="110" y="632" fill="#d9efff" font-family="Arial, Helvetica, sans-serif" font-size="24">Built for buyers searching a high-demand, not-cheap World Cup final.</text>
+  <text x="760" y="548" fill="#8fd1ff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Intent keywords covered</text>
+  <text x="760" y="594" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="24">world cup final tickets, metlife final tickets, fifa final seats</text>
+  <text x="760" y="630" fill="#d9efff" font-family="Arial, Helvetica, sans-serif" font-size="24">buy world cup final tickets, july 19 2026 final tickets</text>
+  <image href="/images/watermark.png" x="1280" y="770" width="240" height="64" preserveAspectRatio="xMidYMid meet" />
+</svg>
