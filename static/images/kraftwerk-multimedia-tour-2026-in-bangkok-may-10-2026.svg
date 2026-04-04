@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Kraftwerk Bangkok tickets artwork</title>
+  <desc id="desc">Promotional ticket artwork for Kraftwerk in Bangkok with venue, date, price range, and SomeTicket watermark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1115" />
+      <stop offset="55%" stop-color="#151922" />
+      <stop offset="100%" stop-color="#0d1820" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e23d28" />
+      <stop offset="100%" stop-color="#2fd1c3" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect x="72" y="72" width="1456" height="756" rx="8" fill="#151922" stroke="#2c3343" stroke-width="2" />
+  <rect x="72" y="72" width="1456" height="8" fill="#e23d28" />
+  <rect x="72" y="820" width="1456" height="8" fill="#2fd1c3" />
+  <rect x="108" y="138" width="1384" height="2" fill="#2a3242" />
+  <rect x="108" y="560" width="620" height="1" fill="#3a4357" />
+  <circle cx="1320" cy="228" r="118" fill="none" stroke="url(#accent)" stroke-width="5" opacity="0.9" />
+  <circle cx="1320" cy="228" r="74" fill="none" stroke="#c9d2e3" stroke-width="2" opacity="0.6" />
+  <circle cx="1320" cy="228" r="26" fill="#f5f7fb" opacity="0.9" />
+  <text x="110" y="108" fill="#b8c2d8" font-size="38" font-family="'Helvetica Neue', Arial, sans-serif" letter-spacing="5">BANGKOK</text>
+  <text x="104" y="258" fill="#f5f7fb" font-size="112" font-weight="700" font-family="'Helvetica Neue', Arial, sans-serif" letter-spacing="2">KRAFTWERK</text>
+  <text x="110" y="326" fill="#f5f7fb" font-size="54" font-weight="600" font-family="'Helvetica Neue', Arial, sans-serif" letter-spacing="2">MULTIMEDIA TOUR 2026</text>
+  <text x="112" y="408" fill="#d7deed" font-size="36" font-family="'Helvetica Neue', Arial, sans-serif">Queen Sirikit National Convention Center</text>
+  <text x="112" y="458" fill="#d7deed" font-size="36" font-family="'Helvetica Neue', Arial, sans-serif">Sunday, May 10, 2026   |   7:30 PM</text>
+  <text x="112" y="512" fill="#ffc857" font-size="34" font-family="'Helvetica Neue', Arial, sans-serif">Official price tiers: THB 3,300 to THB 5,500</text>
+  <text x="112" y="626" fill="#b8c2d8" font-size="30" font-family="'Helvetica Neue', Arial, sans-serif">High-intent buyer guide for fans searching Kraftwerk Bangkok tickets</text>
+  <text x="112" y="742" fill="#7e879a" font-size="28" font-family="'Helvetica Neue', Arial, sans-serif">SomeTicket</text>
+  <image href="/watermark.png" x="1262" y="744" width="250" height="67" />
+</svg>
