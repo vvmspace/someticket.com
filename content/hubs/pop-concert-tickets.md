@@ -19,12 +19,13 @@ schema:
   description: "Category hub for pop concert ticket pages and buyer-intent guides."
 relationships:
   cities:
+    - "santa-clara"
     - "yerevan"
     - "london"
 featured_focus:
-  title: "Janaga Yerevan Tickets"
-  description: "Open the November 21, 2026 page for a high-intent Yerevan pop demand date."
-  url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
+  title: "Bruno Mars Santa Clara Tickets"
+  description: "Open the October 10, 2026 Levi's Stadium page for a premium-demand stadium date."
+  url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena and stadium pop concerts"
@@ -33,10 +34,12 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
-  - label: "Leonid Agutin at Karen Demirchyan"
-    url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
-  - label: "Leonid Agutin Tickets"
-    url: "/leonid-agutin/"
+  - label: "Bruno Mars at Levi's Stadium"
+    url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
+  - label: "Santa Clara Event Tickets"
+    url: "/santa-clara/"
+  - label: "Levi's Stadium Tickets"
+    url: "/levis-stadium/"
   - label: "Bon Jovi at Wembley Stadium (Sep 9)"
     url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
   - label: "Janaga at Karen Demirchyan"

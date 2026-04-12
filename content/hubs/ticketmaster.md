@@ -18,9 +18,9 @@ schema:
   type: "CollectionPage"
   description: "Source hub for ticket pages that route to Ticketmaster listings."
 featured_focus:
-  title: "Grupo Frontera at SAP Center at San Jose"
-  description: "Open the August 9, 2026 event page and continue to the live Ticketmaster checkout flow."
-  url: "/events/grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026/"
+  title: "Bruno Mars at Levi's Stadium"
+  description: "Open the October 10, 2026 event page and continue to the live Ticketmaster checkout flow."
+  url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
 key_facts:
   - label: "Best for"
     value: "Verified direct event routes"
@@ -29,6 +29,12 @@ key_facts:
   - label: "Recommended step"
     value: "Check full order total before payment"
 related_pages:
+  - label: "Bruno Mars Santa Clara Tickets"
+    url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
+  - label: "Santa Clara Event Tickets"
+    url: "/santa-clara/"
+  - label: "Levi's Stadium Tickets"
+    url: "/levis-stadium/"
   - label: "Grupo Frontera Tickets"
     url: "/events/grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026/"
   - label: "Harry Styles Tickets"
