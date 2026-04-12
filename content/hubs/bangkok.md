@@ -24,19 +24,26 @@ location:
 relationships:
   region: "asia"
   venues:
+    - "impact-arena"
     - "queen-sirikit-national-convention-center"
 featured_focus:
-  title: "Kraftwerk at QSNCC (May 10)"
-  description: "Open the Bangkok date page for a high-intent electronic concert ticket search."
-  url: "/events/kraftwerk-multimedia-tour-2026-in-bangkok-queen-sirikit-national-convention-center-may-10-2026/"
+  title: "Laufey at Impact Arena (May 31)"
+  description: "Open the Laufey Bangkok page for a premium-demand pop concert query with strong buyer intent."
+  url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
 key_facts:
   - label: "Best for"
     value: "Bangkok concert dates with clear buyer guidance"
   - label: "Current featured venue"
-    value: "Queen Sirikit National Convention Center"
+    value: "Impact Arena"
   - label: "Region"
     value: "Asia"
 related_pages:
+  - label: "Laufey in Bangkok"
+    url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
+  - label: "Laufey Tickets"
+    url: "/laufey/"
+  - label: "Impact Arena Tickets"
+    url: "/impact-arena/"
   - label: "Kraftwerk in Bangkok"
     url: "/events/kraftwerk-multimedia-tour-2026-in-bangkok-queen-sirikit-national-convention-center-may-10-2026/"
   - label: "Kraftwerk Tickets"
@@ -51,7 +58,7 @@ faq:
   - question: "What can I do on the Bangkok page?"
     answer: "You can open current Bangkok event pages and jump to venue or artist hubs before checkout."
   - question: "Can I compare Bangkok venues before buying?"
-    answer: "Yes. Start with the Queen Sirikit National Convention Center page, then open the exact event date that matches your plan."
+    answer: "Yes. Start with venue hubs like Impact Arena or Queen Sirikit National Convention Center, then open the exact event date that matches your plan."
 breadcrumbs:
   - name: "Some Ticket"
     url: "/"

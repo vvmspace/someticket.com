@@ -19,13 +19,13 @@ schema:
   description: "Category hub for pop concert ticket pages and buyer-intent guides."
 relationships:
   cities:
-    - "santa-clara"
     - "yerevan"
     - "london"
+    - "bangkok"
 featured_focus:
-  title: "Bruno Mars Santa Clara Tickets"
-  description: "Open the October 10, 2026 Levi's Stadium page for a premium-demand stadium date."
-  url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
+  title: "Laufey Bangkok Tickets"
+  description: "Open the May 31, 2026 Bangkok page for a premium pop-jazz concert date with clear buying intent."
+  url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena and stadium pop concerts"
@@ -34,12 +34,14 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
-  - label: "Bruno Mars at Levi's Stadium"
-    url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
-  - label: "Santa Clara Event Tickets"
-    url: "/santa-clara/"
-  - label: "Levi's Stadium Tickets"
-    url: "/levis-stadium/"
+  - label: "Laufey at Impact Arena"
+    url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
+  - label: "Laufey Tickets"
+    url: "/laufey/"
+  - label: "Bangkok Event Tickets"
+    url: "/bangkok/"
+  - label: "Impact Arena Tickets"
+    url: "/impact-arena/"
   - label: "Bon Jovi at Wembley Stadium (Sep 9)"
     url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
   - label: "Janaga at Karen Demirchyan"

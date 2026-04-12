@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Laufey Bangkok tickets artwork</title>
+  <desc id="desc">Promotional ticket artwork for Laufey at Impact Arena in the Bangkok area on May 31, 2026 with a SomeTicket watermark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f4d58d"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="180" r="150" fill="#f4d58d" fill-opacity="0.08"/>
+  <circle cx="1260" cy="220" r="210" fill="#f4d58d" fill-opacity="0.04"/>
+  <rect x="74" y="74" width="1452" height="752" rx="34" fill="#111827" fill-opacity="0.55" stroke="url(#gold)" stroke-width="3"/>
+  <text x="120" y="220" fill="#faf7f0" font-size="120" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" letter-spacing="4">LAUFEY</text>
+  <text x="124" y="300" fill="#f4d58d" font-size="54" font-family="'Helvetica Neue', Arial, sans-serif">A Matter of Time Tour</text>
+  <text x="120" y="430" fill="#e2e8f0" font-size="74" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="600">Bangkok</text>
+  <text x="124" y="510" fill="#e2e8f0" font-size="46" font-family="'Helvetica Neue', Arial, sans-serif">Impact Arena</text>
+  <text x="124" y="575" fill="#cbd5e1" font-size="38" font-family="'Helvetica Neue', Arial, sans-serif">May 31, 2026 | 7:00 PM</text>
+  <text x="124" y="660" fill="#faf7f0" font-size="32" font-family="'Helvetica Neue', Arial, sans-serif">Official pricing from THB 1,800 | VIP reported up to THB 7,900</text>
+  <text x="124" y="738" fill="#94a3b8" font-size="28" font-family="'Helvetica Neue', Arial, sans-serif">High-intent buyer guide for fans searching Laufey Bangkok tickets</text>
+  <image href="/images/watermark.png" x="1290" y="734" width="250" height="126" preserveAspectRatio="xMidYMid meet"/>
+</svg>
