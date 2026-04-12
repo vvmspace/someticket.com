@@ -33,6 +33,10 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Leonid Agutin at Karen Demirchyan"
+    url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
+  - label: "Leonid Agutin Tickets"
+    url: "/leonid-agutin/"
   - label: "Bon Jovi at Wembley Stadium (Sep 9)"
     url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
   - label: "Janaga at Karen Demirchyan"

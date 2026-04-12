@@ -41,6 +41,10 @@ key_facts:
   - label: "City"
     value: "Yerevan"
 related_pages:
+  - label: "Leonid Agutin Tickets"
+    url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
+  - label: "Leonid Agutin Artist Page"
+    url: "/leonid-agutin/"
   - label: "Maxim Galkin Tickets"
     url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
   - label: "Maxim Galkin Artist Page"

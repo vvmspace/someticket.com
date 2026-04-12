@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Leonid Agutin Tickets (Yerevan)"
+    url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
   - label: "2026 FIFA World Cup Final Tickets"
     url: "/events/fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026/"
   - label: "Armenia vs Montenegro Tickets (Sep 28)"

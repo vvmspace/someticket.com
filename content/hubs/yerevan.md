@@ -41,6 +41,10 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Leonid Agutin Tickets (Sep 19)"
+    url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
+  - label: "Leonid Agutin Artist Page"
+    url: "/leonid-agutin/"
   - label: "Armenia vs Montenegro Tickets (Sep 28)"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026/"
   - label: "Armenia vs Cyprus Tickets"
