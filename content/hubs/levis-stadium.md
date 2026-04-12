@@ -41,6 +41,12 @@ key_facts:
   - label: "City"
     value: "Santa Clara"
 related_pages:
+  - label: "AC/DC at Levi's Stadium"
+    url: "/events/ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026/"
+  - label: "AC/DC Tickets"
+    url: "/ac-dc/"
+  - label: "Rock Tickets"
+    url: "/rock-tickets/"
   - label: "Santa Clara Event Tickets"
     url: "/santa-clara/"
   - label: "Bruno Mars Tickets"

@@ -29,6 +29,10 @@ key_facts:
   - label: "Recommended step"
     value: "Check full order total before payment"
 related_pages:
+  - label: "AC/DC Santa Clara Tickets"
+    url: "/events/ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026/"
+  - label: "AC/DC Tickets"
+    url: "/ac-dc/"
   - label: "Bruno Mars Santa Clara Tickets"
     url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
   - label: "Santa Clara Event Tickets"

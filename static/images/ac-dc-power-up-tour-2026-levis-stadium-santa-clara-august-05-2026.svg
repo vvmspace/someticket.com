@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AC/DC Santa Clara tickets artwork</title>
+  <desc id="desc">Promotional ticket artwork for AC/DC at Levi's Stadium in Santa Clara with date, lineup, and SomeTicket watermark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120708" />
+      <stop offset="50%" stop-color="#1b0b0d" />
+      <stop offset="100%" stop-color="#090909" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4d4d" />
+      <stop offset="100%" stop-color="#ffd166" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect x="72" y="72" width="1456" height="756" rx="12" fill="#140d0d" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2" />
+  <rect x="72" y="72" width="1456" height="12" fill="#d11f2f" />
+  <rect x="72" y="816" width="1456" height="12" fill="#7c131d" />
+  <polygon points="1230,120 1340,120 1266,290 1382,290 1218,520 1286,344 1188,344" fill="url(#accent)" opacity="0.95" />
+  <circle cx="1272" cy="260" r="156" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2" />
+  <circle cx="1272" cy="260" r="108" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="2" />
+  <text x="112" y="124" fill="#d7caca" font-size="34" font-family="'Helvetica Neue', Arial, sans-serif" letter-spacing="6">SANTA CLARA</text>
+  <text x="110" y="286" fill="#ffffff" font-size="168" font-weight="800" font-family="'Helvetica Neue', Arial, sans-serif">AC/DC</text>
+  <text x="116" y="376" fill="#ff6b6b" font-size="60" font-weight="700" font-family="'Helvetica Neue', Arial, sans-serif" letter-spacing="2">POWER UP TOUR 2026</text>
+  <text x="116" y="470" fill="#f2e9e9" font-size="38" font-family="'Helvetica Neue', Arial, sans-serif">Levi's Stadium   |   Wednesday, August 5, 2026   |   7:00 PM</text>
+  <text x="116" y="528" fill="#f2e9e9" font-size="38" font-family="'Helvetica Neue', Arial, sans-serif">Santa Clara, California   |   with The Pretty Reckless</text>
+  <text x="116" y="638" fill="#ffd166" font-size="34" font-family="'Helvetica Neue', Arial, sans-serif">Premium stadium demand buyer guide for fans searching AC/DC tickets</text>
+  <text x="116" y="738" fill="#bda9a9" font-size="28" font-family="'Helvetica Neue', Arial, sans-serif">Verified source listing checked against Ticketmaster event details</text>
+  <image href="/watermark.png" x="1264" y="742" width="248" height="66" />
+</svg>

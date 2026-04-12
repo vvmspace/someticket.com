@@ -37,6 +37,12 @@ key_facts:
   - label: "Region"
     value: "West"
 related_pages:
+  - label: "AC/DC Tickets"
+    url: "/ac-dc/"
+  - label: "Rock Tickets"
+    url: "/rock-tickets/"
+  - label: "AC/DC at Levi's Stadium"
+    url: "/events/ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026/"
   - label: "Levi's Stadium Tickets"
     url: "/levis-stadium/"
   - label: "Bruno Mars Tickets"
