@@ -20,10 +20,11 @@ schema:
 relationships:
   cities:
     - "santa-clara"
+    - "bangkok"
 featured_focus:
-  title: "AC/DC Santa Clara Tickets"
-  description: "Open the August 5, 2026 page for a premium Silicon Valley stadium demand date."
-  url: "/events/ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026/"
+  title: "CNBLUE Bangkok Tickets"
+  description: "Open the June 6, 2026 page for a premium Bangkok arena-demand rock date."
+  url: "/events/cnblue-live-world-tour-3logy-in-bangkok-thunder-dome-june-06-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena and stadium rock concerts"
@@ -32,6 +33,14 @@ key_facts:
   - label: "Includes"
     value: "Major touring acts and high-demand dates"
 related_pages:
+  - label: "CNBLUE at Thunder Dome"
+    url: "/events/cnblue-live-world-tour-3logy-in-bangkok-thunder-dome-june-06-2026/"
+  - label: "CNBLUE Tickets"
+    url: "/cnblue/"
+  - label: "Bangkok Event Tickets"
+    url: "/bangkok/"
+  - label: "Thunder Dome Tickets"
+    url: "/thunder-dome/"
   - label: "AC/DC at Levi's Stadium"
     url: "/events/ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026/"
   - label: "AC/DC Tickets"

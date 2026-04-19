@@ -26,10 +26,11 @@ relationships:
   venues:
     - "impact-arena"
     - "queen-sirikit-national-convention-center"
+    - "thunder-dome"
 featured_focus:
-  title: "Laufey at Impact Arena (May 31)"
-  description: "Open the Laufey Bangkok page for a premium-demand pop concert query with strong buyer intent."
-  url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
+  title: "CNBLUE at Thunder Dome (June 6)"
+  description: "Open the CNBLUE Bangkok page for a premium-demand rock concert query with strong buyer intent."
+  url: "/events/cnblue-live-world-tour-3logy-in-bangkok-thunder-dome-june-06-2026/"
 key_facts:
   - label: "Best for"
     value: "Bangkok concert dates with clear buyer guidance"
@@ -38,6 +39,14 @@ key_facts:
   - label: "Region"
     value: "Asia"
 related_pages:
+  - label: "CNBLUE in Bangkok"
+    url: "/events/cnblue-live-world-tour-3logy-in-bangkok-thunder-dome-june-06-2026/"
+  - label: "CNBLUE Tickets"
+    url: "/cnblue/"
+  - label: "Thunder Dome Tickets"
+    url: "/thunder-dome/"
+  - label: "Rock Tickets"
+    url: "/rock-tickets/"
   - label: "Laufey in Bangkok"
     url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
   - label: "Laufey Tickets"
