@@ -41,6 +41,10 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Armenia vs Kazakhstan Tickets (Jun 6)"
+    url: "/events/armenia-vs-kazakhstan-republican-stadium-yerevan-june-06-2026/"
+  - label: "Kazakhstan National Team Tickets"
+    url: "/kazakhstan-national-team/"
   - label: "Leonid Agutin Tickets (Sep 19)"
     url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
   - label: "Leonid Agutin Artist Page"

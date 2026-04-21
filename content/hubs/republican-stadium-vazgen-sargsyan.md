@@ -41,6 +41,8 @@ key_facts:
   - label: "City"
     value: "Yerevan"
 related_pages:
+  - label: "Armenia vs Kazakhstan Tickets"
+    url: "/events/armenia-vs-kazakhstan-republican-stadium-yerevan-june-06-2026/"
   - label: "Armenia U21 vs Ireland U21 Tickets"
     url: "/events/armenia-u21-vs-ireland-u21-republican-stadium-yerevan-june-18-2027/"
   - label: "Armenia vs Portugal Tickets"

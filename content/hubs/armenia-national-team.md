@@ -31,6 +31,8 @@ key_facts:
   - label: "City focus"
     value: "Yerevan"
 related_pages:
+  - label: "Armenia vs Kazakhstan Tickets"
+    url: "/events/armenia-vs-kazakhstan-republican-stadium-yerevan-june-06-2026/"
   - label: "Armenia vs Montenegro Tickets (Sep 28)"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026/"
   - label: "Armenia vs Cyprus Tickets"
