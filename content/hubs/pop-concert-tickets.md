@@ -34,6 +34,8 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "The Weeknd at Wembley Stadium (Aug 19)"
+    url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
   - label: "Laufey at Impact Arena"
     url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
   - label: "Laufey Tickets"

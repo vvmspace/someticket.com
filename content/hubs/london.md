@@ -26,9 +26,9 @@ relationships:
   venues:
     - "wembley-stadium"
 featured_focus:
-  title: "Bon Jovi at Wembley Stadium (Sep 9)"
-  description: "Open the September 9, 2026 page for a high-demand London resale buying route."
-  url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
+  title: "The Weeknd at Wembley Stadium (Aug 19)"
+  description: "Open the August 19, 2026 page for a high-intent London stadium buying route."
+  url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
 key_facts:
   - label: "Best for"
     value: "Concerts and high-demand London dates"
@@ -37,6 +37,8 @@ key_facts:
   - label: "Region"
     value: "Europe"
 related_pages:
+  - label: "The Weeknd at Wembley Stadium (Aug 19)"
+    url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
   - label: "Bon Jovi at Wembley Stadium (Sep 9)"
     url: "/events/bon-jovi-wembley-stadium-london-september-09-2026/"
   - label: "Bruno Mars at Wembley Stadium"

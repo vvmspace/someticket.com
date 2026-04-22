@@ -23,9 +23,9 @@ relationships:
   cities:
     - "london"
 featured_focus:
-  title: "The Weeknd at Wembley Stadium"
-  description: "Open the August 14, 2026 London page and compare sections before checkout."
-  url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
+  title: "The Weeknd at Wembley Stadium (Aug 19)"
+  description: "Open the August 19, 2026 London page and compare sections before checkout."
+  url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
 key_facts:
   - label: "Best for"
     value: "Fans ready to buy by exact date"
@@ -34,6 +34,8 @@ key_facts:
   - label: "Category"
     value: "Pop Concert"
 related_pages:
+  - label: "The Weeknd at Wembley Stadium (Aug 19)"
+    url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
   - label: "The Weeknd at Wembley Stadium"
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
   - label: "London Event Tickets"
