@@ -41,6 +41,8 @@ key_facts:
   - label: "City"
     value: "London"
 related_pages:
+  - label: "Kansas vs Arizona State Tickets"
+    url: "/events/kansas-jayhawks-vs-arizona-state-sun-devils-american-football-union-jack-classic-london-wembley-stadium-september-19-2026/"
   - label: "The Weeknd at Wembley Stadium (Aug 19)"
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
   - label: "Bon Jovi at Wembley Stadium (Sep 9)"
@@ -55,6 +57,8 @@ related_pages:
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-14-2026/"
   - label: "Bon Jovi Tickets"
     url: "/bon-jovi/"
+  - label: "Union Jack Classic Tickets"
+    url: "/union-jack-classic/"
   - label: "London"
     url: "/london/"
   - label: "Bruno Mars Tickets"

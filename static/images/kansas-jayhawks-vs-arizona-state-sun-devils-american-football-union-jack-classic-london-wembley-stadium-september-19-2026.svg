@@ -1,0 +1,39 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#220B10"/>
+      <stop offset="0.52" stop-color="#5A1321"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1220 220) rotate(18) scale(360 280)">
+      <stop stop-color="#F59E0B" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(340 260) rotate(26) scale(340 280)">
+      <stop stop-color="#60A5FA" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#goldGlow)"/>
+  <rect width="1600" height="900" fill="url(#blueGlow)"/>
+  <rect x="72" y="72" width="1456" height="756" rx="36" fill="#0B1220" fill-opacity="0.16" stroke="#F8FAFC" stroke-opacity="0.12" stroke-width="2"/>
+  <rect x="110" y="110" width="452" height="36" rx="18" fill="#F59E0B" fill-opacity="0.16"/>
+  <text x="136" y="135" fill="#FBBF24" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="3">UNION JACK CLASSIC</text>
+  <text x="126" y="286" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700">KANSAS vs</text>
+  <text x="126" y="392" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700">ARIZONA STATE</text>
+  <text x="132" y="486" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="400">Wembley Stadium, London</text>
+  <text x="132" y="548" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="400">Saturday, September 19, 2026 at 5:00 PM</text>
+  <g opacity="0.94">
+    <rect x="126" y="624" width="452" height="82" rx="18" fill="#0F172A" fill-opacity="0.72" stroke="#FBBF24" stroke-opacity="0.4"/>
+    <text x="156" y="676" fill="#FDE68A" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Verified resale from GBP 270</text>
+  </g>
+  <g opacity="0.52">
+    <path d="M1110 640C1110 551.635 1181.63 480 1270 480C1358.37 480 1430 551.635 1430 640" stroke="#F8FAFC" stroke-opacity="0.2" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1150 640C1150 573.726 1203.73 520 1270 520C1336.27 520 1390 573.726 1390 640" stroke="#F8FAFC" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1190 640C1190 595.817 1225.82 560 1270 560C1314.18 560 1350 595.817 1350 640" stroke="#F8FAFC" stroke-opacity="0.16" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1216 450L1324 450" stroke="#F8FAFC" stroke-opacity="0.16" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1270 418V482" stroke="#F8FAFC" stroke-opacity="0.16" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <image href="/images/watermark.png" x="1320" y="794" width="220" height="58" preserveAspectRatio="xMaxYMax meet"/>
+</svg>

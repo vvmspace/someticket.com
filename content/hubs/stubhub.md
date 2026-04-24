@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Kansas vs Arizona State Tickets"
+    url: "/events/kansas-jayhawks-vs-arizona-state-sun-devils-american-football-union-jack-classic-london-wembley-stadium-september-19-2026/"
   - label: "Leonid Agutin Tickets (Yerevan)"
     url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
   - label: "2026 FIFA World Cup Final Tickets"

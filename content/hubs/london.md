@@ -37,6 +37,8 @@ key_facts:
   - label: "Region"
     value: "Europe"
 related_pages:
+  - label: "Kansas vs Arizona State Tickets"
+    url: "/events/kansas-jayhawks-vs-arizona-state-sun-devils-american-football-union-jack-classic-london-wembley-stadium-september-19-2026/"
   - label: "The Weeknd at Wembley Stadium (Aug 19)"
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
   - label: "Bon Jovi at Wembley Stadium (Sep 9)"
@@ -57,6 +59,8 @@ related_pages:
     url: "/harry-styles/"
   - label: "Wembley Stadium"
     url: "/wembley-stadium/"
+  - label: "American Football Tickets"
+    url: "/american-football-tickets/"
   - label: "The Weeknd Tickets"
     url: "/the-weeknd/"
   - label: "Pop Concert Tickets"
