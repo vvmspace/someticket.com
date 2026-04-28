@@ -41,6 +41,10 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Garou Tickets (Sep 22)"
+    url: "/events/garou-karen-demirchyan-sports-and-concerts-complex-yerevan-september-22-2026/"
+  - label: "Garou Artist Page"
+    url: "/garou/"
   - label: "Armenia vs Kazakhstan Tickets (Jun 6)"
     url: "/events/armenia-vs-kazakhstan-republican-stadium-yerevan-june-06-2026/"
   - label: "Kazakhstan National Team Tickets"

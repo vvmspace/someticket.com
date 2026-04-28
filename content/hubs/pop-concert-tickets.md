@@ -34,6 +34,10 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Garou at Karen Demirchyan"
+    url: "/events/garou-karen-demirchyan-sports-and-concerts-complex-yerevan-september-22-2026/"
+  - label: "Garou Tickets"
+    url: "/garou/"
   - label: "The Weeknd at Wembley Stadium (Aug 19)"
     url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
   - label: "Laufey at Impact Arena"

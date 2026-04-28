@@ -41,6 +41,10 @@ key_facts:
   - label: "City"
     value: "Yerevan"
 related_pages:
+  - label: "Garou Tickets"
+    url: "/events/garou-karen-demirchyan-sports-and-concerts-complex-yerevan-september-22-2026/"
+  - label: "Garou Artist Page"
+    url: "/garou/"
   - label: "Leonid Agutin Tickets"
     url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
   - label: "Leonid Agutin Artist Page"
