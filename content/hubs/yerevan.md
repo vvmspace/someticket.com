@@ -41,6 +41,10 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Lilit Hovhannisyan Tickets (Oct 3)"
+    url: "/events/lilit-hovhannisyan-the-show-karen-demirchyan-sports-and-concert-complex-yerevan-october-03-2026/"
+  - label: "Lilit Hovhannisyan Artist Page"
+    url: "/lilit-hovhannisyan/"
   - label: "Garou Tickets (Sep 22)"
     url: "/events/garou-karen-demirchyan-sports-and-concerts-complex-yerevan-september-22-2026/"
   - label: "Garou Artist Page"
