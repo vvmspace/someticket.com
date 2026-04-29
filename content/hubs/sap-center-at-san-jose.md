@@ -30,9 +30,9 @@ location:
 relationships:
   city: "san-jose"
 featured_focus:
-  title: "Grupo Frontera at SAP Center"
-  description: "Open the August 9, 2026 event page and verify the exact Ticketmaster listing before checkout."
-  url: "/events/grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026/"
+  title: "Shakira at SAP Center"
+  description: "Open the June 19, 2026 event page and verify the exact Ticketmaster listing before checkout."
+  url: "/events/shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena concerts, sports dates, and high-demand live events"
@@ -43,8 +43,10 @@ key_facts:
 related_pages:
   - label: "San Jose Event Tickets"
     url: "/san-jose/"
-  - label: "Grupo Frontera Tickets"
-    url: "/grupo-frontera/"
+  - label: "Shakira Tickets"
+    url: "/shakira/"
+  - label: "Pop Concert Tickets"
+    url: "/pop-concert-tickets/"
   - label: "All events"
     url: "/events/"
 faq:

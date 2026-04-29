@@ -19,13 +19,14 @@ schema:
   description: "Category hub for pop concert ticket pages and buyer-intent guides."
 relationships:
   cities:
+    - "san-jose"
     - "yerevan"
     - "london"
     - "bangkok"
 featured_focus:
-  title: "Laufey Bangkok Tickets"
-  description: "Open the May 31, 2026 Bangkok page for a premium pop-jazz concert date with clear buying intent."
-  url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
+  title: "Shakira in San Jose"
+  description: "Open the June 19, 2026 SAP Center page for a premium pop date with strong buying intent."
+  url: "/events/shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena and stadium pop concerts"
@@ -34,6 +35,14 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "Shakira at SAP Center at San Jose"
+    url: "/events/shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026/"
+  - label: "Shakira Tickets"
+    url: "/shakira/"
+  - label: "San Jose Event Tickets"
+    url: "/san-jose/"
+  - label: "SAP Center at San Jose Tickets"
+    url: "/sap-center-at-san-jose/"
   - label: "Garou at Karen Demirchyan"
     url: "/events/garou-karen-demirchyan-sports-and-concerts-complex-yerevan-september-22-2026/"
   - label: "Garou Tickets"
