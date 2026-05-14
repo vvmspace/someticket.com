@@ -31,6 +31,8 @@ key_facts:
   - label: "Current focus"
     value: "Armenia vs Cyprus in Yerevan"
 related_pages:
+  - label: "Armenia vs Gibraltar/Latvia Tickets"
+    url: "/events/armenia-vs-gibraltar-latvia-nations-league-republican-stadium-yerevan-september-24-2026/"
   - label: "Armenia vs Montenegro Tickets (Sep 28)"
     url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026/"
   - label: "Armenia vs Cyprus Tickets"

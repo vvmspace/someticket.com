@@ -41,6 +41,8 @@ key_facts:
   - label: "Region"
     value: "Caucasus"
 related_pages:
+  - label: "Armenia vs Gibraltar/Latvia Tickets (Sep 24)"
+    url: "/events/armenia-vs-gibraltar-latvia-nations-league-republican-stadium-yerevan-september-24-2026/"
   - label: "Lilit Hovhannisyan Tickets (Oct 3)"
     url: "/events/lilit-hovhannisyan-the-show-karen-demirchyan-sports-and-concert-complex-yerevan-october-03-2026/"
   - label: "Lilit Hovhannisyan Artist Page"

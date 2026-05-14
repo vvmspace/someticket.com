@@ -29,6 +29,8 @@ key_facts:
   - label: "Recommended step"
     value: "Check full total before payment"
 related_pages:
+  - label: "Armenia vs Gibraltar/Latvia Tickets (Yerevan)"
+    url: "/events/armenia-vs-gibraltar-latvia-nations-league-republican-stadium-yerevan-september-24-2026/"
   - label: "Kansas vs Arizona State Tickets"
     url: "/events/kansas-jayhawks-vs-arizona-state-sun-devils-american-football-union-jack-classic-london-wembley-stadium-september-19-2026/"
   - label: "Leonid Agutin Tickets (Yerevan)"
