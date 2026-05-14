@@ -30,9 +30,9 @@ location:
 relationships:
   city: "bangkok"
 featured_focus:
-  title: "Laufey at Impact Arena"
-  description: "Open the May 31, 2026 Bangkok-area date page to compare official prices, VIP packages, and buying routes."
-  url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
+  title: "XG at Impact Arena"
+  description: "Open the July 19, 2026 Bangkok-area date page to compare official price tiers and exact-date buyer details."
+  url: "/events/xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena-scale concerts and high-demand touring events"
@@ -41,6 +41,10 @@ key_facts:
   - label: "City"
     value: "Bangkok metro area"
 related_pages:
+  - label: "XG at Impact Arena"
+    url: "/events/xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026/"
+  - label: "XG Tickets"
+    url: "/xg/"
   - label: "Laufey at Impact Arena"
     url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
   - label: "Bangkok Event Tickets"

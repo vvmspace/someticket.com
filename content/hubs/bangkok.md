@@ -29,9 +29,9 @@ relationships:
     - "queen-sirikit-national-convention-center"
     - "thunder-dome"
 featured_focus:
-  title: "Post Malone at Rajamangala (Sep 22)"
-  description: "Open the Post Malone Bangkok page for a premium stadium-demand ticket query with strong buyer intent."
-  url: "/events/post-malone-presents-the-big-ass-stadium-world-tour-rajamangala-national-stadium-bangkok-september-22-2026/"
+  title: "XG at Impact Arena (Jul 19)"
+  description: "Open the XG Bangkok page for a premium K-pop buyer query with high-intent July search demand."
+  url: "/events/xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026/"
 key_facts:
   - label: "Best for"
     value: "Bangkok concert dates with clear buyer guidance"
@@ -40,6 +40,14 @@ key_facts:
   - label: "Region"
     value: "Asia"
 related_pages:
+  - label: "XG in Bangkok"
+    url: "/events/xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026/"
+  - label: "XG Tickets"
+    url: "/xg/"
+  - label: "Impact Arena Tickets"
+    url: "/impact-arena/"
+  - label: "Pop Concert Tickets"
+    url: "/pop-concert-tickets/"
   - label: "Post Malone in Bangkok"
     url: "/events/post-malone-presents-the-big-ass-stadium-world-tour-rajamangala-national-stadium-bangkok-september-22-2026/"
   - label: "Post Malone Tickets"

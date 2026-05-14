@@ -24,9 +24,9 @@ relationships:
     - "london"
     - "bangkok"
 featured_focus:
-  title: "Shakira in San Jose"
-  description: "Open the June 19, 2026 SAP Center page for a premium pop date with strong buying intent."
-  url: "/events/shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026/"
+  title: "XG in Bangkok"
+  description: "Open the July 19, 2026 Impact Arena page for a premium pop query with strong buyer intent."
+  url: "/events/xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026/"
 key_facts:
   - label: "Best for"
     value: "Arena and stadium pop concerts"
@@ -35,6 +35,10 @@ key_facts:
   - label: "Includes"
     value: "Global touring artists and high-demand dates"
 related_pages:
+  - label: "XG at Impact Arena"
+    url: "/events/xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026/"
+  - label: "XG Tickets"
+    url: "/xg/"
   - label: "Shakira at SAP Center at San Jose"
     url: "/events/shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026/"
   - label: "Shakira Tickets"
