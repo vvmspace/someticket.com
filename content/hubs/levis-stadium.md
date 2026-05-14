@@ -30,9 +30,9 @@ location:
 relationships:
   city: "santa-clara"
 featured_focus:
-  title: "Bruno Mars at Levi's Stadium"
-  description: "Open the October 10, 2026 event page and verify the exact Ticketmaster listing before checkout."
-  url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
+  title: "Karol G at Levi's Stadium"
+  description: "Open the August 21, 2026 event page and verify the exact Ticketmaster listing before checkout."
+  url: "/events/karol-g-viajando-por-el-mundo-tropitour-levis-stadium-santa-clara-august-21-2026/"
 key_facts:
   - label: "Best for"
     value: "Stadium concerts, major tours, and high-demand live events"
@@ -41,16 +41,18 @@ key_facts:
   - label: "City"
     value: "Santa Clara"
 related_pages:
+  - label: "Karol G at Levi's Stadium"
+    url: "/events/karol-g-viajando-por-el-mundo-tropitour-levis-stadium-santa-clara-august-21-2026/"
+  - label: "Karol G Tickets"
+    url: "/karol-g/"
+  - label: "Latin Music Tickets"
+    url: "/latin-music-tickets/"
   - label: "AC/DC at Levi's Stadium"
     url: "/events/ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026/"
   - label: "AC/DC Tickets"
     url: "/ac-dc/"
-  - label: "Rock Tickets"
-    url: "/rock-tickets/"
   - label: "Santa Clara Event Tickets"
     url: "/santa-clara/"
-  - label: "Bruno Mars Tickets"
-    url: "/bruno-mars/"
   - label: "All events"
     url: "/events/"
 faq:
