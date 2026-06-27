@@ -96,3 +96,4 @@ Keep this README aligned with:
 - Every event image must include meaningful `alt` text in `media.hero.alt` and `media.card.alt`.
 - Run a clean build after the event is added.
 - Run Lighthouse for the new event page.
+Triggering build
