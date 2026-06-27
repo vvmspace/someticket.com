@@ -1,137 +1,123 @@
 {{ define "main" }}
   {{ $events := where site.RegularPages "Params.page_type" "event" }}
   {{ partial "breadcrumbs.html" . }}
-  <section class="hero">
+
+  <!-- HERO SECTION: The Sovereign Entrance -->
+  <section class="hero hero--sovereign">
     <div class="hero__panel">
-      <span class="eyebrow">{{ .Params.hero.eyebrow | default "Live events" }}</span>
+      <span class="eyebrow">{{ .Params.hero.eyebrow | default "The Apex of Global Entertainment" }}</span>
       <h1 class="page-title--home">{{ .Title }}</h1>
-      <p class="lede">{{ .Params.description_short | default .Site.Params.description }}</p>
+      <p class="lede">{{ .Params.description_short }}</p>
       <div class="signature-strip">
-        <span>Concerts and shows</span>
-        <span>Popular venues</span>
-        <span>Upcoming dates</span>
+        <span>Sovereign Access</span>
+        <span>Verified Inventory</span>
+        <span>Global Concierge</span>
       </div>
       <div class="actions">
-        {{ partial "link.html" (dict "url" (.Params.hero.primary_url | default "/new-york/") "class" "button" "event" "hero_cta_click" "label" "primary" "text" (.Params.hero.primary_label | default "Open New York")) }}
-        {{ partial "link.html" (dict "url" (.Params.hero.secondary_url | default "/events/") "class" "button button--secondary" "event" "hero_cta_click" "label" "secondary" "text" (.Params.hero.secondary_label | default "Browse all events")) }}
+        {{ partial "link.html" (dict "url" (.Params.hero.primary_url) "class" "button button--gold" "event" "hero_cta_click" "label" "primary" "text" (.Params.hero.primary_label)) }}
+        {{ partial "link.html" (dict "url" (.Params.hero.secondary_url) "class" "button button--outline" "event" "hero_cta_click" "label" "secondary" "text" (.Params.hero.secondary_label)) }}
       </div>
     </div>
+
     <div class="hero__panel hero__panel--contrast">
+      <!-- THE SPOTLIGHT: The most prestigious event takes center stage -->
       {{ range first 1 $events }}
-        {{ partial "visual.html" (dict "page" . "variant" "hero") }}
+        <div class="spotlight-container">
+          {{ partial "visual.html" (dict "page" . "variant" "hero") }}
+          <div class="spotlight-overlay">
+            <span class="spotlight-label">The Spotlight Event</span>
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Params.description_short }}</p>
+            <div class="spotlight-actions">
+              {{ partial "link.html" (dict "url" .RelPermalink "class" "button button--small" "text" "Secure Access") }}
+            </div>
+          </div>
+        </div>
       {{ end }}
-      <div class="editorial-note">
-        <span class="editorial-note__label">This week</span>
-        <p>Start with a featured event, then move into nearby dates, venues, and city pages without losing your place.</p>
-      </div>
-      <div class="stats">
-        <div class="fact-card">
+      
+      <div class="stats-bar">
+        <div class="stat-item">
           <strong>{{ len (where site.RegularPages "Params.page_type" "hub") }}</strong>
-          <span>Places to start</span>
+          <span>Elite Hubs</span>
         </div>
-        <div class="fact-card">
+        <div class="stat-item">
           <strong>{{ len (where site.RegularPages "Params.page_type" "landing") }}</strong>
-          <span>City picks</span>
+          <span>City Guides</span>
         </div>
-        <div class="fact-card">
+        <div class="stat-item">
           <strong>{{ len (where site.RegularPages "Params.page_type" "event") }}</strong>
-          <span>Events right now</span>
+          <span>Exclusive Events</span>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- THE DIAMOND COLLECTION: Curated Entry Points -->
   <section class="section section--full">
       <div class="section__inner section__inner--soft">
         <div class="section__header">
-          <span class="eyebrow">Quick picks</span>
-          <h2>Start with a city, venue, or the full event list</h2>
+          <span class="eyebrow">Curated Access</span>
+          <h2>The Diamond Collection</h2>
+          <p>Start your journey through the world's most iconic cultural and sporting hubs.</p>
         </div>
-        <div class="chip-list chip-list--wide">
-        {{ partial "link.html" (dict "url" "/new-york/" "class" "chip" "event" "route_click" "label" "new-york" "text" "New York") }}
-        {{ partial "link.html" (dict "url" "/madison-square-garden/" "class" "chip" "event" "route_click" "label" "msg" "text" "Madison Square Garden") }}
-        {{ partial "link.html" (dict "url" "/events/" "class" "chip" "event" "route_click" "label" "events" "text" "All events") }}
-      </div>
-    </div>
-  </section>
-
-  <div class="content-shell">
-    <section class="section section--full">
-      <div class="section__inner">
-        <div class="section__header">
-          <span class="eyebrow">Browse</span>
-          <h2>Popular starting points</h2>
-          <p>Open a city page, a venue page, or the full event list to narrow down what you want to see next.</p>
-        </div>
-        <div class="card-grid">
-          {{ range where site.RegularPages "Params.page_type" "hub" }}
-            <article class="card">
-              {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "hub_card_click" "label" .Title) }}
-              {{ partial "visual.html" (dict "page" . "variant" "card") }}
-              <strong>{{ .Title }}</strong>
-              <p>{{ .Params.description_short }}</p>
-              <span>{{ .Params.location.city | default (.Params.artist.name | default "Open page") }}</span>
-            </article>
-          {{ end }}
+        <div class="diamond-grid">
+          {{ partial "link.html" (dict "url" "/new-york/" "class" "diamond-card" "text" "New York City" "subtext" "The Global Capital of Spectacle") }}
+          {{ partial "link.html" (dict "url" "/madison-square-garden/" "class" "diamond-card" "text" "Madison Square Garden" "subtext" "The World's Most Famous Arena") }}
+          {{ partial "link.html" (dict "url" "/events/" "class" "diamond-card" "text" "Global Event List" "subtext" "Every Major Event in One View") }}
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="section__inner">
-        <div class="section__header">
-          <span class="eyebrow">City picks</span>
-          <h2>Pages focused on one city and one category</h2>
-        </div>
-        <div class="link-grid">
-          {{ range where site.RegularPages "Params.page_type" "landing" }}
-            <article class="card">
-              {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "landing_card_click" "label" .Title) }}
-              {{ partial "visual.html" (dict "page" . "variant" "card") }}
-              <strong>{{ .Title }}</strong>
-              <p>{{ .Params.description_short }}</p>
-            </article>
-          {{ end }}
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--full">
-      <div class="section__inner section__inner--contrast">
-        <div class="section__header">
-          <span class="eyebrow">Featured events</span>
-          <h2>Events worth opening now</h2>
-          <p>See the full event details, venue, and buying options on one page.</p>
-        </div>
-        <div class="event-deck">
-          {{ range first 1 $events }}
-            <article class="offer offer--spotlight">
-              {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "event_card_click" "label" .Title) }}
-              {{ partial "visual.html" (dict "page" . "variant" "hero") }}
-              <strong>{{ .Title }}</strong>
-              <p>{{ .Params.description_short }}</p>
-              <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
-              <div class="actions">
-                {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button" "event" "buy_ticket_click" "label" .Title "text" "Buy tickets") }}
-              </div>
-            </article>
-          {{ end }}
-          <div class="event-stack">
-            {{ range first 3 (after 1 $events) }}
-              <article class="offer">
-                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "event_card_click" "label" .Title) }}
+    <div class="content-shell">
+      <!-- POPULAR STARTING POINTS: The Hub Mesh -->
+      <section class="section section--full">
+        <div class="section__inner">
+          <div class="section__header">
+            <span class="eyebrow">The Hub Mesh</span>
+            <h2>Explore Legendary Destinations</h2>
+            <p>Navigate through our network of venues and cities to find your next unforgettable experience.</p>
+          </div>
+          <div class="card-grid">
+            {{ range where site.RegularPages "Params.page_type" "hub" }}
+              <article class="card card--premium">
+                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "hub_card_click" "label" .Title) }}
                 {{ partial "visual.html" (dict "page" . "variant" "card") }}
-                <strong>{{ .Title }}</strong>
-                <p>{{ .Params.description_short }}</p>
-                <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
-                <div class="actions">
-                  {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button" "event" "buy_ticket_click" "label" .Title "text" "Buy tickets") }}
+                <div class="card-content">
+                  <strong>{{ .Title }}</strong>
+                  <p>{{ .Params.description_short }}</p>
+                  <span class="card-footer">{{ .Params.location.city | default (.Params.artist.name | default "Global Hub") }}</span>
                 </div>
               </article>
             {{ end }}
           </div>
         </div>
-      </div>
-    </section>
-  </div>
+      </section>
+
+      <!-- FEATURED EVENTS: The Event Deck -->
+      <section class="section section--full">
+        <div class="section__inner section__inner--contrast">
+          <div class="section__header">
+            <span class="eyebrow">Sovereign Selection</span>
+            <h2>Upcoming Masterpieces</h2>
+            <p>A curated selection of the most anticipated events of the season.</p>
+          </div>
+          <div class="event-deck">
+            {{ range first 4 $events }}
+              <article class="offer offer--premium">
+                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "event_card_click" "label" .Title) }}
+                {{ partial "visual.html" (dict "page" . "variant" "card") }}
+                <div class="offer-details">
+                  <strong>{{ .Title }}</strong>
+                  <p>{{ .Params.description_short }}</p>
+                  <span class="offer-meta">{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
+                  <div class="actions">
+                    {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button button--small" "event" "buy_ticket_click" "label" .Title "text" "Secure Access") }}
+                  </div>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    </div>
 {{ end }}
