@@ -25,10 +25,11 @@ relationships:
   region: "europe"
   venues:
     - "wembley-stadium"
+    - "the-o2"
 featured_focus:
-  title: "The Weeknd at Wembley Stadium (Aug 19)"
-  description: "Open the August 19, 2026 page for a high-intent London stadium buying route."
-  url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
+  title: "Robyn at The O2 Arena (Oct 25)"
+  description: "Experience the apex of avant-pop luxury in London. Secure your access to the definitive performance of 2026."
+  url: "/events/robyn-the-o2-london-october-25-2026/"
 key_facts:
   - label: "Best for"
     value: "Concerts and high-demand London dates"
