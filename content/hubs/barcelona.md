@@ -26,9 +26,9 @@ relationships:
   venues:
     - "palau-sant-jordi"
 featured_focus:
-  title: "Andrea Bocelli at Palau Sant Jordi (Nov 12)"
-  description: "Secure your access to the definitive operatic event of 2026 in Barcelona."
-  url: "/events/andrea-bocelli-palau-sant-jordi-barcelona-november-12-2026/"
+  title: "CA7RIEL & Paco Amoroso at Palau Sant Jordi (Sep 10)"
+  description: "The vanguard of avant-pop arrives in Barcelona. Secure your premium access to the Free Spirits World Tour."
+  url: "/events/ca7riel-paco-amoroso-palau-sant-jordi-barcelona-september-10-2026/"
 key_facts:
   - label: "Best for"
     value: "Classical crossover and major arena concerts"
