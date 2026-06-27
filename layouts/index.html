@@ -1,36 +1,95 @@
 {{ define "main" }}
+<style>
+:root {
+  --bg: #0a0a0a;
+  --bg-deep: #050505;
+  --bg-panel: rgba(25, 25, 25, 0.6);
+  --bg-panel-strong: rgba(15, 15, 15, 0.8);
+  --bg-elevated: rgba(35, 35, 35, 0.7);
+  --surface: rgba(30, 30, 30, 0.5);
+  --surface-strong: rgba(40, 40, 40, 0.7);
+  --surface-soft: rgba(50, 50, 50, 0.4);
+  --text: #d1d1d1;
+  --text-strong: #ffffff;
+  --muted: #888888;
+  --muted-strong: #b0b0b0;
+  --line: rgba(212, 175, 55, 0.1);
+  --line-strong: rgba(212, 175, 55, 0.2);
+  --brand: #D4AF37;
+  --brand-strong: #f1d592;
+  --brand-soft: rgba(212, 175, 55, 0.05);
+  --accent: #c5a028;
+  --accent-deep: #121212;
+  --shadow-soft: 0 15px 40px rgba(0, 0, 0, 0.6);
+  --shadow-strong: 0 30px 80px rgba(0, 0, 0, 0.8);
+  --radius: 1.5rem;
+  --radius-xl: 3rem;
+  --max: 75rem;
+}
+body {
+  margin: 0;
+  color: var(--text);
+  font-family: 'Inter', sans-serif !important;
+  line-height: 1.6;
+  background: #0a0a0a !important;
+}
+.site-header__inner, .hero__panel, .section__inner, .card {
+  background: var(--bg-panel) !important;
+  backdrop-filter: blur(20px) !important;
+  border: 1px solid var(--line) !important;
+  border-radius: var(--radius) !important;
+  color: var(--text) !important;
+}
+h1, h2, h3, .brand {
+  font-family: 'Inter', sans-serif !important;
+  color: var(--text-strong) !important;
+}
+.eyebrow {
+  color: var(--brand) !important;
+  border-color: var(--line) !important;
+  background: var(--brand-soft) !important;
+}
+.button {
+  border-color: var(--brand) !important;
+  color: var(--brand) !important;
+  background: transparent !important;
+}
+.button:hover {
+  background: var(--brand) !important;
+  color: #000 !important;
+}
+.card-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+  gap: 2rem !important;
+}
+</style>
   {{ $events := where site.RegularPages "Params.page_type" "event" }}
   {{ $upcoming := where $events "Params.event.start_date" "ge" now }}
   {{ partial "breadcrumbs.html" . }}
 
-  <!-- HERO SECTION: The Sovereign Entrance -->
-  <section class="hero hero--sovereign">
+  <!-- HERO SECTION -->
+  <section class="hero">
     <div class="hero__panel">
       <span class="eyebrow">{{ .Params.hero.eyebrow | default "The Zenith of Global Spectacle" }}</span>
       <h1 class="page-title--home">{{ .Title }}</h1>
       <p class="lede">{{ .Params.description_short }}</p>
-      <div class="signature-strip">
-        <span>Sovereign Access</span>
-        <span>Verified Inventory</span>
-        <span>Global Concierge</span>
-      </div>
       <div class="actions">
-        {{ partial "link.html" (dict "url" (.Params.hero.primary_url | default "/events/") "class" "button button--gold" "event" "hero_cta_click" "label" "primary" "text" (.Params.hero.primary_label | default "Claim Your Place at the Zenith")) }}
-        {{ partial "link.html" (dict "url" (.Params.hero.secondary_url | default "/metlife-stadium/") "class" "button button--outline" "event" "hero_cta_click" "label" "secondary" "text" (.Params.hero.secondary_label | default "Discover Iconic Venues")) }}
+        {{ partial "link.html" (dict "url" (.Params.hero.primary_url | default "/events/") "class" "button" "text" (.Params.hero.primary_label | default "Claim Your Place at the Zenith")) }}
+        {{ partial "link.html" (dict "url" (.Params.hero.secondary_url | default "/metlife-stadium/") "class" "button button--secondary" "text" (.Params.hero.secondary_label | default "Discover Iconic Venues")) }}
       </div>
     </div>
 
-    <div class="hero__panel hero__panel--contrast">
-      <!-- THE SPOTLIGHT: The most prestigious event takes center stage -->
+    <div class="hero__panel">
       {{ range first 1 $upcoming }}
         <div class="spotlight-container">
           {{ partial "visual.html" (dict "page" . "variant" "hero") }}
           <div class="spotlight-overlay">
-            <span class="spotlight-label">The Spotlight Event</span>
+            <span class="eyebrow">The Spotlight Event</span>
             <h2>{{ .Title }}</h2>
             <p>{{ .Params.description_short }}</p>
-            <div class="spotlight-actions">
-              {{ partial "link.html" (dict "url" .RelPermalink "class" "button button--small" "text" "Secure Access") }}
+            <div class="actions">
+              {{ partial "link.html" (dict "url" .RelPermalink "class" "button" "text" "Secure Access") }}
             </div>
           </div>
         </div>
@@ -53,25 +112,25 @@
     </div>
   </section>
 
-  <!-- THE DIAMOND COLLECTION: Curated Entry Points -->
-  <section class="section section--full section--diamond">
-      <div class="section__inner section__inner--soft">
+  <!-- THE DIAMOND COLLECTION -->
+  <section class="section">
+      <div class="section__inner">
         <div class="section__header">
           <span class="eyebrow">Curated Access</span>
           <h2>The Diamond Collection</h2>
           <p>Entry points to the world's most prestigious cultural and sporting hubs.</p>
         </div>
-        <div class="diamond-grid">
-          {{ partial "link.html" (dict "url" "/new-york/" "class" "diamond-card diamond-card--gold" "text" "New York City" "subtext" "The Global Capital of Spectacle") }}
-          {{ partial "link.html" (dict "url" "/madison-square-garden/" "class" "diamond-card diamond-card--obsidian" "text" "Madison Square Garden" "subtext" "The World's Most Famous Arena") }}
-          {{ partial "link.html" (dict "url" "/events/" "class" "diamond-card diamond-card--silver" "text" "Global Event List" "subtext" "The Complete Sovereign Inventory") }}
+        <div class="card-grid">
+          {{ partial "link.html" (dict "url" "/new-york/" "class" "card" "text" "New York City" "subtext" "The Global Capital of Spectacle") }}
+          {{ partial "link.html" (dict "url" "/madison-square-garden/" "class" "card" "text" "Madison Square Garden" "subtext" "The World's Most Famous Arena") }}
+          {{ partial "link.html" (dict "url" "/events/" "class" "card" "text" "Global Event List" "subtext" "The Complete Sovereign Inventory") }}
         </div>
       </div>
     </section>
 
     <div class="content-shell">
-      <!-- CURATED DISCOVERY: Replacing the Hub Mesh wall of links -->
-      <section class="section section--full section--discovery">
+      <!-- CURATED DISCOVERY -->
+      <section class="section">
         <div class="section__inner">
           <div class="section__header">
             <span class="eyebrow">Sovereign Exploration</span>
@@ -79,49 +138,45 @@
             <p>Explore our network of venues and cities through a lens of exclusivity.</p>
           </div>
           
-          <div class="discovery-container">
-            <!-- Featured Hubs: Only the Top 6 instead of everything -->
-            <div class="featured-hubs-grid">
-              {{ range first 6 (where site.RegularPages "Params.page_type" "hub") }}
-                <article class="hub-card-premium">
-                  {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Explore %s" .Title) "event" "hub_click" "label" .Title) }}
-                  {{ partial "visual.html" (dict "page" . "variant" "card") }}
-                  <div class="hub-card-content">
-                    <strong>{{ .Title }}</strong>
-                    <span class="hub-card-footer">{{ with .Params.location }}{{ .city }}{{ else }}{{ with .Params.artist }}{{ .name }}{{ else }}Global Hub{{ end }}{{ end }}</span>
-                  </div>
-                </article>
-              {{ end }}
-            </div>
-            
-            <!-- The "View All" Gateway -->
-            <div class="discovery-footer">
-              <p>Seeking a specific destination not listed here?</p>
-              {{ partial "link.html" (dict "url" "/events/" "class" "button button--outline" "text" "Explore Full Inventory") }}
-            </div>
+          <div class="card-grid">
+            {{ range first 6 (where site.RegularPages "Params.page_type" "hub") }}
+              <article class="card">
+                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Explore %s" .Title)) }}
+                {{ partial "visual.html" (dict "page" . "variant" "card") }}
+                <div class="card-content">
+                  <strong>{{ .Title }}</strong>
+                  <span class="card-footer">{{ with .Params.location }}{{ .city }}{{ else }}{{ with .Params.artist }}{{ .name }}{{ else }}Global Hub{{ end }}{{ end }}</span>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+          
+          <div class="section__footer" style="text-align: center; margin-top: 3rem;">
+            <p>Seeking a specific destination not listed here?</p>
+            {{ partial "link.html" (dict "url" "/events/" "class" "button button--secondary" "text" "Explore Full Inventory") }}
           </div>
         </div>
       </section>
 
-      <!-- FEATURED EVENTS: The Event Deck -->
-      <section class="section section--full section--events">
-        <div class="section__inner section__inner--contrast">
+      <!-- FEATURED EVENTS -->
+      <section class="section">
+        <div class="section__inner">
           <div class="section__header">
             <span class="eyebrow">Sovereign Selection</span>
             <h2>Upcoming Masterpieces</h2>
             <p>A curated selection of the most anticipated events of the season.</p>
           </div>
-          <div class="event-deck">
+          <div class="card-grid">
             {{ range first 4 $upcoming }}
-              <article class="offer offer--premium">
-                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "event_card_click" "label" .Title) }}
+              <article class="card">
+                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title)) }}
                 {{ partial "visual.html" (dict "page" . "variant" "card") }}
-                <div class="offer-details">
+                <div class="card-details">
                   <strong>{{ .Title }}</strong>
                   <p>{{ .Params.description_short }}</p>
-                  <span class="offer-meta">{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
+                  <span class="card-meta">{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
                   <div class="actions">
-                    {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button button--small" "event" "buy_ticket_click" "label" .Title "text" "Secure Access") }}
+                    {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button button--small" "text" "Secure Access") }}
                   </div>
                 </div>
               </article>
