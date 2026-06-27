@@ -1,7 +1,6 @@
-{{ $crumbs := .Params.breadcrumbs }}
-{{ if $crumbs }}
+{{ if .Params.breadcrumbs }}
   <nav class="breadcrumbs" aria-label="Breadcrumb">
-    {{ range $index, $item := $crumbs }}
+    {{ range $index, $item := .Params.breadcrumbs }}
       {{ if gt $index 0 }}<span>/</span>{{ end }}
       {{ if $item.url }}
         <a href="{{ $item.url }}">{{ $item.name }}</a>

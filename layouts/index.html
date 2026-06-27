@@ -1,72 +1,285 @@
 {{ define "main" }}
+<!-- Google Fonts: Playfair Display for Luxury, Inter for Modernity -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
 <style>
 :root {
-  --bg: #0a0a0a;
-  --bg-deep: #050505;
-  --bg-panel: rgba(25, 25, 25, 0.6);
-  --bg-panel-strong: rgba(15, 15, 15, 0.8);
-  --bg-elevated: rgba(35, 35, 35, 0.7);
-  --surface: rgba(30, 30, 30, 0.5);
-  --surface-strong: rgba(40, 40, 40, 0.7);
-  --surface-soft: rgba(50, 50, 50, 0.4);
-  --text: #d1d1d1;
+  --bg: #050505;
+  --bg-deep: #020202;
+  --bg-panel: rgba(20, 20, 20, 0.7);
+  --bg-panel-strong: rgba(10, 10, 10, 0.8);
+  --bg-elevated: rgba(30, 30, 30, 0.6);
+  --surface: rgba(20, 20, 20, 0.4);
+  --surface-strong: rgba(30, 30, 30, 0.6);
+  --surface-soft: rgba(40, 40, 40, 0.3);
+  --text: #d4d4d4;
   --text-strong: #ffffff;
-  --muted: #888888;
-  --muted-strong: #b0b0b0;
-  --line: rgba(212, 175, 55, 0.1);
-  --line-strong: rgba(212, 175, 55, 0.2);
+  --muted: #707070;
+  --muted-strong: #a0a0a0;
+  --line: rgba(212, 175, 55, 0.15);
+  --line-strong: rgba(212, 175, 55, 0.3);
   --brand: #D4AF37;
   --brand-strong: #f1d592;
   --brand-soft: rgba(212, 175, 55, 0.05);
   --accent: #c5a028;
-  --accent-deep: #121212;
-  --shadow-soft: 0 15px 40px rgba(0, 0, 0, 0.6);
-  --shadow-strong: 0 30px 80px rgba(0, 0, 0, 0.8);
-  --radius: 1.5rem;
-  --radius-xl: 3rem;
+  --accent-deep: #0a0a0a;
+  --shadow-soft: 0 20px 60px rgba(0, 0, 0, 0.8);
+  --shadow-strong: 0 40px 100px rgba(0, 0, 0, 0.9);
+  --radius: 0.5rem;
+  --radius-xl: 1rem;
   --max: 75rem;
 }
+
 body {
   margin: 0;
   color: var(--text);
   font-family: 'Inter', sans-serif !important;
   line-height: 1.6;
-  background: #0a0a0a !important;
+  background: var(--bg) !important;
 }
-.site-header__inner, .hero__panel, .section__inner, .card {
-  background: var(--bg-panel) !important;
-  backdrop-filter: blur(20px) !important;
-  border: 1px solid var(--line) !important;
-  border-radius: var(--radius) !important;
-  color: var(--text) !important;
-}
-h1, h2, h3, .brand {
-  font-family: 'Inter', sans-serif !important;
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif !important;
   color: var(--text-strong) !important;
+  font-weight: 700 !important;
+  margin: 0;
+  line-height: 1.1;
 }
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem) !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.1 !important;
+}
+h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem) !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.site-header__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2.5rem;
+  border-radius: 999px;
+  background: rgba(10, 10, 10, 0.8) !important;
+  backdrop-filter: blur(25px) !important;
+  border: 1px solid var(--line) !important;
+}
+
+.brand {
+  font-family: 'Playfair Display', serif !important;
+  color: var(--text-strong) !important;
+  font-size: 1.3rem !important;
+  letter-spacing: 0.2em !important;
+}
+
+.nav a {
+  color: var(--muted) !important;
+  font-size: 0.75rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+}
+
+.nav a:hover {
+  color: var(--brand) !important;
+}
+
+.hero {
+  display: grid;
+  gap: 2rem;
+  padding-block: 2rem;
+  text-align: center;
+}
+
+.hero__panel {
+  position: relative;
+  padding: 2rem 2rem;
+  border-radius: var(--radius-xl);
+  background: var(--bg-panel) !important;
+  backdrop-filter: blur(15px) !important;
+  border: 1px solid var(--line) !important;
+}
+
 .eyebrow {
-  color: var(--brand) !important;
-  border-color: var(--line) !important;
-  background: var(--brand-soft) !important;
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
+
+.hero p, .section p {
+  max-width: 65ch;
+  margin-inline: auto;
+  color: var(--muted);
+  font-size: 1.2rem;
+  margin-bottom: 3.5rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .button {
-  border-color: var(--brand) !important;
-  color: var(--brand) !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.5rem;
+  padding: 1rem 2.5rem;
+  border: 1px solid var(--brand) !important;
+  border-radius: 999px !important;
   background: transparent !important;
+  color: var(--brand) !important;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.4s ease;
 }
+
 .button:hover {
   background: var(--brand) !important;
   color: #000 !important;
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.4) !important;
 }
+
+.button--secondary {
+  border-color: var(--line-strong) !important;
+  color: var(--text) !important;
+}
+
+.main {
+  padding-block: 2rem !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+.section__inner {
+  padding: 0;
+  text-align: center;
+}
+
 .card-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
-  gap: 2rem !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.card {
+  padding: 3rem;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(145deg, rgba(30, 30, 30, 0.4), rgba(15, 15, 15, 0.6)) !important;
+  border: 1px solid var(--line) !important;
+  transition: all 0.4s ease;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: var(--brand) !important;
+  box-shadow: var(--shadow-strong) !important;
+}
+
+.card strong {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem;
+  display: block;
+  color: var(--text-strong);
+}
+
+.card p {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.card-footer, .card-meta {
+  font-size: 0.8rem;
+  color: var(--brand);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 3rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item strong {
+  display: block;
+  font-size: 2.5rem;
+  color: var(--brand);
+  font-family: 'Playfair Display', serif !important;
+}
+
+.stat-item span {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+
+.site-footer {
+  margin-top: 10rem;
+  padding-block: 4rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-links a {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.footer-links a:hover {
+  color: var(--brand);
+}
+
+.footer-copy {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 </style>
   {{ $events := where site.RegularPages "Params.page_type" "event" }}
   {{ $upcoming := where $events "Params.event.start_date" "ge" now }}
-  {{ partial "breadcrumbs.html" . }}
+  {{ if not .IsHome }}
+    {{ partial "breadcrumbs.html" . }}
+  {{ end }}
 
   <!-- HERO SECTION -->
   <section class="hero">
@@ -176,7 +389,11 @@ h1, h2, h3, .brand {
                   <p>{{ .Params.description_short }}</p>
                   <span class="card-meta">{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
                   <div class="actions">
-                    {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button button--small" "text" "Secure Access") }}
+                    {{ $url := .RelPermalink }}
+                    {{ if .Params.offers }}
+                      {{ $url = .Params.offers.ticket_url | default .RelPermalink }}
+                    {{ end }}
+                    {{ partial "link.html" (dict "url" $url "class" "button button--small" "text" "Secure Access") }}
                   </div>
                 </div>
               </article>

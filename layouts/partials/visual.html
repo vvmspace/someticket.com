@@ -24,7 +24,6 @@
       {{ if eq $variant "hero" }}fetchpriority="high"{{ end }}>
     <figcaption class="visual__caption">
       <span>{{ $eyebrow }}</span>
-      <strong>{{ $page.Title }}</strong>
     </figcaption>
   </figure>
 {{ else }}
@@ -32,7 +31,6 @@
     <div class="visual__glow"></div>
     <div class="visual__placeholder-copy">
       <span>{{ $eyebrow }}</span>
-      <strong>{{ $page.Title }}</strong>
       <em>{{ $page.Params.description_short | default "Event details and buying options in one place." }}</em>
     </div>
   </div>
