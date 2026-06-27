@@ -132,13 +132,9 @@ content_blocks:
 ---
 ## Armenia vs Kazakhstan Tickets in Yerevan: Buyer-Intent Guide for June 2026
 
-If you are searching for **Armenia vs Kazakhstan tickets Yerevan**, **buy Armenia Kazakhstan tickets June 6 2026**, **Republican Stadium football tickets**, **Armenia home match tickets**, or **best seats Armenia vs Kazakhstan**, this page is built for users who are actively preparing to buy.
-
 The fixture is listed for **Saturday, June 6, 2026** at **Republican Stadium** in Yerevan, Armenia. The kickoff time is currently marked as **to be confirmed** on indexed fixture routes, so check final match timing before checkout.
 
 ## Why This Match Is Not a Budget-Only Spot
-
-Search intent like **cheap Armenia vs Kazakhstan tickets**, **Armenia Kazakhstan resale tickets**, and **Yerevan football tickets June 2026** usually comes from buyers comparing value moments before payment.
 
 International qualification fixtures generally price above low-stakes friendlies, especially in central and lower sectors. Buyers looking for higher-demand sections should expect less flexibility closer to match day.
 
@@ -152,17 +148,6 @@ International qualification fixtures generally price above low-stakes friendlies
 
 This sequence helps reduce mistakes when listings and availability move quickly.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for purchase-intent searches such as:
-
-- **Armenia vs Kazakhstan tickets June 6 2026**
-- **Armenia Kazakhstan tickets Yerevan**
-- **Republican Stadium Yerevan football tickets**
-- **buy Armenia national team tickets online**
-- **Kazakhstan national team away tickets Armenia**
-
-These query patterns usually come from users close to checkout.
 
 ## Final Pre-Checkout Checklist
 

@@ -128,8 +128,6 @@ content_blocks:
 ---
 ## Sunday Marina Grandstands Miami Grand Prix 2026 Tickets: Buyer SEO Guide
 
-If you are searching for **Sunday Marina Grandstands Miami Grand Prix tickets**, **Miami Grand Prix 2026 Sunday tickets**, **Ticketmaster Miami Grand Prix Marina Grandstands**, **buy Miami Grand Prix tickets online**, **Miami Grand Prix May 3 2026 tickets**, or **Miami International Autodrome Sunday grandstand tickets**, this page is built for purchase-intent traffic.
-
 The verified event is **Sunday - Marina Grandstands - 2026 Miami Grand Prix** at **Miami International Autodrome** in Miami Gardens, Florida on **Sunday, May 3, 2026 at 3:30 PM**.
 
 The current date is **March 13, 2026**, so this race-day listing is more than one month away.

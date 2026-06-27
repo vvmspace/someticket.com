@@ -119,8 +119,6 @@ content_blocks:
 ---
 ## Austin FC at Los Angeles FC Tickets in Los Angeles: Buyer-Intent Guide for October 2026
 
-If you are searching for **Austin FC at Los Angeles FC tickets**, **Los Angeles FC vs Austin FC tickets Los Angeles**, **buy LAFC Austin FC tickets October 14 2026**, **StubHub LAFC tickets**, or **cheap BMO Stadium soccer tickets**, this page is built for buyers who are ready to compare seats and purchase.
-
 This MLS match is scheduled for **Wednesday, October 14, 2026 at 7:30 PM** at **BMO Stadium** in Los Angeles, California.
 
 ## How to Buy Austin FC at Los Angeles FC Tickets Faster
@@ -144,17 +142,6 @@ If you are searching **best seats for LAFC at BMO Stadium**, **BMO Stadium lower
 
 If your preferred section has limited inventory, earlier checkout usually means more seat options.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for high-intent phrases such as:
-
-- **Austin FC at Los Angeles FC tickets October 14 2026**
-- **LAFC vs Austin FC tickets Los Angeles**
-- **BMO Stadium soccer tickets**
-- **buy LAFC tickets online**
-- **StubHub Austin FC at LAFC tickets**
-
-These queries typically indicate active purchase intent.
 
 ## Final Pre-Checkout Checklist
 

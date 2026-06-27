@@ -116,8 +116,6 @@ content_blocks:
 ---
 ## Katy Perry Tickets in Inglewood: Buyer Guide for October 4, 2026
 
-If you are searching for **Katy Perry tickets Inglewood**, **Katy Perry Kia Forum tickets**, **buy Katy Perry tickets October 4 2026**, **StubHub Katy Perry tickets**, or **cheap Katy Perry tickets near me**, this page is built for users already in buying mode.
-
 The event is scheduled for **Sunday, October 4, 2026 at 8:00 PM** at **Kia Forum** in Inglewood, California.
 
 ## Best Way to Buy Katy Perry Tickets with Less Checkout Risk

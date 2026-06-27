@@ -116,8 +116,6 @@ content_blocks:
 ---
 ## Jack Johnson Tickets in Los Angeles: Buyer-Intent Guide for October 2026
 
-If you are searching for **Jack Johnson tickets Los Angeles**, **Jack Johnson Hollywood Bowl tickets**, **buy Jack Johnson tickets October 10 2026**, **StubHub Jack Johnson tickets**, or **cheap Jack Johnson tickets near me**, this page is built for fans who are ready to compare seats and buy.
-
 This concert is scheduled for **Saturday, October 10, 2026 at 7:30 PM** at **Hollywood Bowl** in Los Angeles, California.
 
 ## How to Buy Jack Johnson Tickets Faster
@@ -141,17 +139,6 @@ If you are searching **best seats for Jack Johnson Hollywood Bowl**, **Jack John
 
 If your target section is limited, earlier checkout usually gives more options.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for high-intent phrases such as:
-
-- **Jack Johnson tickets October 10 2026**
-- **Jack Johnson tickets Hollywood Bowl**
-- **Jack Johnson Los Angeles tickets**
-- **buy Jack Johnson tickets online**
-- **StubHub Jack Johnson Hollywood Bowl**
-
-These queries typically indicate active ticket-buying intent.
 
 ## Final Pre-Checkout Checklist
 

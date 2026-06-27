@@ -115,8 +115,6 @@ content_blocks:
 ---
 ## P!NK Tickets in San Diego: Buyer-Intent Guide for May 2026
 
-If you are searching for **P!NK tickets San Diego**, **Curebound Concert for Cures tickets**, **Petco Park concert tickets May 15 2026**, **Ticketmaster P!NK tickets**, or **buy P!NK tickets now**, this page is designed for buyers who are close to checkout.
-
 The event is scheduled for **Friday, May 15, 2026 at 7:00 PM** at **Petco Park** in San Diego, California.
 
 ## How to Buy P!NK Tickets Faster

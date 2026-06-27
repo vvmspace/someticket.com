@@ -106,8 +106,6 @@ content_blocks:
 ---
 ## Eagles Tickets in Atlanta: Buyer-Intent Guide for Fast Checkout
 
-If you are searching for **Eagles tickets Atlanta**, **Eagles State Farm Arena tickets**, **buy Eagles tickets May 5 2026**, **Ticketmaster Eagles tickets Atlanta**, or **Eagles The Long Goodbye Act III tickets**, this page is built for buyers who are close to checkout.
-
 The event listing is for **Tuesday, May 5, 2026 at 7:30 PM** at **State Farm Arena** in Atlanta, Georgia.
 
 ## How to Buy Eagles Tickets Faster

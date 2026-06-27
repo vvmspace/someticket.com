@@ -113,8 +113,6 @@ content_blocks:
 ---
 ## Eagles Tickets in Nashville: Search-Intent Guide for Buyers Ready to Checkout
 
-If you are searching for **Eagles tickets Nashville**, **Eagles FirstBank Stadium tickets**, **Ticketmaster Eagles tickets**, **buy Eagles tickets May 9 2026**, or **Eagles The Long Goodbye Act III tickets**, this page is designed for high-intent buyers comparing listings before checkout.
-
 This event is scheduled for **Saturday, May 9, 2026 at 7:30 PM** at **FirstBank Stadium** in Nashville, Tennessee.
 
 ## How to Buy Eagles Tickets Faster on Ticketmaster

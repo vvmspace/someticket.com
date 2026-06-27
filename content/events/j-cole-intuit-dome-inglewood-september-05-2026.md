@@ -115,8 +115,6 @@ content_blocks:
 ---
 ## J. Cole Tickets in Inglewood: Buyer-Intent Guide for September 2026
 
-If you are searching for **J. Cole tickets Inglewood**, **J. Cole Intuit Dome tickets**, **buy J. Cole tickets September 5 2026**, **Ticketmaster J. Cole tickets**, or **last minute J. Cole tickets Los Angeles area**, this page is for buyers who are ready to compare seats and check out.
-
 The concert is scheduled for **Saturday, September 5, 2026 at 8:00 PM** at **Intuit Dome** in Inglewood, California.
 
 ## How to Buy J. Cole Tickets Faster
@@ -140,17 +138,6 @@ If you are searching **best seats for J. Cole Intuit Dome**, **J. Cole floor sea
 
 If you want center sections or specific rows, earlier checkout usually gives more options.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for high-intent ticket searches such as:
-
-- **J. Cole tickets September 5 2026**
-- **J. Cole tickets Intuit Dome**
-- **J. Cole Inglewood tickets**
-- **J. Cole Ticketmaster Inglewood**
-- **cheap J. Cole tickets Los Angeles**
-
-These query patterns usually indicate active buying intent.
 
 ## Pre-Checkout Checklist
 

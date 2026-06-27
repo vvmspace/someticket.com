@@ -115,6 +115,4 @@ content_blocks:
   related_pages: true
   faq: true
 ---
-Use this page to start from a city-first route for Yerevan events, then narrow by venue, performer, or category.
-
 If you are ready to buy now, open the featured event and compare full checkout totals before payment.

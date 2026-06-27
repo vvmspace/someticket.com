@@ -126,8 +126,6 @@ content_blocks:
 ---
 ## Armenia vs Montenegro Tickets in Yerevan: UEFA Nations League Buyer Guide
 
-If you are searching for **Armenia vs Montenegro tickets Yerevan**, **buy Armenia Montenegro tickets September 2026**, **UEFA Nations League Yerevan tickets**, **Armenia national team home tickets**, or **last minute Armenia vs Montenegro tickets**, this page is built for active buyers.
-
 The fixture is listed for **Thursday, September 24, 2026 at 8:00 PM** in **Yerevan**, with the exact stadium still marked as **TBA** on the source route.
 
 ## Why This Match Can Be Expensive
@@ -146,17 +144,6 @@ International matches often tighten quickly around center-view and lower section
 
 This flow helps reduce mistakes when listings update in real time.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for high-intent search patterns, including:
-
-- **Armenia vs Montenegro tickets 2026**
-- **Armenia Montenegro tickets Yerevan**
-- **UEFA Nations League tickets Armenia home match**
-- **Montenegro national team away tickets Armenia**
-- **buy Armenia vs Montenegro tickets online**
-
-These query patterns typically come from users comparing live inventory and preparing to buy.
 
 ## Pre-Checkout Checklist
 

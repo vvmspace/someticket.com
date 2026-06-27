@@ -106,8 +106,6 @@ content_blocks:
 ---
 ## Andrea Bocelli Tickets in Los Angeles: High-Intent Buying Guide
 
-If you are searching for **Andrea Bocelli tickets Los Angeles**, **Andrea Bocelli Hollywood Bowl tickets**, **buy Andrea Bocelli tickets September 15 2026**, **StubHub Andrea Bocelli tickets**, or **best price Andrea Bocelli tickets**, this page is built for buyers close to checkout.
-
 This concert is scheduled for **Tuesday, September 15, 2026 at 8:00 PM** at **Hollywood Bowl** in Los Angeles, California.
 
 ## How to Buy Andrea Bocelli Tickets Faster
@@ -131,17 +129,6 @@ If you are searching **best seats for Andrea Bocelli Hollywood Bowl**, **Andrea 
 
 If section choice is important, earlier checkout usually gives more options.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for buyer-intent phrases such as:
-
-- **Andrea Bocelli tickets September 15 2026**
-- **Andrea Bocelli tickets Hollywood Bowl**
-- **Andrea Bocelli Los Angeles tickets**
-- **buy Andrea Bocelli tickets online**
-- **cheap Andrea Bocelli tickets Los Angeles**
-
-These queries typically come from users ready to compare offers and buy.
 
 ## Pre-Checkout Checklist
 

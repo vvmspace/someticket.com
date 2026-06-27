@@ -119,8 +119,6 @@ content_blocks:
 ---
 ## YVES Tickets in New York: Buyer-Intent Guide for May 20, 2026
 
-If you are searching for **YVES tickets New York**, **YVES TOUR 2026 tickets**, **Palladium Times Square YVES tickets**, **buy YVES tickets May 20 2026**, or **Ticketmaster YVES tickets NYC**, this page is written for checkout-ready buyers.
-
 This show is scheduled for **Wednesday, May 20, 2026 at 8:00 PM** at **Palladium Times Square** in New York.
 
 ## How to Buy YVES TOUR 2026 Tickets Faster
@@ -144,17 +142,6 @@ If you are searching **best seats for YVES concert**, **YVES floor tickets New Y
 
 If section choice matters to you, earlier purchase is usually safer.
 
-## Transactional Keywords This Page Targets
-
-This page focuses on buyer-intent searches such as:
-
-- **YVES tickets May 20 2026**
-- **YVES tickets New York City**
-- **YVES Palladium Times Square tickets**
-- **Ticketmaster YVES event tickets**
-- **buy YVES TOUR 2026 tickets online**
-
-These keyword patterns usually indicate active purchase intent.
 
 ## Quick Pre-Checkout Checklist
 

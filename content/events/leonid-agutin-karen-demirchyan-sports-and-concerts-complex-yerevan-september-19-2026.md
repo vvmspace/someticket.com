@@ -122,8 +122,6 @@ content_blocks:
 ---
 ## Leonid Agutin Tickets in Yerevan: High-Intent Buying Guide for September 19, 2026
 
-If you are searching for **Leonid Agutin tickets Yerevan**, **buy Leonid Agutin tickets September 19 2026**, **Karen Demirchyan Sports and Concerts Complex tickets**, **Leonid Agutin Armenia tickets**, or **best seats Leonid Agutin Yerevan**, this page is built for buyers close to checkout.
-
 The verified listing is **Leonid Agutin** at **Karen Demirchyan Sports and Concerts Complex** in Yerevan on **Saturday, September 19, 2026 at 8:00 PM**.
 
 Current date reference: **April 12, 2026**. This event is more than one month away, so buyers still have time to compare sections and final totals.

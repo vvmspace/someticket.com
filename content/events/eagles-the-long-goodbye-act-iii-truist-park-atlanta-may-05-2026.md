@@ -115,8 +115,6 @@ content_blocks:
 ---
 ## Eagles Tickets in Atlanta at Truist Park: Search-Intent Guide for Buyers
 
-If you are searching for **Eagles tickets Atlanta**, **Eagles Truist Park tickets**, **Ticketmaster Eagles tickets**, **buy Eagles tickets May 5 2026**, or **Eagles The Long Goodbye Act III tickets**, this page is designed for high-intent buyers who are close to checkout.
-
 This event is scheduled for **Tuesday, May 5, 2026 at 7:00 PM** at **Truist Park** in Atlanta, Georgia.
 
 ## How to Buy Eagles Tickets Faster on Ticketmaster

@@ -118,8 +118,6 @@ content_blocks:
 ---
 ## My Chemical Romance Tickets in Los Angeles: Buyer-Intent Guide for October 2026
 
-If you are searching for **My Chemical Romance tickets Los Angeles**, **My Chemical Romance Hollywood Bowl tickets**, **buy My Chemical Romance tickets October 24 2026**, **StubHub My Chemical Romance tickets**, or **cheap My Chemical Romance tickets near me**, this page is built for fans who are ready to compare seats and buy.
-
 This concert is scheduled for **Saturday, October 24, 2026 at 8:00 PM** at **Hollywood Bowl** in Los Angeles, California.
 
 ## How to Buy My Chemical Romance Tickets Faster
@@ -143,17 +141,6 @@ If you are searching **best seats for My Chemical Romance Hollywood Bowl**, **My
 
 If your target section is limited, earlier checkout usually gives more options.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for high-intent phrases such as:
-
-- **My Chemical Romance tickets October 24 2026**
-- **My Chemical Romance tickets Hollywood Bowl**
-- **My Chemical Romance Los Angeles tickets**
-- **buy My Chemical Romance tickets online**
-- **StubHub My Chemical Romance Hollywood Bowl**
-
-These queries typically indicate active ticket-buying intent.
 
 ## Final Pre-Checkout Checklist
 

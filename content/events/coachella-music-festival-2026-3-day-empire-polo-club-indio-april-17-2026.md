@@ -106,8 +106,6 @@ content_blocks:
 ---
 ## Coachella 2026 Tickets: Buyer-Intent Guide for Weekend 2 (April 17-19)
 
-If you are searching for **Coachella 2026 tickets**, **Coachella Weekend 2 tickets**, **buy Coachella 3 day pass**, **Ticketmaster Coachella passes**, or **cheap Coachella tickets April 2026**, this page is built for people who are ready to compare live listings and buy.
-
 The listed Ticketmaster event is **Coachella Music Festival 2026 3-Day Pass**, scheduled for **Friday, April 17 through Sunday, April 19, 2026** at **Empire Polo Club** in Indio, California.
 
 Because today is **March 13, 2026**, this event is more than one month away.

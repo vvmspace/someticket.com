@@ -118,8 +118,6 @@ content_blocks:
 ---
 ## Ariana Grande Tickets in Los Angeles: Buyer-Intent Guide for June 13, 2026
 
-If you are searching for **Ariana Grande tickets Los Angeles**, **Ariana Grande Crypto.com Arena tickets**, **buy Ariana Grande tickets June 13 2026**, **StubHub Ariana Grande tickets**, **Ariana Grande floor seats price**, or **best seats for Ariana Grande in LA**, this page is designed for buyers who are already close to checkout.
-
 The concert is scheduled for **Saturday, June 13, 2026 at 7:30 PM** at **Crypto.com Arena** in Los Angeles, California.
 
 ## Why This Event Sits in a Premium Price Tier

@@ -115,8 +115,6 @@ content_blocks:
 ---
 ## Bruno Mars Tickets in Inglewood: Buyer-Intent Guide for Faster Checkout
 
-If you are searching for **Bruno Mars tickets Inglewood**, **Bruno Mars Intuit Dome tickets**, **Ticketmaster Bruno Mars tickets**, **buy Bruno Mars tickets September 19 2026**, or **Bruno Mars The Romantic Tour tickets**, this page is built for people who are ready to buy.
-
 This event is scheduled for **Saturday, September 19, 2026 at 8:00 PM** at **Intuit Dome** in Inglewood, California.
 
 ## How to Buy Bruno Mars Tickets Quickly
@@ -140,17 +138,6 @@ If you are searching **best seats for Bruno Mars Intuit Dome**, **Bruno Mars flo
 
 If a specific section matters to you, buying earlier usually gives better options.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for high-intent searches such as:
-
-- **Bruno Mars tickets September 19 2026**
-- **Bruno Mars tickets Intuit Dome**
-- **Bruno Mars Inglewood tickets**
-- **Bruno Mars Ticketmaster Inglewood**
-- **cheap Bruno Mars tickets California**
-
-These terms usually reflect active purchase intent.
 
 ## Final Pre-Checkout Checklist
 

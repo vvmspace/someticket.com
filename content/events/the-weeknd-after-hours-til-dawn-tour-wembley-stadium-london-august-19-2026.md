@@ -124,8 +124,6 @@ content_blocks:
 ---
 ## The Weeknd Tickets in London: Wembley Buying Guide for August 19, 2026
 
-If you are searching for **The Weeknd tickets London**, **The Weeknd Wembley tickets**, **buy The Weeknd tickets August 19 2026**, **StubHub The Weeknd London**, **Wembley Stadium The Weeknd tickets**, or **best seats for The Weeknd Wembley**, this page is written for buyers who are close to checkout.
-
 The verified listing is **The Weeknd: After Hours Til Dawn Tour** at **Wembley Stadium, London** on **Wednesday, August 19, 2026 at 7:00 PM**. The current date is **April 23, 2026**, so this event is well over one month away.
 
 ## High-Intent Search Queries This Page Targets

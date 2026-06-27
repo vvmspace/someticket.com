@@ -138,8 +138,6 @@ content_blocks:
 ---
 ## Armenia vs Cyprus Tickets in Yerevan: High-Intent Buyer Guide for November 2026
 
-If you are searching for **Armenia vs Cyprus tickets Yerevan**, **buy Armenia Cyprus tickets November 12 2026**, **UEFA Nations League Yerevan tickets**, **Armenia home match tickets**, or **best seats Armenia vs Cyprus**, this page is built for buyers close to checkout.
-
 The verified ticket route is the **Armenia vs Cyprus** event page on SeatPick with StubHub-linked inventory. The same source set also confirms the fixture as a home Armenia date in **Yerevan** on **Thursday, November 12, 2026 at 9:00 PM**, while the final stadium is still marked **TBA**.
 
 ## Why This Is Not a Budget Match
@@ -158,17 +156,6 @@ Current competition-level market snapshots for UEFA Nations League show average 
 
 This workflow helps reduce errors when inventory and prices update quickly.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for purchase-intent queries, including:
-
-- **Armenia vs Cyprus tickets 2026**
-- **Armenia Cyprus tickets Yerevan**
-- **buy Armenia vs Cyprus tickets online**
-- **UEFA Nations League Armenia home tickets**
-- **Cyprus national team away tickets Armenia**
-
-These query patterns usually come from users comparing live ticket inventory and preparing to buy.
 
 ## Final Pre-Checkout Checklist
 

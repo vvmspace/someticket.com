@@ -123,8 +123,6 @@ content_blocks:
 ---
 ## Armenia vs Gibraltar/Latvia Tickets in Yerevan: Nations League Buyer Guide (September 2026)
 
-If you are searching for **Armenia vs Gibraltar Latvia tickets Yerevan**, **buy Armenia tickets September 24 2026**, **Republican Stadium football tickets**, **Nations League Armenia home match tickets**, or **best seats Armenia Yerevan**, this page is written for people close to checkout.
-
 The source page confirms this fixture for **Thursday, September 24, 2026 at 7:00 PM** at **Vazgen Sargsyan Republican Stadium** in Yerevan, with active resale inventory across multiple categories.
 
 ## Why This Match Is Not a Pure Budget Buy

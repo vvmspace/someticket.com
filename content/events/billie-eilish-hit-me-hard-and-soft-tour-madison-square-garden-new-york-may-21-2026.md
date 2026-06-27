@@ -108,8 +108,6 @@ content_blocks:
 ---
 ## Billie Eilish Tickets in New York: Buyer-Intent Guide for May 2026
 
-If you are searching for **Billie Eilish tickets New York**, **Billie Eilish Madison Square Garden tickets**, **buy Billie Eilish tickets May 2026**, **Ticketmaster Billie Eilish tickets**, or **last minute Billie Eilish tickets**, this page is designed for people who are ready to compare inventory and buy.
-
 The listed event date is **Thursday, May 21, 2026 at 8:00 PM** at **Madison Square Garden** in New York, NY.
 
 ## How to Buy Billie Eilish Tickets Faster

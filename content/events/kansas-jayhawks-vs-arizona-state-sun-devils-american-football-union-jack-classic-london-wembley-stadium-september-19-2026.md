@@ -137,8 +137,6 @@ content_blocks:
 ---
 ## Kansas vs Arizona State Tickets London: Buyer Guide for the 2026 Union Jack Classic
 
-If you are searching for **Kansas vs Arizona State tickets**, **Union Jack Classic tickets London**, **Kansas Jayhawks vs Arizona State Sun Devils Wembley tickets**, **college football London tickets September 19 2026**, **buy Kansas Arizona State tickets online**, or **StubHub Kansas Arizona State London**, this page is built for fans who are already close to purchase.
-
 The verified live listing on this page matches **Kansas Jayhawks vs Arizona State Sun Devils American Football - Union Jack Classic London** at **Wembley Stadium** on **Saturday, September 19, 2026 at 5:00 PM**. The current date is **April 25, 2026**, so this event is more than one month away.
 
 ## Why This Event Has Strong Search Value
@@ -171,9 +169,7 @@ These queries usually come from fans comparing active listings, section value, a
 
 ## Why This Is Not a Cheap Buy
 
-This is not a casual low-budget college football ticket. The live resale floor is already well above impulse-buy territory, and the premium side of the market is even stronger. If you are searching for **Kansas Arizona State premium tickets**, **Wembley club seats Union Jack Classic**, or **how much are Union Jack Classic tickets**, you should expect a meaningful spread between entry seats and better sideline inventory.
-
-That makes prep work matter. Pick your acceptable price ceiling and your backup section before you open checkout. When inventory is limited, that simple step can be the difference between landing a workable seat and overpaying under pressure.
+This is not a casual low-budget college football ticket. The live resale floor is already well above impulse-buy territory, and the premium side of the market is even stronger. That makes prep work matter. Pick your acceptable price ceiling and your backup section before you open checkout. When inventory is limited, that simple step can be the difference between landing a workable seat and overpaying under pressure.
 
 ## Why the Event Matters Beyond One Matchup
 

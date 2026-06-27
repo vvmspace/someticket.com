@@ -126,8 +126,6 @@ content_blocks:
 ---
 ## Armenia vs Portugal Tickets in Yerevan: Buyer-Intent Guide for September 2026
 
-If you are searching for **Armenia vs Portugal tickets Yerevan**, **buy Armenia Portugal tickets September 6 2026**, **Republican Stadium tickets Yerevan**, **Portugal national team tickets Armenia away**, or **last minute Armenia vs Portugal tickets**, this page is built for active buyers.
-
 The match is listed for **Sunday, September 6, 2026 at 6:00 PM** at **Republican Stadium (Vazgen Sargsyan anvan Hanrapetakan Marzadasht)** in Yerevan, Armenia.
 
 ## How to Buy Armenia vs Portugal Tickets Faster
@@ -151,17 +149,6 @@ If you are searching **best seats Armenia vs Portugal**, **Republican Stadium se
 
 For specific rows or central views, earlier checkout usually gives more options.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for high-intent ticket searches such as:
-
-- **Armenia vs Portugal tickets September 6 2026**
-- **Armenia Portugal tickets Yerevan**
-- **Republican Stadium Yerevan football tickets**
-- **Portugal national team away tickets Armenia**
-- **buy Armenia vs Portugal tickets online**
-
-These keyword patterns commonly come from users who are comparing inventory and preparing to buy.
 
 ## Pre-Checkout Checklist
 

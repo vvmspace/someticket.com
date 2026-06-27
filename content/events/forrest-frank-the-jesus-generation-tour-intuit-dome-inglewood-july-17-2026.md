@@ -116,8 +116,6 @@ content_blocks:
 ---
 ## Forrest Frank Tickets in Inglewood: Buyer-Intent Guide for Faster Checkout
 
-If you are searching for **Forrest Frank tickets Inglewood**, **Forrest Frank Intuit Dome tickets**, **Forrest Frank July 17 2026 tickets**, **buy Forrest Frank tickets online**, or **Forrest Frank The Jesus Generation Tour tickets**, this page is built for people who are ready to buy.
-
 This show is scheduled for **Friday, July 17, 2026 at 7:00 PM** at **Intuit Dome** in Inglewood, California.
 
 ## How to Buy Forrest Frank Tickets Quickly
@@ -141,17 +139,6 @@ If you are searching **best seats for Forrest Frank Intuit Dome**, **Forrest Fra
 
 If you want a specific section, buying earlier typically gives better options.
 
-## Transactional Keywords This Page Targets
-
-This page is optimized for high-intent phrases such as:
-
-- **Forrest Frank tickets July 17 2026**
-- **Forrest Frank tickets Intuit Dome**
-- **Forrest Frank Inglewood tickets**
-- **buy Forrest Frank tickets online**
-- **cheap Forrest Frank tickets California**
-
-These search terms usually reflect active purchase intent.
 
 ## Final Pre-Checkout Checklist
 

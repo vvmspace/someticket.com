@@ -119,8 +119,6 @@ content_blocks:
 ---
 ## Madison Beer Tickets in New York: Buyer-Intent Guide for Fast Checkout
 
-If you are searching for **Madison Beer tickets New York**, **Madison Beer MSG tickets**, **Madison Beer The Locket Tour tickets**, **Ticketmaster Madison Beer tickets**, or **buy Madison Beer tickets July 13 2026**, this page is built for ticket buyers who are close to purchase.
-
 The event listing is for **Monday, July 13, 2026 at 7:30 PM** at **Madison Square Garden** in New York, NY.
 
 ## How to Buy Madison Beer Tickets Faster

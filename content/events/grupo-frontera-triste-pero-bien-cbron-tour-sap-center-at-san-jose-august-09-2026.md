@@ -129,8 +129,6 @@ content_blocks:
 ---
 ## Grupo Frontera Tickets in San Jose: Buyer Guide for August 9, 2026
 
-If you are searching for **Grupo Frontera tickets San Jose**, **Grupo Frontera SAP Center tickets**, **buy Grupo Frontera tickets August 9 2026**, **Ticketmaster Grupo Frontera San Jose**, **Grupo Frontera Triste Pero Bien C*bron Tour tickets**, or **best seats for Grupo Frontera SAP Center**, this page is written for buyers who are already close to checkout.
-
 The verified event on this page is **Grupo Frontera - Triste Pero Bien C*bron Tour** at **SAP Center at San Jose** in San Jose, California on **Sunday, August 9, 2026 at 8:00 PM**.
 
 Today is **April 2, 2026**, so this concert is more than one month away and still sits in a window where search demand can build around city, venue, and date-specific ticket terms.

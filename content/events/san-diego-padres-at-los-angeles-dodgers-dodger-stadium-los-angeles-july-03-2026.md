@@ -117,8 +117,6 @@ content_blocks:
 ---
 ## San Diego Padres at Los Angeles Dodgers Tickets: Buyer Guide for July 3, 2026
 
-If you are searching for **Padres at Dodgers tickets**, **Los Angeles Dodgers tickets July 3 2026**, **Dodger Stadium baseball tickets**, **buy Dodgers tickets online**, **StubHub Dodgers tickets Los Angeles**, or **Padres Dodgers lower level seats**, this page is written for buyers already comparing listings before checkout.
-
 This game is scheduled for **Friday, July 3, 2026 at 7:10 PM** at **Dodger Stadium** in Los Angeles, California.
 
 ## Why This Is a Premium, Not Cheap MLB Ticket

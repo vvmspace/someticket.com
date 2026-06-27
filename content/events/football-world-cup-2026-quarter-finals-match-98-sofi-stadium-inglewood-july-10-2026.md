@@ -118,8 +118,6 @@ content_blocks:
 ---
 ## World Cup Quarter-finals Match 98 Tickets in Inglewood: Buyer-Intent Guide for July 10, 2026
 
-If you are searching for **World Cup quarter-finals tickets SoFi Stadium**, **Match 98 tickets Inglewood**, **buy World Cup tickets July 10 2026**, **StubHub World Cup quarter-finals tickets**, or **premium World Cup tickets Los Angeles area**, this page is built for buyers comparing listings before checkout.
-
 The match is scheduled for **Friday, July 10, 2026 at 3:00 PM** at **SoFi Stadium** in Inglewood, California.
 
 ## Why This Is a Premium, Not Cheap Ticket Segment
