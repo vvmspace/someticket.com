@@ -53,48 +53,57 @@
   </section>
 
   <!-- THE DIAMOND COLLECTION: Curated Entry Points -->
-  <section class="section section--full">
+  <section class="section section--full section--diamond">
       <div class="section__inner section__inner--soft">
         <div class="section__header">
           <span class="eyebrow">Curated Access</span>
           <h2>The Diamond Collection</h2>
-          <p>Start your journey through the world's most iconic cultural and sporting hubs.</p>
+          <p>Entry points to the world's most prestigious cultural and sporting hubs.</p>
         </div>
         <div class="diamond-grid">
-          {{ partial "link.html" (dict "url" "/new-york/" "class" "diamond-card" "text" "New York City" "subtext" "The Global Capital of Spectacle") }}
-          {{ partial "link.html" (dict "url" "/madison-square-garden/" "class" "diamond-card" "text" "Madison Square Garden" "subtext" "The World's Most Famous Arena") }}
-          {{ partial "link.html" (dict "url" "/events/" "class" "diamond-card" "text" "Global Event List" "subtext" "Every Major Event in One View") }}
+          {{ partial "link.html" (dict "url" "/new-york/" "class" "diamond-card diamond-card--gold" "text" "New York City" "subtext" "The Global Capital of Spectacle") }}
+          {{ partial "link.html" (dict "url" "/madison-square-garden/" "class" "diamond-card diamond-card--obsidian" "text" "Madison Square Garden" "subtext" "The World's Most Famous Arena") }}
+          {{ partial "link.html" (dict "url" "/events/" "class" "diamond-card diamond-card--silver" "text" "Global Event List" "subtext" "The Complete Sovereign Inventory") }}
         </div>
       </div>
     </section>
 
     <div class="content-shell">
-      <!-- POPULAR STARTING POINTS: The Hub Mesh -->
-      <section class="section section--full">
+      <!-- CURATED DISCOVERY: Replacing the Hub Mesh wall of links -->
+      <section class="section section--full section--discovery">
         <div class="section__inner">
           <div class="section__header">
-            <span class="eyebrow">The Hub Mesh</span>
-            <h2>Explore Legendary Destinations</h2>
-            <p>Navigate through our network of venues and cities to find your next unforgettable experience.</p>
+            <span class="eyebrow">Sovereign Exploration</span>
+            <h2>Curated Destinations</h2>
+            <p>Explore our network of venues and cities through a lens of exclusivity.</p>
           </div>
-          <div class="card-grid">
-            {{ range where site.RegularPages "Params.page_type" "hub" }}
-              <article class="card card--premium">
-                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "hub_card_click" "label" .Title) }}
-                {{ partial "visual.html" (dict "page" . "variant" "card") }}
-                <div class="card-content">
-                  <strong>{{ .Title }}</strong>
-                  <p>{{ .Params.description_short }}</p>
-                  <span class="card-footer">{{ .Params.location.city | default (.Params.artist.name | default "Global Hub") }}</span>
-                </div>
-              </article>
-            {{ end }}
+          
+          <div class="discovery-container">
+            <!-- Featured Hubs: Only the Top 6 instead of everything -->
+            <div class="featured-hubs-grid">
+              {{ range first 6 (where site.RegularPages "Params.page_type" "hub") }}
+                <article class="hub-card-premium">
+                  {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Explore %s" .Title) "event" "hub_click" "label" .Title) }}
+                  {{ partial "visual.html" (dict "page" . "variant" "card") }}
+                  <div class="hub-card-content">
+                    <strong>{{ .Title }}</strong>
+                    <span class="hub-card-footer">{{ .Params.location.city | default (.Params.artist.name | default "Global Hub") }}</span>
+                  </div>
+                </article>
+              {{ end }}
+            </div>
+            
+            <!-- The "View All" Gateway -->
+            <div class="discovery-footer">
+              <p>Seeking a specific destination not listed here?</p>
+              {{ partial "link.html" (dict "url" "/events/" "class" "button button--outline" "text" "Explore Full Inventory") }}
+            </div>
           </div>
         </div>
       </section>
 
       <!-- FEATURED EVENTS: The Event Deck -->
-      <section class="section section--full">
+      <section class="section section--full section--events">
         <div class="section__inner section__inner--contrast">
           <div class="section__header">
             <span class="eyebrow">Sovereign Selection</span>
