@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{ $events := where site.RegularPages "Params.page_type" "event" }}
+  {{ $upcoming := where $events "Params.event.start_date" "ge" now }}
   {{ partial "breadcrumbs.html" . }}
 
   <!-- HERO SECTION: The Sovereign Entrance -->
@@ -21,7 +22,7 @@
 
     <div class="hero__panel hero__panel--contrast">
       <!-- THE SPOTLIGHT: The most prestigious event takes center stage -->
-      {{ range first 1 $events }}
+      {{ range first 1 $upcoming }}
         <div class="spotlight-container">
           {{ partial "visual.html" (dict "page" . "variant" "hero") }}
           <div class="spotlight-overlay">
@@ -111,7 +112,7 @@
             <p>A curated selection of the most anticipated events of the season.</p>
           </div>
           <div class="event-deck">
-            {{ range first 4 $events }}
+            {{ range first 4 $upcoming }}
               <article class="offer offer--premium">
                 {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "event_card_click" "label" .Title) }}
                 {{ partial "visual.html" (dict "page" . "variant" "card") }}
