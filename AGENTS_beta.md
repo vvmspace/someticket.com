@@ -263,8 +263,10 @@ Keep those three documentation surfaces aligned.
 - No build errors. Run a build check after every meaningful change.
 - No technical terms in visitor-facing page copy.
 - Navigation must be correct and understandable for users.
-- Do not use irrelevant promotional or search-oriented headers.
-- No visual bugs such as broken spacing, uneven widths, or misaligned sections.
+- All cards must be fully clickable (leading to the event page), while buttons lead to ticket ordering.
+- **Freshness Guard**: Only future events (not yet passed) must be displayed on the homepage and hub pages.
+- **Entity Pruning**: Venues, cities, and hubs without active future events must be hidden from these views.
+
 - All cards must be fully clickable as a single unit (stretched-link pattern).
 - If a card contains a primary CTA button, the button must have higher z-index and lead to a different target (e.g., ticket provider) than the card itself.
 - Button "Buy tickets" should open link.
