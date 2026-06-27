@@ -87,7 +87,7 @@
                   {{ partial "visual.html" (dict "page" . "variant" "card") }}
                   <div class="hub-card-content">
                     <strong>{{ .Title }}</strong>
-                    <span class="hub-card-footer">{{ .Params.location.city | default (.Params.artist.name | default "Global Hub") }}</span>
+                    <span class="hub-card-footer">{{ with .Params.location }}{{ .city }}{{ else }}{{ with .Params.artist }}{{ .name }}{{ else }}Global Hub{{ end }}{{ end }}</span>
                   </div>
                 </article>
               {{ end }}
