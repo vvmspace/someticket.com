@@ -3,8 +3,14 @@
 {{ $media := $page.Params.media }}
 {{ $hero := $media.hero }}
 {{ $card := $media.card }}
-{{ $image := cond (and (eq $variant "card") $card.src) $card $hero }}
-{{ $src := $image.src }}
+{{ $image := $hero }}
+{{ if and (eq $variant "card") (and $card (index $card "src")) }}
+  {{ $image = $card }}
+{{ end }}
+{{ $src := "" }}
+{{ if $image }}
+  {{ $src = $image.src }}
+{{ end }}
 {{ $alt := $image.alt | default $page.Title }}
 {{ $eyebrow := $page.Params.hero.eyebrow | default "Live events" }}
 
