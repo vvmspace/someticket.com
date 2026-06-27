@@ -1,29 +1,29 @@
 ---
-title: "New York Event Tickets"
+title: "New York City: The Global Stage for Elite Events"
 slug: "new-york"
 url: "/new-york/"
 page_type: "hub"
 entity_type: "city"
 layout_key: "hub"
 status: "published"
-description_short: "Browse concerts, shows, sports, and live event tickets in New York with featured venues, artists, and quick paths into popular picks."
+description_short: "Experience the electric energy of the world's cultural capital. From the neon lights of Broadway to the roar of the biggest stadiums, secure your access to New York's most prestigious events."
 hero:
-  eyebrow: "New York"
+  eyebrow: "The City That Never Sleeps"
 media:
   hero:
     src: "/images/new-york-night.svg"
-    alt: "Stylized night skyline representing New York event discovery"
+    alt: "The glittering skyline of New York City, representing a world of endless possibilities"
   card:
     src: "/images/new-york-night.svg"
     alt: "New York skyline illustration"
 seo:
-  title: "New York Event Tickets: Concerts, Venues, and Upcoming Live Events"
-  description: "Browse New York event tickets by venue, category, artist, and date."
+  title: "New York Event Tickets | Exclusive Access to the Big Apple's Top Events"
+  description: "Secure your place at New York's most legendary venues. From Madison Square Garden to Broadway's finest, discover curated tickets for the city's elite cultural and sporting events."
   canonical: "https://someticket.com/new-york/"
   image: "/images/og-default.svg"
 schema:
   type: "CollectionPage"
-  description: "City hub for New York event tickets, featured venues, categories, and live event discovery."
+  description: "The definitive guide to New York's elite event landscape, featuring premier venues, iconic artists, and a curated discovery flow."
 location:
   city: "New York"
   region: "Northeast"
@@ -37,32 +37,32 @@ relationships:
     - "madison-square-garden"
     - "palladium-times-square"
 featured_focus:
-  title: "Browse all New York events"
-  description: "Open the full event list for the latest dates, then come back here when you want a city-first route."
+  title: "Curated New York Highlights"
+  description: "Dive into the city's most sought-after dates. From stadium anthems to intimate gallery shows, find your next unforgettable experience."
   url: "/events/"
 key_facts:
-  - label: "Best for"
-    value: "Concerts, shows, and major venues"
-  - label: "Popular pick"
-    value: "Madison Square Garden dates"
+  - label: "Atmosphere"
+    value: "Electric, high-status, world-class"
+  - label: "Top Venue"
+    value: "Madison Square Garden"
   - label: "Region"
-    value: "Northeast"
+    value: "Northeast USA"
 related_pages:
   - label: "Madison Square Garden"
     url: "/madison-square-garden/"
   - label: "Palladium Times Square"
     url: "/palladium-times-square/"
-  - label: "All events"
+  - label: "All Global Events"
     url: "/events/"
 faq:
-  - question: "What can I find on the New York page?"
-    answer: "You can jump into current event pages, major venues, and featured dates across New York."
-  - question: "Where should I go if I want the full event list?"
-    answer: "Use the all events page for the full list, then come back here if you want a city-first route."
+  - question: "How can I secure the most exclusive seats in New York?"
+    answer: "Our platform specializes in high-demand inventory. By navigating through our curated city and venue hubs, you can identify the most prestigious sections and secure your access via our verified secondary market."
+  - question: "What makes New York events different?"
+    answer: "The scale. In New York, a concert is not just music; it is a cultural event. We provide the bridge to the most legendary stages in the city, ensuring your entry is as seamless as the experience itself."
 breadcrumbs:
-  - name: "Some Ticket"
+  - name: "SomeTicket"
     url: "/"
-  - name: "New York Event Tickets"
+  - name: "New York City Hub"
 content_blocks:
   hero: true
   key_facts: true
@@ -70,6 +70,6 @@ content_blocks:
   related_pages: true
   faq: true
 ---
-Use this page to start browsing events in New York, then narrow down by venue or specific event.
+New York is not merely a city; it is the global epicenter of ambition, art, and spectacle. To secure a ticket here is to claim a piece of the city's electric legacy.
 
-If you already know what you want, jump straight into the featured section or open one of the related pages below.
+From the historic corridors of the Metropolitan Opera to the thunderous energy of the Big Apple's sports arenas, we provide a sovereign path to the events that define the cultural zeitgeist. Whether you are seeking the roar of a sold-out stadium or the hushed exclusivity of a private gallery, your journey begins here. Explore the legendary venues, discover the artists who are shaping the future, and ensure your place among the elite.
