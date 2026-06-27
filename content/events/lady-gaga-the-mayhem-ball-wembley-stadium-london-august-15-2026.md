@@ -28,7 +28,6 @@ schema:
   event_status: "https://schema.org/EventScheduled"
   images:
     - "/images/lady-gaga-the-mayhem-ball-wembley-stadium-london-august-15-2026.jpg"
-}))
 event:
   start_date: "2026-08-15T19:30:00+01:00"
   end_date: "2026-08-15T22:30:00+01:00"
