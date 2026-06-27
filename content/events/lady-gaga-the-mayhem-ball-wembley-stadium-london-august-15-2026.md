@@ -85,7 +85,7 @@ key_facts:
     value: "Saturday, August 15, 2026"
   - label: "Start time"
     value: "7:30 PM"
-  - label, "Venue"
+  - label: "Venue"
     value: "Wembley Stadium, London"
   - label: "Artist"
     value: "Lady Gaga"
