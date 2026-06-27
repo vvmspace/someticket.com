@@ -27,9 +27,9 @@ relationships:
     - "wembley-stadium"
     - "the-o2"
 featured_focus:
-  title: "Robyn at The O2 Arena (Oct 25)"
-  description: "Experience the apex of avant-pop luxury in London. Secure your access to the definitive performance of 2026."
-  url: "/events/robyn-the-o2-london-october-25-2026/"
+  title: "Shalamar: The Gold Tour (Nov 18)"
+  description: "Celebrate 50 years of Soul & Disco excellence. Secure your premium access to this golden milestone at The O2."
+  url: "/events/shalamar-the-o2-london-november-18-2026/"
 key_facts:
   - label: "Best for"
     value: "Concerts and high-demand London dates"
