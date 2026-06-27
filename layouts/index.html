@@ -1,4 +1,132 @@
 {{ define "main" }}
-  <h1>Someticket Home</h1>
-  <p>Sovereign Access restored. Testing build stability.</p>
+  {{ $events := where site.RegularPages "Params.page_type" "event" }}
+  {{ partial "breadcrumbs.html" . }}
+
+  <!-- HERO SECTION: The Sovereign Entrance -->
+  <section class="hero hero--sovereign">
+    <div class="hero__panel">
+      <span class="eyebrow">{{ .Params.hero.eyebrow | default "The Zenith of Global Spectacle" }}</span>
+      <h1 class="page-title--home">{{ .Title }}</h1>
+      <p class="lede">{{ .Params.description_short }}</p>
+      <div class="signature-strip">
+        <span>Sovereign Access</span>
+        <span>Verified Inventory</span>
+        <span>Global Concierge</span>
+      </div>
+      <div class="actions">
+        {{ partial "link.html" (dict "url" (.Params.hero.primary_url | default "/events/") "class" "button button--gold" "event" "hero_cta_click" "label" "primary" "text" (.Params.hero.primary_label | default "Claim Your Place at the Zenith")) }}
+        {{ partial "link.html" (dict "url" (.Params.hero.secondary_url | default "/metlife-stadium/") "class" "button button--outline" "event" "hero_cta_click" "label" "secondary" "text" (.Params.hero.secondary_label | default "Discover Iconic Venues")) }}
+      </div>
+    </div>
+
+    <div class="hero__panel hero__panel--contrast">
+      <!-- THE SPOTLIGHT: The most prestigious event takes center stage -->
+      {{ range first 1 $events }}
+        <div class="spotlight-container">
+          {{ partial "visual.html" (dict "page" . "variant" "hero") }}
+          <div class="spotlight-overlay">
+            <span class="spotlight-label">The Spotlight Event</span>
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Params.description_short }}</p>
+            <div class="spotlight-actions">
+              {{ partial "link.html" (dict "url" .RelPermalink "class" "button button--small" "text" "Secure Access") }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
+      
+      <div class="stats-bar">
+        <div class="stat-item">
+          <strong>{{ len (where site.RegularPages "Params.page_type" "hub") }}</strong>
+          <span>Elite Hubs</span>
+        </div>
+        <div class="stat-item">
+          <strong>{{ len (where site.RegularPages "Params.page_type" "landing") }}</strong>
+          <span>City Guides</span>
+        </div>
+        <div class="stat-item">
+          <strong>{{ len (where site.RegularPages "Params.page_type" "event") }}</strong>
+          <span>Exclusive Events</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE DIAMOND COLLECTION: Curated Entry Points -->
+  <section class="section section--full section--diamond">
+      <div class="section__inner section__inner--soft">
+        <div class="section__header">
+          <span class="eyebrow">Curated Access</span>
+          <h2>The Diamond Collection</h2>
+          <p>Entry points to the world's most prestigious cultural and sporting hubs.</p>
+        </div>
+        <div class="diamond-grid">
+          {{ partial "link.html" (dict "url" "/new-york/" "class" "diamond-card diamond-card--gold" "text" "New York City" "subtext" "The Global Capital of Spectacle") }}
+          {{ partial "link.html" (dict "url" "/madison-square-garden/" "class" "diamond-card diamond-card--obsidian" "text" "Madison Square Garden" "subtext" "The World's Most Famous Arena") }}
+          {{ partial "link.html" (dict "url" "/events/" "class" "diamond-card diamond-card--silver" "text" "Global Event List" "subtext" "The Complete Sovereign Inventory") }}
+        </div>
+      </div>
+    </section>
+
+    <div class="content-shell">
+      <!-- CURATED DISCOVERY: Replacing the Hub Mesh wall of links -->
+      <section class="section section--full section--discovery">
+        <div class="section__inner">
+          <div class="section__header">
+            <span class="eyebrow">Sovereign Exploration</span>
+            <h2>Curated Destinations</h2>
+            <p>Explore our network of venues and cities through a lens of exclusivity.</p>
+          </div>
+          
+          <div class="discovery-container">
+            <!-- Featured Hubs: Only the Top 6 instead of everything -->
+            <div class="featured-hubs-grid">
+              {{ range first 6 (where site.RegularPages "Params.page_type" "hub") }}
+                <article class="hub-card-premium">
+                  {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Explore %s" .Title) "event" "hub_click" "label" .Title) }}
+                  {{ partial "visual.html" (dict "page" . "variant" "card") }}
+                  <div class="hub-card-content">
+                    <strong>{{ .Title }}</strong>
+                    <span class="hub-card-footer">{{ with .Params.location }}{{ .city }}{{ else }}{{ with .Params.artist }}{{ .name }}{{ else }}Global Hub{{ end }}{{ end }}</span>
+                  </div>
+                </article>
+              {{ end }}
+            </div>
+            
+            <!-- The "View All" Gateway -->
+            <div class="discovery-footer">
+              <p>Seeking a specific destination not listed here?</p>
+              {{ partial "link.html" (dict "url" "/events/" "class" "button button--outline" "text" "Explore Full Inventory") }}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED EVENTS: The Event Deck -->
+      <section class="section section--full section--events">
+        <div class="section__inner section__inner--contrast">
+          <div class="section__header">
+            <span class="eyebrow">Sovereign Selection</span>
+            <h2>Upcoming Masterpieces</h2>
+            <p>A curated selection of the most anticipated events of the season.</p>
+          </div>
+          <div class="event-deck">
+            {{ range first 4 $events }}
+              <article class="offer offer--premium">
+                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "event_card_click" "label" .Title) }}
+                {{ partial "visual.html" (dict "page" . "variant" "card") }}
+                <div class="offer-details">
+                  <strong>{{ .Title }}</strong>
+                  <p>{{ .Params.description_short }}</p>
+                  <span class="offer-meta">{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }} · {{ .Params.location.name }}</span>
+                  <div class="actions">
+                    {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button button--small" "event" "buy_ticket_click" "label" .Title "text" "Secure Access") }}
+                  </div>
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    </div>
 {{ end }}
