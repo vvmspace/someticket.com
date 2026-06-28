@@ -1,4 +1,5 @@
 ---
+start_date: "2026-10-15T20:00:00Z"
 title: "The Weeknd: Live at Madison Square Garden, New York"
 date: 2026-10-15T20:00:00-04:00
 page_type: event

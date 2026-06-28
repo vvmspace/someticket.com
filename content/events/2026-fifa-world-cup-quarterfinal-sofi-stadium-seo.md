@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-07-10T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "SoFi Stadium"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "2026-fifa-world-cup-quarter-final-sofi-stadium"
-  venue: "venue-tbd"
+  venue: "sofi-stadium"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

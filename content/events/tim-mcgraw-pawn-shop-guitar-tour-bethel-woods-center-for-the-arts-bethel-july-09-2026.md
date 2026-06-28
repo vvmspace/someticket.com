@@ -32,7 +32,7 @@ event:
   start_date: "2026-07-09T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Bethel Woods Center for the Arts"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "tim-mcgraw-pawn-shop-guitar-tour-bethel-woods-center-for-the-arts-bethel-july-09-2026"
-  venue: "venue-tbd"
+  venue: "bethel-woods-center"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

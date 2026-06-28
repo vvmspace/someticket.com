@@ -1,4 +1,5 @@
 ---
+start_date: "2026-10-11T20:00:00Z"
 title: "NFL London 2026: Philadelphia Eagles vs. Jacksonville Jaguars"
 date: 2026-10-11T14:00:00+01:00
 page_type: event

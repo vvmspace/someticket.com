@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-05-03T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Miami International Autodrome"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "formula-1-crypto-com-miami-grand-prix-2026-sunday-marina-grandstands-miami-international-autodrome-may-03-2026"
-  venue: "venue-tbd"
+  venue: "miami-international-autodrome"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

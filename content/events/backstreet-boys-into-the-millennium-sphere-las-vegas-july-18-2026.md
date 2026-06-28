@@ -32,7 +32,7 @@ event:
   start_date: "2026-07-18T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Millennium Sphere Las"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "backstreet-boys-into-the-millennium-sphere-las-vegas-july-18-2026"
-  venue: "venue-tbd"
+  venue: "millennium-sphere-las"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

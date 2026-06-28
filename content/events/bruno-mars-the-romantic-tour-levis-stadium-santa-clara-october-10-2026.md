@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-10-10T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Levi's Stadium"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026"
-  venue: "venue-tbd"
+  venue: "levis-stadium"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

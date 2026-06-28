@@ -1,4 +1,5 @@
 ---
+start_date: "2026-11-18T20:00:00Z"
 title: "Shalamar: The Gold Tour — A 50 Year Celebration at The O2 London"
 date: 2026-11-18T20:00:00+01:00
 page_type: event

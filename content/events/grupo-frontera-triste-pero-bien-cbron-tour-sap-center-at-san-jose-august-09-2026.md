@@ -32,7 +32,7 @@ event:
   start_date: "2026-08-09T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "SAP Center"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026"
-  venue: "venue-tbd"
+  venue: "sap-center"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

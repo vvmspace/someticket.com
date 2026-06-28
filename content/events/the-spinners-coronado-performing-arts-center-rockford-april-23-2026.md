@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-04-23T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Coronado Performing Arts Center"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "the-spinners-coronado-performing-arts-center-rockford-april-23-2026"
-  venue: "venue-tbd"
+  venue: "coronado-performing-arts"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

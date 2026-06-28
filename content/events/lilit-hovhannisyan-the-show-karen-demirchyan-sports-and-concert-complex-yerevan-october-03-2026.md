@@ -32,7 +32,7 @@ event:
   start_date: "2026-10-03T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Karen Demirchyan Complex"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "lilit-hovhannisyan-the-show-karen-demirchyan-sports-and-concert-complex-yerevan-october-03-2026"
-  venue: "venue-tbd"
+  venue: "karen-demirchyan-complex"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

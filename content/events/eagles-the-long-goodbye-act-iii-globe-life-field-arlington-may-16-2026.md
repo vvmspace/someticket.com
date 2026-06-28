@@ -32,7 +32,7 @@ event:
   start_date: "2026-05-16T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Globe Life Field"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "eagles-the-long-goodbye-act-iii-globe-life-field-arlington-may-16-2026"
-  venue: "venue-tbd"
+  venue: "globe-life-field"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

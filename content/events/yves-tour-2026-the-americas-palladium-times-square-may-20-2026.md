@@ -32,7 +32,7 @@ event:
   start_date: "2026-05-20T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Palladium Times Square"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "yves-tour-2026-the-americas-palladium-times-square-may-20-2026"
-  venue: "venue-tbd"
+  venue: "palladium-times-square"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

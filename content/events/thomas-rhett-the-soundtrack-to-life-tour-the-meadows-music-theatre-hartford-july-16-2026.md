@@ -32,7 +32,7 @@ event:
   start_date: "2026-07-16T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "The Meadows Music Theatre"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "thomas-rhett-the-soundtrack-to-life-tour-the-meadows-music-theatre-hartford-july-16-2026"
-  venue: "venue-tbd"
+  venue: "meadows-music-theatre"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."
