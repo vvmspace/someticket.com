@@ -8,7 +8,7 @@ layout_key: "event"
 status: "published"
 description_short: "Exclusive access to one of the world's most prestigious events. Experience the pinnacle of entertainment with our sovereign concierge service."
 hero:
-  eyebrow: "Sovereign Soul"
+  eyebrow: "Global Access"
 media:
   hero:
     src: "/images/og-default.svg"
@@ -32,7 +32,7 @@ event:
   start_date: "2026-04-14T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Sovereign Access"
   city: "Global"
   region: "World"
   address:
@@ -69,13 +69,13 @@ taxonomy:
   artists:
     - "lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026"
   venues:
-    - "venue-tbd"
+    - "sovereign-access"
 relationships:
   city: "global"
   region: "world"
   category: "entertainment"
   artist: "lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026"
-  venue: "venue-tbd"
+  venue: "sovereign-access"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

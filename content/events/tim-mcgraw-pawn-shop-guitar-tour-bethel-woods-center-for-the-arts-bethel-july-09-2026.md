@@ -8,7 +8,7 @@ layout_key: "event"
 status: "published"
 description_short: "Exclusive access to one of the world's most prestigious events. Experience the pinnacle of entertainment with our sovereign concierge service."
 hero:
-  eyebrow: "Sovereign Soul"
+  eyebrow: "Global Access"
 media:
   hero:
     src: "/images/og-default.svg"
@@ -69,7 +69,7 @@ taxonomy:
   artists:
     - "tim-mcgraw-pawn-shop-guitar-tour-bethel-woods-center-for-the-arts-bethel-july-09-2026"
   venues:
-    - "venue-tbd"
+    - "sovereign-access"
 relationships:
   city: "global"
   region: "world"
