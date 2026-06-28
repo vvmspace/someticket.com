@@ -5,7 +5,7 @@
 
 {{ range $allEvents }}
   {{ $event := . }}
-  {{ if ne $event.RelPermalink $page.RelPermalink }}
+  {{ if and (ne $event.RelPermalink $page.RelPermalink) (and (.Params.event.start_date) (gt (time .Params.event.start_date).Unix (now).Unix)) }}
     {{ $score := 0 }}
     {{ $pageSlug := $page.Params.slug }}
     {{ $pageEntityType := $page.Params.entity_type }}

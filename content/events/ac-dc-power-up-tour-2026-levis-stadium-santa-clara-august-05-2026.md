@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-08-05T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Levis Stadium Santa"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026"
-  venue: "venue-tbd"
+  venue: "levis-stadium-santa"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

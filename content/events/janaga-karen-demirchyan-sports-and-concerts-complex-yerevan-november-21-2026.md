@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-11-21T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Concerts Complex Yerevan"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026"
-  venue: "venue-tbd"
+  venue: "concerts-complex-yerevan"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

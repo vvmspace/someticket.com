@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-09-06T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Wembley Stadium London"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "bon-jovi-wembley-stadium-london-september-06-2026"
-  venue: "venue-tbd"
+  venue: "wembley-stadium-london"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

@@ -1,4 +1,5 @@
 ---
+start_date: "2026-06-28T20:00:00Z"
 title: "The Comedy Store Players: Improv Excellence in London"
 date: 2026-06-28T20:00:00+01:00
 page_type: event

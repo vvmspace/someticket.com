@@ -1,4 +1,5 @@
 ---
+start_date: "2026-10-22T20:00:00Z"
 title: "Coldplay: A Symphony of Light and Sound at Co-op Live Manchester"
 date: 2026-10-22T19:30:00+01:00
 page_type: event

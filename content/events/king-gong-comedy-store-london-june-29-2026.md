@@ -1,4 +1,5 @@
 ---
+start_date: "2026-06-29T20:00:00Z"
 title: "King Gong: The World's Most Famous Open-Mic Night"
 date: 2026-06-29T20:00:00+01:00
 page_type: event

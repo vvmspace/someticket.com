@@ -1,4 +1,5 @@
 ---
+start_date: "2026-06-28T20:00:00Z"
 title: "Sanctified: The Hip Hop & R&B Gospel Choir at Jazz Cafe"
 date: 2026-06-28T20:00:00+01:00
 page_type: event

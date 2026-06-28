@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-06-19T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Sofi Stadium Inglewood"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "switzerland-vs-serbia-2026-world-cup-group-stage-match-26-sofi-stadium-inglewood-june-19-2026"
-  venue: "venue-tbd"
+  venue: "sofi-stadium-inglewood"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

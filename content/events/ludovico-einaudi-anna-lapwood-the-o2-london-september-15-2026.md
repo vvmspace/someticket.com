@@ -1,4 +1,5 @@
 ---
+start_date: "2026-09-15T20:00:00Z"
 title: "Ludovico Einaudi & Anna Lapwood: An Evening of Neoclassical Transcendence at The O2"
 date: 2026-09-15T20:00:00+01:00
 page_type: event

@@ -4,8 +4,14 @@
       <img src="/images/logo.svg" alt="SomeTicket Logo" style="height: 30px; width: auto;">
     </a>
     <nav class="nav" aria-label="Primary">
-      <a href="/new-york/" data-analytics-event="nav_click" data-analytics-label="new-york">New York</a>
-      <a href="/madison-square-garden/" data-analytics-event="nav_click" data-analytics-label="madison-square-garden">Madison Square Garden</a>
+      {{ range (where site.RegularPages "Params.page_type" "hub") }}
+        {{ $events := where site.RegularPages "Params.page_type" "event" }}
+        {{ $upcoming := where $events "Params.event.start_date" "ge" now }}
+        {{ $venueEvents := where $upcoming "Params.location.venue" .Params.slug }}
+        {{ if gt (len $venueEvents) 0 }}
+          <a href="{{ .RelPermalink }}" data-analytics-event="nav_click" data-analytics-label="{{ .Params.slug }}">{{ .Title }}</a>
+        {{ end }}
+      {{ end }}
       <a href="/events/" data-analytics-event="nav_click" data-analytics-label="events">Events</a>
     </nav>
   </div>

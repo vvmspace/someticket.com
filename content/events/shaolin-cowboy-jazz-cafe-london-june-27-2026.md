@@ -1,4 +1,5 @@
 ---
+start_date: "2026-06-27T20:00:00Z"
 title: "Shaolin Cowboy: Avant-Garde Energy at Jazz Cafe"
 date: 2026-06-27T21:00:00+01:00
 page_type: event

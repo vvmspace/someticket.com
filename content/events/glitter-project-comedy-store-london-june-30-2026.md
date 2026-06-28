@@ -1,4 +1,5 @@
 ---
+start_date: "2026-06-30T20:00:00Z"
 title: "Funny Women Presents: The Glitter Project Platinum Edition"
 date: 2026-06-30T20:00:00+01:00
 page_type: event

@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-07-03T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Dodger Stadium Los"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "san-diego-padres-at-los-angeles-dodgers-dodger-stadium-los-angeles-july-03-2026"
-  venue: "venue-tbd"
+  venue: "dodger-stadium-los"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

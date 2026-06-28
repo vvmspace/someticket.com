@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-07-19T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Impact Arena July"
   city: "Global"
   region: "World"
   address:
@@ -75,7 +75,7 @@ relationships:
   region: "world"
   category: "entertainment"
   artist: "xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026"
-  venue: "venue-tbd"
+  venue: "impact-arena-july"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

@@ -1,4 +1,5 @@
 ---
+start_date: "2026-06-30T20:00:00Z"
 title: "BST Hyde Park Open House: Run with Mo!"
 date: 2026-06-30T10:00:00+01:00
 page_type: event

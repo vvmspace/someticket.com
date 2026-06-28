@@ -1,4 +1,5 @@
 ---
+start_date: "2026-09-25T20:00:00Z"
 title: "Laver Cup 2026: The Pinnacle of Tennis at The O2"
 date: 2026-09-25T18:00:00+01:00
 page_type: event

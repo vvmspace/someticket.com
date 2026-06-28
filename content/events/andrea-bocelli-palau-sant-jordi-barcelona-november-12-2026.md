@@ -1,4 +1,5 @@
 ---
+start_date: "2026-11-12T20:00:00Z"
 title: "Andrea Bocelli: A Night of Operatic Grandeur at Palau Sant Jordi Barcelona"
 date: 2026-11-12T20:00:00+01:00
 page_type: event

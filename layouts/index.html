@@ -352,15 +352,20 @@ h2 {
           </div>
           
           <div class="card-grid">
-            {{ range first 6 (where site.RegularPages "Params.page_type" "hub") }}
-              <article class="card">
-                {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Explore %s" .Title)) }}
-                {{ partial "visual.html" (dict "page" . "variant" "card") }}
-                <div class="card-content">
-                  <strong>{{ .Title }}</strong>
-                  <span class="card-footer">{{ with .Params.location }}{{ .city }}{{ else }}{{ with .Params.artist }}{{ .name }}{{ else }}Global Hub{{ end }}{{ end }}</span>
-                </div>
-              </article>
+            {{ range (where site.RegularPages "Params.page_type" "hub") }}
+              {{ $events := where site.RegularPages "Params.page_type" "event" }}
+              {{ $upcoming := where $events "Params.event.start_date" "ge" now }}
+              {{ $hubEvents := where $upcoming "Params.location.venue" .Params.slug }}
+              {{ if gt (len $hubEvents) 0 }}
+                <article class="card">
+                  {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Explore %s" .Title)) }}
+                  {{ partial "visual.html" (dict "page" . "variant" "card") }}
+                  <div class="card-content">
+                    <strong>{{ .Title }}</strong>
+                    <span class="card-footer">{{ with .Params.location }}{{ .city }}{{ else }}{{ with .Params.artist }}{{ .name }}{{ else }}Global Hub{{ end }}{{ end }}</span>
+                  </div>
+                </article>
+              {{ end }}
             {{ end }}
           </div>
           

@@ -1,4 +1,5 @@
 ---
+start_date: "2026-11-05T20:00:00Z"
 title: "Billie Eilish: Live at Tokyo Dome, Tokyo"
 date: 2026-11-05T19:00:00+09:00
 page_type: event

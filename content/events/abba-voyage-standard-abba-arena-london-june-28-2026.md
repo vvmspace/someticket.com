@@ -1,4 +1,5 @@
 ---
+start_date: "2026-06-28T20:00:00Z"
 title: "ABBA Voyage: A Digital Revolution in Music at ABBA Arena"
 date: 2026-06-28T13:00:00+01:00
 page_type: event
