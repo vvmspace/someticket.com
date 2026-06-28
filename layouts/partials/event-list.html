@@ -2,8 +2,9 @@
 {{ $allEvents := where site.RegularPages "Params.page_type" "event" }}
 {{ $scratch := newScratch }}
 {{ $scratch.Set "matches" (slice) }}
-
-{{ range $allEvents }}
+<div class="card-grid">
+    <!-- DEBUG: FRESHNESS GUARD ACTIVE v2 -->
+    {{ range $allEvents }}
   {{ $event := . }}
   {{ if and (ne $event.RelPermalink $page.RelPermalink) (and (.Params.event.start_date) (gt (time .Params.event.start_date).Unix (now).Unix)) }}
     {{ $score := 0 }}
@@ -80,8 +81,9 @@
   {{ range first 4 $sortedMatches }}
     {{ $items = $items | append .page }}
   {{ end }}
-{{ else }}
-  {{ range first 4 $allEvents }}
+<div class="card-grid">
+    <!-- DEBUG: FRESHNESS GUARD ACTIVE v2 -->
+    {{ range $allEvents }}
     {{ if ne .RelPermalink $page.RelPermalink }}
       {{ $items = $items | append . }}
     {{ end }}
@@ -96,7 +98,8 @@
         <h2>{{ $label }}</h2>
       </div>
       <div class="card-grid">
-        {{ range $items }}
+          <!-- DEBUG: FRESHNESS GUARD ACTIVE v2 -->
+          {{ range $allEvents }}
           <article class="card">
             {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "related_event_click" "label" .Title) }}
             {{ partial "visual.html" (dict "page" . "variant" "card") }}
