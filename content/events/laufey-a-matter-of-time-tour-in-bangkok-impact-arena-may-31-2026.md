@@ -3,6 +3,7 @@ title: "Laufey: A Matter of Time Tour in Bangkok Tickets (Impact Arena, May 31, 
 slug: "laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026"
 url: "/events/laufey-a-matter-of-time-tour-in-bangkok-impact-arena-may-31-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

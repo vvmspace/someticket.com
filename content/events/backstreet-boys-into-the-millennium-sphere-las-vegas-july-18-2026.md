@@ -3,6 +3,7 @@ title: "Backstreet Boys: Into The Millennium Tickets (Sphere, July 18, 2026)"
 slug: "backstreet-boys-into-the-millennium-sphere-las-vegas-july-18-2026"
 url: "/events/backstreet-boys-into-the-millennium-sphere-las-vegas-july-18-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

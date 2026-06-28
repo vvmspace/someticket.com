@@ -3,6 +3,7 @@ title: "EuroLeague Final Four 2026 Finals Tickets (Telekom Center Athens, May 24
 slug: "euroleague-final-four-2026-finals-sunday-telekom-center-athens-may-24-2026"
 url: "/events/euroleague-final-four-2026-finals-sunday-telekom-center-athens-may-24-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

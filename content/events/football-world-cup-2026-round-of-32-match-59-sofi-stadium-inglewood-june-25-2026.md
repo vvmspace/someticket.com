@@ -3,6 +3,7 @@ title: "2026 Football World Cup Round of 32 Match 59 Tickets (SoFi Stadium, June
 slug: "football-world-cup-2026-round-of-32-match-59-sofi-stadium-inglewood-june-25-2026"
 url: "/events/football-world-cup-2026-round-of-32-match-59-sofi-stadium-inglewood-june-25-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

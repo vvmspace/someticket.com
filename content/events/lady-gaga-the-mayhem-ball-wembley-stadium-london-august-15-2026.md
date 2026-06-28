@@ -3,6 +3,7 @@ title: "Lady Gaga: The MAYHEM Ball Tickets (Wembley Stadium, August 15, 2026)"
 slug: "lady-gaga-the-mayhem-ball-wembley-stadium-london-august-15-2026"
 url: "/events/lady-gaga-the-mayhem-ball-wembley-stadium-london-august-15-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

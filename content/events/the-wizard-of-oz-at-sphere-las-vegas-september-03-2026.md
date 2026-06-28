@@ -3,6 +3,7 @@ title: "The Wizard of Oz at Sphere Tickets (Sphere, September 3, 2026)"
 slug: "the-wizard-of-oz-at-sphere-las-vegas-september-03-2026"
 url: "/events/the-wizard-of-oz-at-sphere-las-vegas-september-03-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

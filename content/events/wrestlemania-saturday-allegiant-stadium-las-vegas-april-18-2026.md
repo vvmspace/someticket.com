@@ -3,6 +3,7 @@ title: "WrestleMania Saturday Tickets (Allegiant Stadium, April 18, 2026)"
 slug: "wrestlemania-saturday-allegiant-stadium-las-vegas-april-18-2026"
 url: "/events/wrestlemania-saturday-allegiant-stadium-las-vegas-april-18-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

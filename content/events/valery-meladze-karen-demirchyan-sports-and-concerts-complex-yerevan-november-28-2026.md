@@ -3,6 +3,7 @@ title: "Valery Meladze Tickets (Karen Demirchyan Sports and Concerts Complex, No
 slug: "valery-meladze-karen-demirchyan-sports-and-concerts-complex-yerevan-november-28-2026"
 url: "/events/valery-meladze-karen-demirchyan-sports-and-concerts-complex-yerevan-november-28-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

@@ -3,6 +3,7 @@ title: "Forrest Frank: The Jesus Generation Tour Tickets (Intuit Dome, July 17, 
 slug: "forrest-frank-the-jesus-generation-tour-intuit-dome-inglewood-july-17-2026"
 url: "/events/forrest-frank-the-jesus-generation-tour-intuit-dome-inglewood-july-17-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

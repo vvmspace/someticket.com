@@ -3,6 +3,7 @@ title: "My Chemical Romance Tickets (Hollywood Bowl, October 24, 2026)"
 slug: "my-chemical-romance-hollywood-bowl-los-angeles-october-24-2026"
 url: "/events/my-chemical-romance-hollywood-bowl-los-angeles-october-24-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

@@ -3,6 +3,7 @@ title: "Armenia U21 vs Ireland U21 Tickets (Republican Stadium, June 18, 2027)"
 slug: "armenia-u21-vs-ireland-u21-republican-stadium-yerevan-june-18-2027"
 url: "/events/armenia-u21-vs-ireland-u21-republican-stadium-yerevan-june-18-2027/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

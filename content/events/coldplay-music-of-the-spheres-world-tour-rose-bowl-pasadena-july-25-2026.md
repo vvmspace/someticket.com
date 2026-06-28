@@ -3,6 +3,7 @@ title: "Coldplay - Music of the Spheres World Tour Tickets (Rose Bowl, July 25, 
 slug: "coldplay-music-of-the-spheres-world-tour-rose-bowl-pasadena-july-25-2026"
 url: "/events/coldplay-music-of-the-spheres-world-tour-rose-bowl-pasadena-july-25-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

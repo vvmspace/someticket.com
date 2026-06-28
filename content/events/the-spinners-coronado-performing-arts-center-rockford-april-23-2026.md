@@ -3,6 +3,7 @@ title: "The Spinners Tickets (Coronado Performing Arts Center, April 23, 2026)"
 slug: "the-spinners-coronado-performing-arts-center-rockford-april-23-2026"
 url: "/events/the-spinners-coronado-performing-arts-center-rockford-april-23-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

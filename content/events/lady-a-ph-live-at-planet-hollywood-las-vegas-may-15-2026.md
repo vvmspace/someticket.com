@@ -3,6 +3,7 @@ title: "Lady A Tickets (PH Live at Planet Hollywood, May 15, 2026)"
 slug: "lady-a-ph-live-at-planet-hollywood-las-vegas-may-15-2026"
 url: "/events/lady-a-ph-live-at-planet-hollywood-las-vegas-may-15-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

@@ -3,6 +3,7 @@ title: "Bruno Mars - The Romantic Tour Tickets (Dolby Live at Park MGM, Septembe
 slug: "bruno-mars-dolby-live-at-park-mgm-las-vegas-september-03-2026"
 url: "/events/bruno-mars-dolby-live-at-park-mgm-las-vegas-september-03-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

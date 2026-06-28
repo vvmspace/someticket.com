@@ -3,6 +3,7 @@ title: "Bruno Mars - The Romantic Tour Tickets (Wembley Stadium, July 18, 2026)"
 slug: "bruno-mars-wembley-stadium-london-july-18-2026"
 url: "/events/bruno-mars-wembley-stadium-london-july-18-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

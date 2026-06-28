@@ -3,6 +3,7 @@ title: "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR Tickets (SAP Center at San
 slug: "shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026"
 url: "/events/shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

@@ -3,6 +3,7 @@ title: "Armenia vs Gibraltar/Latvia Tickets (Nations League, Yerevan, September 
 slug: "armenia-vs-gibraltar-latvia-nations-league-republican-stadium-yerevan-september-24-2026"
 url: "/events/armenia-vs-gibraltar-latvia-nations-league-republican-stadium-yerevan-september-24-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

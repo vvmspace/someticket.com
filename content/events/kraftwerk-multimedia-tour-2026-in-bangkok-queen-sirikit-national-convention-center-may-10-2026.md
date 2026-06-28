@@ -3,6 +3,7 @@ title: "KRAFTWERK MULTIMEDIA TOUR 2026 IN BANGKOK Tickets (Queen Sirikit Nationa
 slug: "kraftwerk-multimedia-tour-2026-in-bangkok-queen-sirikit-national-convention-center-may-10-2026"
 url: "/events/kraftwerk-multimedia-tour-2026-in-bangkok-queen-sirikit-national-convention-center-may-10-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

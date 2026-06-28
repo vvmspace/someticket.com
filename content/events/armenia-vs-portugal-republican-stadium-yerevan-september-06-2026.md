@@ -3,6 +3,7 @@ title: "Armenia vs Portugal Tickets (Republican Stadium, September 6, 2026)"
 slug: "armenia-vs-portugal-republican-stadium-yerevan-september-06-2026"
 url: "/events/armenia-vs-portugal-republican-stadium-yerevan-september-06-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

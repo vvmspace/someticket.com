@@ -3,6 +3,7 @@ title: "San Diego Padres at Los Angeles Dodgers Tickets (Dodger Stadium, July 3,
 slug: "san-diego-padres-at-los-angeles-dodgers-dodger-stadium-los-angeles-july-03-2026"
 url: "/events/san-diego-padres-at-los-angeles-dodgers-dodger-stadium-los-angeles-july-03-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

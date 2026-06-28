@@ -3,6 +3,7 @@ title: "Ara Malikian Tickets (Karen Demirchyan Sports and Concerts Complex, Apri
 slug: "ara-malikian-karen-demirchyan-sports-and-concerts-complex-yerevan-april-09-2026"
 url: "/events/ara-malikian-karen-demirchyan-sports-and-concerts-complex-yerevan-april-09-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

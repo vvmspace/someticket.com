@@ -3,6 +3,7 @@ title: "2026 FIFA World Cup Quarter-Final: How to Dominate Organic Search for So
 slug: "2026-fifa-world-cup-quarter-final-sofi-stadium"
 url: "/2026-fifa-world-cup-quarter-final-sofi-stadium/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

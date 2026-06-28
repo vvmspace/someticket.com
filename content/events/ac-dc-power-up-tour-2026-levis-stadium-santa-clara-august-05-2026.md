@@ -3,6 +3,7 @@ title: "AC/DC - POWER UP TOUR 2026 Tickets (Levi's Stadium, August 5, 2026)"
 slug: "ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026"
 url: "/events/ac-dc-power-up-tour-2026-levis-stadium-santa-clara-august-05-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

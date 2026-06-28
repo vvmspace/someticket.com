@@ -3,6 +3,7 @@ title: "Thomas Rhett Tickets (Bon Secours Wellness Arena, July 11, 2026)"
 slug: "thomas-rhett-the-soundtrack-to-life-tour-bon-secours-wellness-arena-greenville-july-11-2026"
 url: "/events/thomas-rhett-the-soundtrack-to-life-tour-bon-secours-wellness-arena-greenville-july-11-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

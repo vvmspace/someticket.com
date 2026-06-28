@@ -3,6 +3,7 @@ title: "Tim McGraw Tickets (Bethel Woods Center for the Arts, July 9, 2026)"
 slug: "tim-mcgraw-pawn-shop-guitar-tour-bethel-woods-center-for-the-arts-bethel-july-09-2026"
 url: "/events/tim-mcgraw-pawn-shop-guitar-tour-bethel-woods-center-for-the-arts-bethel-july-09-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

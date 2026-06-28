@@ -3,6 +3,7 @@ title: "Billie Eilish Tickets (Madison Square Garden, May 21, 2026)"
 slug: "billie-eilish-hit-me-hard-and-soft-tour-madison-square-garden-new-york-may-21-2026"
 url: "/events/billie-eilish-hit-me-hard-and-soft-tour-madison-square-garden-new-york-may-21-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

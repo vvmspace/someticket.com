@@ -3,6 +3,7 @@ title: "Janaga Tickets (Karen Demirchyan Sports and Concerts Complex, November 2
 slug: "janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026"
 url: "/events/janaga-karen-demirchyan-sports-and-concerts-complex-yerevan-november-21-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

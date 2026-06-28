@@ -276,7 +276,7 @@ h2 {
   letter-spacing: 0.1em;
 }
 </style>
-  {{ $events := where site.RegularPages "Params.page_type" "event" }}
+  {{ $events := where site.AllPages "Params.page_type" "event" }}
   {{ $upcoming := where $events "Params.event.start_date" "ge" now }}
   {{ if not .IsHome }}
     {{ partial "breadcrumbs.html" . }}
@@ -311,15 +311,15 @@ h2 {
       
       <div class="stats-bar">
         <div class="stat-item">
-          <strong>{{ len (where site.RegularPages "Params.page_type" "hub") }}</strong>
+          <strong>{{ len (where site.AllPages "Params.page_type" "hub") }}</strong>
           <span>Elite Hubs</span>
         </div>
         <div class="stat-item">
-          <strong>{{ len (where site.RegularPages "Params.page_type" "landing") }}</strong>
+          <strong>{{ len (where site.AllPages "Params.page_type" "landing") }}</strong>
           <span>City Guides</span>
         </div>
         <div class="stat-item">
-          <strong>{{ len (where site.RegularPages "Params.page_type" "event") }}</strong>
+          <strong>{{ len (where site.AllPages "Params.page_type" "event") }}</strong>
           <span>Exclusive Events</span>
         </div>
       </div>
@@ -353,8 +353,8 @@ h2 {
           </div>
           
           <div class="card-grid">
-            {{ range (where site.RegularPages "Params.page_type" "hub") }}
-              {{ $events := where site.RegularPages "Params.page_type" "event" }}
+            {{ range (where site.AllPages "Params.page_type" "hub") }}
+              {{ $events := where site.AllPages "Params.page_type" "event" }}
               {{ $upcoming := where $events "Params.event.start_date" "ge" now }}
               {{ $hubEvents := where $upcoming "Params.location.venue" .Params.slug }}
               {{ if gt (len $hubEvents) 0 }}

@@ -3,6 +3,7 @@ title: "2026 Football World Cup Quarter-finals Match 98 Tickets (SoFi Stadium, J
 slug: "football-world-cup-2026-quarter-finals-match-98-sofi-stadium-inglewood-july-10-2026"
 url: "/events/football-world-cup-2026-quarter-finals-match-98-sofi-stadium-inglewood-july-10-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

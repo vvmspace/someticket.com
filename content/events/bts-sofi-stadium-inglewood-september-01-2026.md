@@ -3,6 +3,7 @@ title: "BTS Tickets (SoFi Stadium, September 1, 2026)"
 slug: "bts-sofi-stadium-inglewood-september-01-2026"
 url: "/events/bts-sofi-stadium-inglewood-september-01-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

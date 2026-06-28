@@ -3,6 +3,7 @@ title: "Lang Lang Tickets (Karen Demirchyan Sports and Concerts Complex, April 1
 slug: "lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026"
 url: "/events/lang-lang-karen-demirchyan-sports-and-concerts-complex-yerevan-april-14-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

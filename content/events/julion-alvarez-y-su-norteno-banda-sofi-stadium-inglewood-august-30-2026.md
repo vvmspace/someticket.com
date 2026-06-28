@@ -3,6 +3,7 @@ title: "Julion Alvarez y su Norteno Banda Tickets (SoFi Stadium, August 30, 2026
 slug: "julion-alvarez-y-su-norteno-banda-sofi-stadium-inglewood-august-30-2026"
 url: "/events/julion-alvarez-y-su-norteno-banda-sofi-stadium-inglewood-august-30-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

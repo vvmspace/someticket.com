@@ -3,6 +3,7 @@ title: "Curebound Concert for Cures: P!NK Tickets (Petco Park, May 15, 2026)"
 slug: "curebound-concert-for-cures-pnk-special-guest-petco-park-san-diego-may-15-2026"
 url: "/events/curebound-concert-for-cures-pnk-special-guest-petco-park-san-diego-may-15-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

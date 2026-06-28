@@ -3,6 +3,7 @@ title: "Garou Tickets (Karen Demirchyan Sports and Concerts Complex, September 2
 slug: "garou-karen-demirchyan-sports-and-concerts-complex-yerevan-september-22-2026"
 url: "/events/garou-karen-demirchyan-sports-and-concerts-complex-yerevan-september-22-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

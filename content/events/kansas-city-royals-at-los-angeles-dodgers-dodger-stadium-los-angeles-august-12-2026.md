@@ -3,6 +3,7 @@ title: "Kansas City Royals at Los Angeles Dodgers Tickets (Dodger Stadium, Augus
 slug: "kansas-city-royals-at-los-angeles-dodgers-dodger-stadium-los-angeles-august-12-2026"
 url: "/events/kansas-city-royals-at-los-angeles-dodgers-dodger-stadium-los-angeles-august-12-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

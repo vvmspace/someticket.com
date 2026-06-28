@@ -3,6 +3,7 @@ title: "Jack Johnson Tickets (Hollywood Bowl, October 10, 2026)"
 slug: "jack-johnson-hollywood-bowl-los-angeles-october-10-2026"
 url: "/events/jack-johnson-hollywood-bowl-los-angeles-october-10-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

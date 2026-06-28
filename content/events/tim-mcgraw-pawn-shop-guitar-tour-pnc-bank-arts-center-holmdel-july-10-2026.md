@@ -3,6 +3,7 @@ title: "Tim McGraw Tickets (PNC Bank Arts Center, July 10, 2026)"
 slug: "tim-mcgraw-pawn-shop-guitar-tour-pnc-bank-arts-center-holmdel-july-10-2026"
 url: "/events/tim-mcgraw-pawn-shop-guitar-tour-pnc-bank-arts-center-holmdel-july-10-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

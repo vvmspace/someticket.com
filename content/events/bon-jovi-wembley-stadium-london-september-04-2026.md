@@ -3,6 +3,7 @@ title: "Bon Jovi Tickets (Wembley Stadium, September 4, 2026)"
 slug: "bon-jovi-wembley-stadium-london-september-04-2026"
 url: "/events/bon-jovi-wembley-stadium-london-september-04-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

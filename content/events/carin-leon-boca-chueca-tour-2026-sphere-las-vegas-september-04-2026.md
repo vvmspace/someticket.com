@@ -3,6 +3,7 @@ title: "Carin Leon: Boca Chueca Tour 2026 Tickets (Sphere, September 4, 2026)"
 slug: "carin-leon-boca-chueca-tour-2026-sphere-las-vegas-september-04-2026"
 url: "/events/carin-leon-boca-chueca-tour-2026-sphere-las-vegas-september-04-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

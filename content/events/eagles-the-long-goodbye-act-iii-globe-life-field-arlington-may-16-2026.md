@@ -3,6 +3,7 @@ title: "Eagles Tickets (Globe Life Field, May 16, 2026)"
 slug: "eagles-the-long-goodbye-act-iii-globe-life-field-arlington-may-16-2026"
 url: "/events/eagles-the-long-goodbye-act-iii-globe-life-field-arlington-may-16-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

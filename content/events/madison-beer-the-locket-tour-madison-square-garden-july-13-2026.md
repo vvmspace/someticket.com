@@ -3,6 +3,7 @@ title: "Madison Beer: The Locket Tour Tickets (Madison Square Garden, July 13, 2
 slug: "madison-beer-the-locket-tour-madison-square-garden-july-13-2026"
 url: "/events/madison-beer-the-locket-tour-madison-square-garden-july-13-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

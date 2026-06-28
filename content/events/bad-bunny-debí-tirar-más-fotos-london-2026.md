@@ -3,6 +3,7 @@ title: "Bad Bunny: DeBÍ TiRAR MáS FOToS World Tour — London Access"
 slug: "bad-bunny-debí-tirar-más-fotos-london-2026"
 url: "/events/bad-bunny-debí-tirar-más-fotos-london-2026/"
 page_type: "event"
+draft: false
 event:
   start_date: "2026-06-28T20:00:00Z"
 location:

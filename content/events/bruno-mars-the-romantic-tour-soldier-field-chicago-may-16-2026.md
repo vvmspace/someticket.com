@@ -3,6 +3,7 @@ title: "Bruno Mars - The Romantic Tour Tickets (Soldier Field, May 16, 2026)"
 slug: "bruno-mars-the-romantic-tour-soldier-field-chicago-may-16-2026"
 url: "/events/bruno-mars-the-romantic-tour-soldier-field-chicago-may-16-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

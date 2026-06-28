@@ -3,6 +3,7 @@ title: "Lilit Hovhannisyan Tickets (Karen Demirchyan Sports and Concert Complex,
 slug: "lilit-hovhannisyan-the-show-karen-demirchyan-sports-and-concert-complex-yerevan-october-03-2026"
 url: "/events/lilit-hovhannisyan-the-show-karen-demirchyan-sports-and-concert-complex-yerevan-october-03-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

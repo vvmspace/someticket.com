@@ -3,6 +3,7 @@ title: "Armenia vs Kazakhstan Tickets (Republican Stadium, June 6, 2026)"
 slug: "armenia-vs-kazakhstan-republican-stadium-yerevan-june-06-2026"
 url: "/events/armenia-vs-kazakhstan-republican-stadium-yerevan-june-06-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

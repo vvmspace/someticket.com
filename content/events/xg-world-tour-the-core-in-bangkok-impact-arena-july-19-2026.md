@@ -3,6 +3,7 @@ title: "XG World Tour: The Core in Bangkok Tickets (Impact Arena, July 19, 2026)
 slug: "xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026"
 url: "/events/xg-world-tour-the-core-in-bangkok-impact-arena-july-19-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

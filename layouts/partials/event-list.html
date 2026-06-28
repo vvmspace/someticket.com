@@ -7,7 +7,8 @@
 <div class="card-grid">
     {{ range $allEvents }}
       {{ $event := . }}
-      {{ if and (ne $event.RelPermalink $page.RelPermalink) (and (.Params.event.start_date) (gt (time .Params.event.start_date).Unix $now)) }}
+      {{ $startDate := or .Params.start_date .Params.event.start_date }}
+      {{ if and (ne $event.RelPermalink $page.RelPermalink) $startDate  }}
         {{ $score := 0 }}
         {{ $pageSlug := $page.Params.slug }}
         {{ $pageEntityType := $page.Params.entity_type }}
@@ -85,7 +86,8 @@
   {{ end }}
 {{ else }}
   {{ range first 4 (where site.RegularPages "Params.page_type" "event") }}
-    {{ if and (ne .RelPermalink $page.RelPermalink) (.Params.event.start_date) (gt (time .Params.event.start_date).Unix $now) }}
+    {{ $startDate := or .Params.start_date .Params.event.start_date }}
+    {{ if and (ne .RelPermalink $page.RelPermalink) $startDate  }}
       {{ $items = $items | append . }}
     {{ end }}
   {{ end }}

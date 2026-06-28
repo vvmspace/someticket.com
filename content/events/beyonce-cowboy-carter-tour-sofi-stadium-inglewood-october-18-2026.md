@@ -3,6 +3,7 @@ title: "Beyonce Tickets (SoFi Stadium, October 18, 2026)"
 slug: "beyonce-cowboy-carter-tour-sofi-stadium-inglewood-october-18-2026"
 url: "/events/beyonce-cowboy-carter-tour-sofi-stadium-inglewood-october-18-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

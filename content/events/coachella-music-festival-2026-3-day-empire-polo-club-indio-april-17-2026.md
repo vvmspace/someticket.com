@@ -3,6 +3,7 @@ title: "Coachella Music Festival 2026 3-Day Pass Tickets (Empire Polo Club, Apri
 slug: "coachella-music-festival-2026-3-day-empire-polo-club-indio-april-17-2026"
 url: "/events/coachella-music-festival-2026-3-day-empire-polo-club-indio-april-17-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

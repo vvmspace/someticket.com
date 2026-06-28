@@ -3,6 +3,7 @@ title: "2026 FIFA World Cup Final Tickets (MetLife Stadium, July 19, 2026)"
 slug: "fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026"
 url: "/events/fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

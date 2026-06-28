@@ -3,6 +3,7 @@ title: "BTS WORLD TOUR 'ARIRANG' Tickets (SoFi Stadium, September 6, 2026)"
 slug: "bts-world-tour-arirang-in-los-angeles-sofi-stadium-inglewood-september-06-2026"
 url: "/events/bts-world-tour-arirang-in-los-angeles-sofi-stadium-inglewood-september-06-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

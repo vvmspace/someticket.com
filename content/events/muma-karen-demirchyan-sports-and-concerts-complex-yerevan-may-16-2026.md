@@ -3,6 +3,7 @@ title: "Muma Tickets (Karen Demirchyan Sports and Concerts Complex, May 16, 2026
 slug: "muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026"
 url: "/events/muma-karen-demirchyan-sports-and-concerts-complex-yerevan-may-16-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

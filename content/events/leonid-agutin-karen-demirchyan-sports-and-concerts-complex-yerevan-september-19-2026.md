@@ -3,6 +3,7 @@ title: "Leonid Agutin Tickets (Karen Demirchyan Sports and Concerts Complex, Sep
 slug: "leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026"
 url: "/events/leonid-agutin-karen-demirchyan-sports-and-concerts-complex-yerevan-september-19-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

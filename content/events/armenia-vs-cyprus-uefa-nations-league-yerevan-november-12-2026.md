@@ -3,6 +3,7 @@ title: "Armenia vs Cyprus Tickets (UEFA Nations League, Yerevan, November 12, 20
 slug: "armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026"
 url: "/events/armenia-vs-cyprus-uefa-nations-league-yerevan-november-12-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

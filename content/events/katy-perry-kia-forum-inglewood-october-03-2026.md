@@ -3,6 +3,7 @@ title: "Katy Perry Tickets (Kia Forum, October 3, 2026)"
 slug: "katy-perry-kia-forum-inglewood-october-03-2026"
 url: "/events/katy-perry-kia-forum-inglewood-october-03-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

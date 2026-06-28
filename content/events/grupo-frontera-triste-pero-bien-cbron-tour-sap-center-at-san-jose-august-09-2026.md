@@ -3,6 +3,7 @@ title: "Grupo Frontera - Triste Pero Bien C*bron Tour Tickets (SAP Center at San
 slug: "grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026"
 url: "/events/grupo-frontera-triste-pero-bien-cbron-tour-sap-center-at-san-jose-august-09-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

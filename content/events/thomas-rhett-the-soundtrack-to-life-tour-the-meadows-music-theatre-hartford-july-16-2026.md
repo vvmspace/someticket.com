@@ -3,6 +3,7 @@ title: "Thomas Rhett Tickets (The Meadows Music Theatre, July 16, 2026)"
 slug: "thomas-rhett-the-soundtrack-to-life-tour-the-meadows-music-theatre-hartford-july-16-2026"
 url: "/events/thomas-rhett-the-soundtrack-to-life-tour-the-meadows-music-theatre-hartford-july-16-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

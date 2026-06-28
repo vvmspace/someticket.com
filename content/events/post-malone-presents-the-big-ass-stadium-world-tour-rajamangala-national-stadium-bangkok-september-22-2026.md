@@ -3,6 +3,7 @@ title: "Post Malone Presents The BIG ASS Stadium World Tour Tickets (Rajamangala
 slug: "post-malone-presents-the-big-ass-stadium-world-tour-rajamangala-national-stadium-bangkok-september-22-2026"
 url: "/events/post-malone-presents-the-big-ass-stadium-world-tour-rajamangala-national-stadium-bangkok-september-22-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

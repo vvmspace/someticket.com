@@ -3,6 +3,7 @@ title: "Armenia vs England Tickets (Republican Stadium, October 11, 2026)"
 slug: "armenia-vs-england-republican-stadium-yerevan-october-11-2026"
 url: "/events/armenia-vs-england-republican-stadium-yerevan-october-11-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

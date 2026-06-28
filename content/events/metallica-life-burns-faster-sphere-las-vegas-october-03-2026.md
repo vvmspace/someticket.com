@@ -3,6 +3,7 @@ title: "Metallica: Life Burns Faster Tickets (Sphere, October 3, 2026)"
 slug: "metallica-life-burns-faster-sphere-las-vegas-october-03-2026"
 url: "/events/metallica-life-burns-faster-sphere-las-vegas-october-03-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

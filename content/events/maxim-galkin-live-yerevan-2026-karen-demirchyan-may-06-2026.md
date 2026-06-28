@@ -3,6 +3,7 @@ title: "Maxim Galkin Tickets (Karen Demirchyan Sports and Concerts Complex, May 
 slug: "maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026"
 url: "/events/maxim-galkin-live-yerevan-2026-karen-demirchyan-may-06-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

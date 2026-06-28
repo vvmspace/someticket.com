@@ -3,6 +3,7 @@ title: "Eagles Tickets (State Farm Arena, May 5, 2026)"
 slug: "eagles-the-long-goodbye-act-iii-state-farm-arena-atlanta-may-05-2026"
 url: "/events/eagles-the-long-goodbye-act-iii-state-farm-arena-atlanta-may-05-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

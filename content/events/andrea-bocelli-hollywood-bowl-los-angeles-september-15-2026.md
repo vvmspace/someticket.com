@@ -3,6 +3,7 @@ title: "Andrea Bocelli Tickets (Hollywood Bowl, September 15, 2026)"
 slug: "andrea-bocelli-hollywood-bowl-los-angeles-september-15-2026"
 url: "/events/andrea-bocelli-hollywood-bowl-los-angeles-september-15-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

@@ -3,6 +3,7 @@ title: "Armenia vs Montenegro Tickets (UEFA Nations League, Yerevan, September 2
 slug: "armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026"
 url: "/events/armenia-vs-montenegro-uefa-nations-league-yerevan-september-28-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

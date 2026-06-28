@@ -3,6 +3,7 @@ title: "KAROL G - VIAJANDO POR EL MUNDO TROPITOUR Tickets (Levi's Stadium, Augus
 slug: "karol-g-viajando-por-el-mundo-tropitour-levis-stadium-santa-clara-august-21-2026"
 url: "/events/karol-g-viajando-por-el-mundo-tropitour-levis-stadium-santa-clara-august-21-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

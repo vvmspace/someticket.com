@@ -3,6 +3,7 @@ title: "J. Cole Tickets (Intuit Dome, September 5, 2026)"
 slug: "j-cole-intuit-dome-inglewood-september-05-2026"
 url: "/events/j-cole-intuit-dome-inglewood-september-05-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

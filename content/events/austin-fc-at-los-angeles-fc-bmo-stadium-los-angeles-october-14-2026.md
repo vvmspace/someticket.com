@@ -3,6 +3,7 @@ title: "Austin FC at Los Angeles FC Tickets (BMO Stadium, October 14, 2026)"
 slug: "austin-fc-at-los-angeles-fc-bmo-stadium-los-angeles-october-14-2026"
 url: "/events/austin-fc-at-los-angeles-fc-bmo-stadium-los-angeles-october-14-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

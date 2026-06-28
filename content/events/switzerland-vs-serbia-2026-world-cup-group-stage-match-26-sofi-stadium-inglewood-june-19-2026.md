@@ -3,6 +3,7 @@ title: "Switzerland vs Serbia 2026 World Cup Group Stage Match 26 Tickets (SoFi 
 slug: "switzerland-vs-serbia-2026-world-cup-group-stage-match-26-sofi-stadium-inglewood-june-19-2026"
 url: "/events/switzerland-vs-serbia-2026-world-cup-group-stage-match-26-sofi-stadium-inglewood-june-19-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

@@ -3,6 +3,7 @@ title: "Eagles: The Long Goodbye Act III Tickets (Truist Park, May 5, 2026)"
 slug: "eagles-the-long-goodbye-act-iii-truist-park-atlanta-may-05-2026"
 url: "/events/eagles-the-long-goodbye-act-iii-truist-park-atlanta-may-05-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

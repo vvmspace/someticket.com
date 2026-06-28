@@ -3,6 +3,7 @@ title: "Eagles: The Long Goodbye Act III Tickets (FirstBank Stadium, May 9, 2026
 slug: "eagles-the-long-goodbye-act-iii-firstbank-stadium-nashville-may-09-2026"
 url: "/events/eagles-the-long-goodbye-act-iii-firstbank-stadium-nashville-may-09-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

@@ -3,6 +3,7 @@ title: "Ariana Grande Tickets (Crypto.com Arena, June 13, 2026)"
 slug: "ariana-grande-crypto-com-arena-los-angeles-june-13-2026"
 url: "/events/ariana-grande-crypto-com-arena-los-angeles-june-13-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

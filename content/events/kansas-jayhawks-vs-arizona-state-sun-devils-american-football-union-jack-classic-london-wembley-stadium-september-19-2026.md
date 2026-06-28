@@ -3,6 +3,7 @@ title: "Kansas Jayhawks vs Arizona State Sun Devils Tickets (Wembley Stadium, Se
 slug: "kansas-jayhawks-vs-arizona-state-sun-devils-american-football-union-jack-classic-london-wembley-stadium-september-19-2026"
 url: "/events/kansas-jayhawks-vs-arizona-state-sun-devils-american-football-union-jack-classic-london-wembley-stadium-september-19-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

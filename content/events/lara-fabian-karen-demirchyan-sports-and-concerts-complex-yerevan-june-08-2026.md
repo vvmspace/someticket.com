@@ -3,6 +3,7 @@ title: "Lara Fabian Tickets (Karen Demirchyan Sports and Concerts Complex, June 
 slug: "lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026"
 url: "/events/lara-fabian-karen-demirchyan-sports-and-concerts-complex-yerevan-june-08-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

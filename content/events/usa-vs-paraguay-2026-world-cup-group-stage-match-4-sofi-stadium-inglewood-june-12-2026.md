@@ -3,6 +3,7 @@ title: "USA vs Paraguay 2026 World Cup Group Stage Match 4 Tickets (SoFi Stadium
 slug: "usa-vs-paraguay-2026-world-cup-group-stage-match-4-sofi-stadium-inglewood-june-12-2026"
 url: "/events/usa-vs-paraguay-2026-world-cup-group-stage-match-4-sofi-stadium-inglewood-june-12-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

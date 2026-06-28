@@ -3,6 +3,7 @@ title: "The Weeknd: After Hours Til Dawn Tour Tickets (Wembley Stadium, August 1
 slug: "the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026"
 url: "/events/the-weeknd-after-hours-til-dawn-tour-wembley-stadium-london-august-19-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

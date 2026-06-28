@@ -3,6 +3,7 @@ title: "Bruno Mars - The Romantic Tour Tickets (Levi's Stadium, October 10, 2026
 slug: "bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026"
 url: "/events/bruno-mars-the-romantic-tour-levis-stadium-santa-clara-october-10-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

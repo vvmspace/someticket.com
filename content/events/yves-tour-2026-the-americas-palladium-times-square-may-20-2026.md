@@ -3,6 +3,7 @@ title: "YVES TOUR 2026: THE AMERICAS Tickets (Palladium Times Square, May 20, 20
 slug: "yves-tour-2026-the-americas-palladium-times-square-may-20-2026"
 url: "/events/yves-tour-2026-the-americas-palladium-times-square-may-20-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

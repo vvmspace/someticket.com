@@ -3,6 +3,7 @@ title: "Ariana Grande Tickets (The Kia Forum, June 19, 2026)"
 slug: "ariana-grande-the-kia-forum-inglewood-june-19-2026"
 url: "/events/ariana-grande-the-kia-forum-inglewood-june-19-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"

@@ -3,6 +3,7 @@ title: "2026 CNBLUE LIVE WORLD TOUR '3LOGY' IN BANGKOK Tickets (Thunder Dome, Ju
 slug: "cnblue-live-world-tour-3logy-in-bangkok-thunder-dome-june-06-2026"
 url: "/events/cnblue-live-world-tour-3logy-in-bangkok-thunder-dome-june-06-2026/"
 page_type: "event"
+draft: false
 entity_type: "event"
 layout_key: "event"
 status: "published"
