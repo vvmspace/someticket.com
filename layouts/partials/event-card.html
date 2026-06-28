@@ -26,8 +26,11 @@
     {{ end }}
 
     <div class="event-card__footer">
-      {{ $ticketUrl := $page.Params.offers.ticket_url | default $page.RelPermalink }}
-      {{ partial "link.html" (dict "url" $ticketUrl "class" "button button--small" "event" "buy_ticket_click" "label" $page.Title "text" "Secure Access") }}
+      {{ if $page.Params.offers.ticket_url }}
+        {{ partial "link.html" (dict "url" $page.Params.offers.ticket_url "class" "button button--small" "event" "buy_ticket_click" "label" $page.Title "text" "Secure Access") }}
+      {{ else }}
+        <span class="button button--small button--disabled">Access via Concierge</span>
+      {{ end }}
     </div>
   </div>
 </article>

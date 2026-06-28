@@ -340,6 +340,12 @@ h2 {
   overflow: hidden;
 }
 
+.stretched-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
 .event-card:hover {
   transform: translateY(-10px);
   border-color: var(--brand);
@@ -420,6 +426,8 @@ h2 {
   margin-top: 1rem;
   display: flex;
   justify-content: flex-end;
+  position: relative;
+  z-index: 2;
 }
 
 .event-card__footer .button--small {

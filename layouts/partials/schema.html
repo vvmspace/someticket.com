@@ -40,7 +40,7 @@
     "location" $location
     "offers" $offers
     "performer" (apply .Params.performers "dict" "@type" "MusicGroup" "name" ".")
-    "organizer" (dict "@type" "Organization" "name" .Params.organizer.name "url" .Params.organizer.url)
+    "organizer" (dict "@type" "Organization" "name" (printf "%v" .Params.organizer) "url" "")
   }}
   <script type="application/ld+json">{{ $event | jsonify | safeJS }}</script>
 {{ else }}
