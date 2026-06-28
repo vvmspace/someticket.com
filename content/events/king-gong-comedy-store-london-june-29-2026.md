@@ -4,7 +4,8 @@ date: 2026-06-29T20:00:00+01:00
 page_type: event
 category: "Comedy"
 performer: "Various Comedians"
-organizer: "The Comedy Store"
+organizer:
+  name: "The Comedy Store"
 venue: "The Comedy Store"
 venue_address: "The Forge, 1- chartered Cross Rd, London WC2H 8AU, UK"
 city: "London"

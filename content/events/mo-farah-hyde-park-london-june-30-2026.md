@@ -4,7 +4,8 @@ date: 2026-06-30T10:00:00+01:00
 page_type: event
 category: "Health & Wellness"
 performer: "Mo Farah"
-organizer: "BST Hyde Park"
+organizer:
+  name: "BST Hyde Park"
 venue: "Hyde Park"
 venue_address: "Hyde Park, London, UK"
 city: "London"

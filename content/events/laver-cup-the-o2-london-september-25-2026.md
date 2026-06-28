@@ -4,7 +4,8 @@ date: 2026-09-25T18:00:00+01:00
 page_type: event
 category: "Sports"
 performer: "Team Europe vs Team World"
-organizer: "Laver Cup"
+organizer:
+  name: "Laver Cup"
 venue: "The O2 Arena"
 venue_address: "Peninsula Square, London SE10 0DX, UK"
 city: "London"

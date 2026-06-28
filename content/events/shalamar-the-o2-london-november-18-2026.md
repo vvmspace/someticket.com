@@ -4,7 +4,8 @@ date: 2026-11-18T20:00:00+01:00
 page_type: event
 category: "Soul & Disco"
 performer: "Shalamar"
-organizer: "The O2"
+organizer:
+  name: "The O2"
 venue: "The O2 Arena"
 venue_address: "Peninsula Square, London SE10 0DX, United Kingdom"
 city: "London"

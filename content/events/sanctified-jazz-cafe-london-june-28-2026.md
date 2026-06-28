@@ -4,7 +4,8 @@ date: 2026-06-28T20:00:00+01:00
 page_type: event
 category: "Gospel/R&B"
 performer: "Sanctified Choir"
-organizer: "Jazz Cafe"
+organizer:
+  name: "Jazz Cafe"
 venue: "Jazz Cafe"
 venue_address: "5 Chehayne Walk, London W6 0JD, UK"
 city: "London"

@@ -4,7 +4,8 @@ date: 2026-11-12T20:00:00+01:00
 page_type: event
 category: "Classical Crossover"
 performer: "Andrea Bocelli"
-organizer: "Palau Sant Jordi"
+organizer:
+  name: "Palau Sant Jordi"
 venue: "Palau Sant Jordi"
 venue_address: "Av. Dr. R. s/n, 08038 Barcelona, Spain"
 city: "Barcelona"

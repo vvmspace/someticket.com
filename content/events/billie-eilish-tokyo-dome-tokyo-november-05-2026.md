@@ -4,7 +4,8 @@ date: 2026-11-05T19:00:00+09:00
 page_type: event
 category: "Alt-Pop"
 performer: "Billie Eilish"
-organizer: "Tokyo Dome"
+organizer:
+  name: "Tokyo Dome"
 venue: "Tokyo Dome"
 city: "Tokyo"
 offers:

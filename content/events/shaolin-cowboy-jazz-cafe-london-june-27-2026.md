@@ -4,7 +4,8 @@ date: 2026-06-27T21:00:00+01:00
 page_type: event
 category: "Experimental/Jazz"
 performer: "Shaolin Cowboy"
-organizer: "Jazz Cafe"
+organizer:
+  name: "Jazz Cafe"
 venue: "Jazz Cafe"
 venue_address: "5 Chehayne Walk, London W6 0JD, UK"
 city: "London"

@@ -4,7 +4,8 @@ date: 2026-10-11T14:00:00+01:00
 page_type: event
 category: "Sports"
 performer: "Eagles vs Jaguars"
-organizer: "NFL"
+organizer:
+  name: "NFL"
 venue: "Tottenham Hotspur Stadium"
 venue_address: "782 High Rd, London N17 0BX, UK"
 city: "London"

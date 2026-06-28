@@ -4,7 +4,8 @@ date: 2026-10-22T19:30:00+01:00
 page_type: event
 category: "Pop-Rock"
 performer: "Coldplay"
-organizer: "Co-op Live"
+organizer:
+  name: "Co-op Live"
 venue: "Co-op Live"
 venue_address: "Ashton New Rd, Manchester M11 3EQ, UK"
 city: "Manchester"

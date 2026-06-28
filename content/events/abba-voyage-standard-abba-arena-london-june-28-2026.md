@@ -4,7 +4,8 @@ date: 2026-06-28T13:00:00+01:00
 page_type: event
 category: "Digital Performance"
 performer: "ABBA (Digital)"
-organizer: "ABBA Voyage"
+organizer:
+  name: "ABBA Voyage"
 venue: "ABBA Arena"
 venue_address: "Pudding Mill Lane, London E15 2GE, UK"
 city: "London"
