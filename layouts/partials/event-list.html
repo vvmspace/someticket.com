@@ -2,68 +2,69 @@
 {{ $allEvents := where site.RegularPages "Params.page_type" "event" }}
 {{ $scratch := newScratch }}
 {{ $scratch.Set "matches" (slice) }}
+
 <div class="card-grid">
-    <!-- DEBUG: FRESHNESS GUARD ACTIVE v2 -->
     {{ range $allEvents }}
-  {{ $event := . }}
-  {{ if and (ne $event.RelPermalink $page.RelPermalink) (and (.Params.event.start_date) (gt (time .Params.event.start_date).Unix (now).Unix)) }}
-    {{ $score := 0 }}
-    {{ $pageSlug := $page.Params.slug }}
-    {{ $pageEntityType := $page.Params.entity_type }}
-    {{ $pageRelationships := $page.Params.relationships }}
-    {{ $eventTaxonomy := $event.Params.taxonomy }}
-    {{ $eventRelationships := $event.Params.relationships }}
+      {{ $event := . }}
+      {{ if and (ne $event.RelPermalink $page.RelPermalink) (and (.Params.event.start_date) (gt (time .Params.event.start_date).Unix (now).Unix)) }}
+        {{ $score := 0 }}
+        {{ $pageSlug := $page.Params.slug }}
+        {{ $pageEntityType := $page.Params.entity_type }}
+        {{ $pageRelationships := $page.Params.relationships }}
+        {{ $eventTaxonomy := $event.Params.taxonomy }}
+        {{ $eventRelationships := $event.Params.relationships }}
 
-    {{ if and (eq $pageEntityType "city") (in ($eventTaxonomy.cities | default (slice)) $pageSlug) }}
-      {{ $score = add $score 4 }}
-    {{ end }}
-    {{ if and (eq $pageEntityType "region") (in ($eventTaxonomy.regions | default (slice)) $pageSlug) }}
-      {{ $score = add $score 4 }}
-    {{ end }}
-    {{ if and (eq $pageEntityType "category") (in ($eventTaxonomy.categories | default (slice)) $pageSlug) }}
-      {{ $score = add $score 4 }}
-    {{ end }}
-    {{ if and (eq $pageEntityType "artist") (in ($eventTaxonomy.artists | default (slice)) $pageSlug) }}
-      {{ $score = add $score 4 }}
-    {{ end }}
-    {{ if and (eq $pageEntityType "venue") (in ($eventTaxonomy.venues | default (slice)) $pageSlug) }}
-      {{ $score = add $score 4 }}
-    {{ end }}
+        {{ if and (eq $pageEntityType "city") (in ($eventTaxonomy.cities | default (slice)) $pageSlug) }}
+          {{ $score = add $score 4 }}
+        {{ end }}
+        {{ if and (eq $pageEntityType "region") (in ($eventTaxonomy.regions | default (slice)) $pageSlug) }}
+          {{ $score = add $score 4 }}
+        {{ end }}
+        {{ if and (eq $pageEntityType "category") (in ($eventTaxonomy.categories | default (slice)) $pageSlug) }}
+          {{ $score = add $score 4 }}
+        {{ end }}
+        {{ if and (eq $pageEntityType "artist") (in ($eventTaxonomy.artists | default (slice)) $pageSlug) }}
+          {{ $score = add $score 4 }}
+        {{ end }}
+        {{ if and (eq $pageEntityType "venue") (in ($eventTaxonomy.venues | default (slice)) $pageSlug) }}
+          {{ $score = add $score 4 }}
+        {{ end }}
 
-    {{ if and (eq $pageEntityType "intersection") $pageRelationships.city (eq $eventRelationships.city $pageRelationships.city) }}
-      {{ $score = add $score 3 }}
-    {{ end }}
-    {{ if and (eq $pageEntityType "intersection") $pageRelationships.category (eq $eventRelationships.category $pageRelationships.category) }}
-      {{ $score = add $score 3 }}
-    {{ end }}
-    {{ if and (eq $pageEntityType "intersection") $pageRelationships.artist (eq $eventRelationships.artist $pageRelationships.artist) }}
-      {{ $score = add $score 3 }}
-    {{ end }}
-    {{ if and (eq $pageEntityType "intersection") $pageRelationships.venue (eq $eventRelationships.venue $pageRelationships.venue) }}
-      {{ $score = add $score 3 }}
-    {{ end }}
+        {{ if and (eq $pageEntityType "intersection") $pageRelationships.city (eq $eventRelationships.city $pageRelationships.city) }}
+          {{ $score = add $score 3 }}
+        {{ end }}
+        {{ if and (eq $pageEntityType "intersection") $pageRelationships.category (eq $eventRelationships.category $pageRelationships.category) }}
+          {{ $score = add $score 3 }}
+        {{ end }}
+        {{ if and (eq $pageEntityType "intersection") $pageRelationships.artist (eq $eventRelationships.artist $pageRelationships.artist) }}
+          {{ $score = add $score 3 }}
+        {{ end }}
+        {{ if and (eq $pageEntityType "intersection") $pageRelationships.venue (eq $eventRelationships.venue $pageRelationships.venue) }}
+          {{ $score = add $score 3 }}
+        {{ end }}
 
-    {{ if and $pageRelationships.city (eq $eventRelationships.city $pageRelationships.city) }}
-      {{ $score = add $score 2 }}
-    {{ end }}
-    {{ if and $pageRelationships.region (eq $eventRelationships.region $pageRelationships.region) }}
-      {{ $score = add $score 1 }}
-    {{ end }}
-    {{ if and $pageRelationships.category (eq $eventRelationships.category $pageRelationships.category) }}
-      {{ $score = add $score 2 }}
-    {{ end }}
-    {{ if and $pageRelationships.artist (eq $eventRelationships.artist $pageRelationships.artist) }}
-      {{ $score = add $score 2 }}
-    {{ end }}
-    {{ if and $pageRelationships.venue (eq $eventRelationships.venue $pageRelationships.venue) }}
-      {{ $score = add $score 2 }}
-    {{ end }}
+        {{ if and $pageRelationships.city (eq $eventRelationships.city $pageRelationships.city) }}
+          {{ $score = add $score 2 }}
+        {{ end }}
+        {{ if and $pageRelationships.region (eq $eventRelationships.region $pageRelationships.region) }}
+          {{ $score = add $score 1 }}
+        {{ end }}
+        {{ if and $pageRelationships.category (eq $eventRelationships.category $pageRelationships.category) }}
+          {{ $score = add $score 2 }}
+        {{ end }}
+        {{ if and $pageRelationships.artist (eq $eventRelationships.artist $pageRelationships.artist) }}
+          {{ $score = add $score 2 }}
+        {{ end }}
+        {{ if and $pageRelationships.venue (eq $eventRelationships.venue $pageRelationships.venue) }}
+          {{ $score = add $score 2 }}
+        {{ end }}
 
-    {{ if gt $score 0 }}
-      {{ $scratch.Add "matches" (slice (dict "page" $event "score" $score)) }}
+        {{ if gt $score 0 }}
+          {{ $scratch.Add "matches" (slice (dict "page" $event "score" $score)) }}
+        {{ end }}
+      {{ end }}
     {{ end }}
-  {{ end }}
-{{ end }}
+</div>
 
 {{ $matches := $scratch.Get "matches" }}
 {{ $sortedMatches := sort $matches "score" "desc" }}
@@ -81,9 +82,8 @@
   {{ range first 4 $sortedMatches }}
     {{ $items = $items | append .page }}
   {{ end }}
-<div class="card-grid">
-    <!-- DEBUG: FRESHNESS GUARD ACTIVE v2 -->
-    {{ range $allEvents }}
+{{ else }}
+  {{ range first 4 (where site.RegularPages "Params.page_type" "event") }}
     {{ if ne .RelPermalink $page.RelPermalink }}
       {{ $items = $items | append . }}
     {{ end }}
@@ -98,18 +98,8 @@
         <h2>{{ $label }}</h2>
       </div>
       <div class="card-grid">
-          <!-- DEBUG: FRESHNESS GUARD ACTIVE v2 -->
-          {{ range $allEvents }}
-          <article class="card">
-            {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "related_event_click" "label" .Title) }}
-            {{ partial "visual.html" (dict "page" . "variant" "card") }}
-            <strong>{{ .Title }}</strong>
-            <p>{{ .Params.description_short }}</p>
-            <span>{{ partial "event-date.html" (dict "date" .Params.event.start_date "format" "meta") }}{{ with .Params.location.name }} · {{ . }}{{ end }}</span>
-            <div class="actions">
-              {{ partial "link.html" (dict "url" (.Params.offers.ticket_url | default .RelPermalink) "class" "button" "event" "buy_ticket_click" "label" .Title "text" "Buy tickets") }}
-            </div>
-          </article>
+        {{ range $items }}
+          {{ partial "event-card.html" (dict "page" .) }}
         {{ end }}
       </div>
     </div>

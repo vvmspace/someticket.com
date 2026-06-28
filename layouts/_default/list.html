@@ -1,38 +1,41 @@
 {{ define "main" }}
   {{ partial "breadcrumbs.html" . }}
-  <section class="hero">
+  
+  <section class="hero hero--events">
     <div class="hero__panel">
-      <span class="eyebrow">Events</span>
+      <span class="eyebrow">Global Access</span>
       <h1>{{ .Title }}</h1>
-      <p class="lede">{{ .Params.description_short | default "Browse current event pages and open the full details for any date that interests you." }}</p>
+      <p class="lede">{{ .Params.description_short | default "Secure your place at the world's most exclusive events. Curated access, guaranteed entry." }}</p>
     </div>
   </section>
+
   <section class="section section--full">
     <div class="section__inner">
+      
+      {{ $featuredEvents := where .Pages "Params.featured" "true" }}
+      {{ if gt (len $featuredEvents) 0 }}
+        <div class="section__header">
+          <span class="eyebrow">Prime Selection</span>
+          <h2>Featured Events</h2>
+        </div>
+        <div class="card-grid card-grid--featured">
+          {{ range $featuredEvents }}
+            {{ partial "event-card.html" (dict "page" .) }}
+          {{ end }}
+        </div>
+        <div class="section__divider"></div>
+      {{ end }}
+
+      <div class="section__header">
+        <span class="eyebrow">Calendar</span>
+        <h2>All Upcoming Events</h2>
+      </div>
+      
       <div class="card-grid">
         {{ range .Pages }}
-          <article class="card">
-            {{ partial "link.html" (dict "url" .RelPermalink "class" "stretched-link" "ariaLabel" (printf "Open %s" .Title) "event" "list_card_click" "label" .Title) }}
-            {{ partial "visual.html" (dict "page" . "variant" "card") }}
-            <strong>{{ .Title }}</strong>
-            <p>{{ .Params.description_short }}</p>
-            <span>
-              {{ with .Params.event.start_date }}
-                {{ partial "event-date.html" (dict "date" . "format" "meta") }}
-                {{ with $.Params.location.name }} · {{ . }}{{ end }}
-              {{ else }}
-                {{ with .Params.location.name }}
-                  {{ . }}
-                {{ else }}
-                  {{ with .Params.location.city }}
-                    {{ . }}
-                  {{ else }}
-                    Open page
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-            </span>
-          </article>
+          {{ if not .Params.featured }}
+            {{ partial "event-card.html" (dict "page" .) }}
+          {{ end }}
         {{ end }}
       </div>
     </div>
