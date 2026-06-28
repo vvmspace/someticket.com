@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-06-12T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "SoFi Stadium"
   city: "Global"
   region: "World"
   address:
@@ -69,13 +69,13 @@ taxonomy:
   artists:
     - "usa-vs-paraguay-2026-world-cup-group-stage-match-4-sofi-stadium-inglewood-june-12-2026"
   venues:
-    - "venue-tbd"
+    - "sofi-stadium"
 relationships:
   city: "global"
   region: "world"
   category: "entertainment"
   artist: "usa-vs-paraguay-2026-world-cup-group-stage-match-4-sofi-stadium-inglewood-june-12-2026"
-  venue: "venue-tbd"
+  venue: "sofi-stadium"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

@@ -29,7 +29,7 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-09-03T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
   name: "Venue TBD"

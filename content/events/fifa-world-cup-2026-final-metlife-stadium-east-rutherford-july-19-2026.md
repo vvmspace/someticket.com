@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-07-19T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "MetLife Stadium"
   city: "Global"
   region: "World"
   address:
@@ -69,13 +69,13 @@ taxonomy:
   artists:
     - "fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026"
   venues:
-    - "venue-tbd"
+    - "metlife-stadium"
 relationships:
   city: "global"
   region: "world"
   category: "entertainment"
   artist: "fifa-world-cup-2026-final-metlife-stadium-east-rutherford-july-19-2026"
-  venue: "venue-tbd"
+  venue: "metlife-stadium"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

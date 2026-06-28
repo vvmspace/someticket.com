@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-06-19T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "SAP Center"
   city: "Global"
   region: "World"
   address:
@@ -69,13 +69,13 @@ taxonomy:
   artists:
     - "shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026"
   venues:
-    - "venue-tbd"
+    - "sap-center"
 relationships:
   city: "global"
   region: "world"
   category: "entertainment"
   artist: "shakira-las-mujeres-ya-no-lloran-world-tour-sap-center-at-san-jose-june-19-2026"
-  venue: "venue-tbd"
+  venue: "sap-center"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

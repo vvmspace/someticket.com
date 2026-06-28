@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-05-21T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Madison Square Garden"
   city: "Global"
   region: "World"
   address:
@@ -69,13 +69,13 @@ taxonomy:
   artists:
     - "billie-eilish-hit-me-hard-and-soft-tour-madison-square-garden-new-york-may-21-2026"
   venues:
-    - "venue-tbd"
+    - "madison-square-garden"
 relationships:
   city: "global"
   region: "world"
   category: "entertainment"
   artist: "billie-eilish-hit-me-hard-and-soft-tour-madison-square-garden-new-york-may-21-2026"
-  venue: "venue-tbd"
+  venue: "madison-square-garden"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."

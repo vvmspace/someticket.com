@@ -29,10 +29,10 @@ schema:
   images:
     - "/images/og-default.svg"
 event:
-  start_date: "2026-01-01T20:00:00Z"
+  start_date: "2026-09-19T20:00:00Z"
   end_date: "2026-01-01T23:00:00Z"
 location:
-  name: "Venue TBD"
+  name: "Intuit Dome"
   city: "Global"
   region: "World"
   address:
@@ -69,13 +69,13 @@ taxonomy:
   artists:
     - "bruno-mars-the-romantic-tour-intuit-dome-inglewood-september-19-2026"
   venues:
-    - "venue-tbd"
+    - "intuit-dome"
 relationships:
   city: "global"
   region: "world"
   category: "entertainment"
   artist: "bruno-mars-the-romantic-tour-intuit-dome-inglewood-september-19-2026"
-  venue: "venue-tbd"
+  venue: "intuit-dome"
 featured_focus:
   title: "Explore More"
   description: "Discover other high-demand events."
