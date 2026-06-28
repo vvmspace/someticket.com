@@ -2,11 +2,12 @@
 {{ $allEvents := where site.RegularPages "Params.page_type" "event" }}
 {{ $scratch := newScratch }}
 {{ $scratch.Set "matches" (slice) }}
+{{ $now := now.Unix }}
 
 <div class="card-grid">
     {{ range $allEvents }}
       {{ $event := . }}
-      {{ if and (ne $event.RelPermalink $page.RelPermalink) (and (.Params.event.start_date) (gt (time .Params.event.start_date).Unix (now).Unix)) }}
+      {{ if and (ne $event.RelPermalink $page.RelPermalink) (and (.Params.event.start_date) (gt (time .Params.event.start_date).Unix $now)) }}
         {{ $score := 0 }}
         {{ $pageSlug := $page.Params.slug }}
         {{ $pageEntityType := $page.Params.entity_type }}
@@ -84,7 +85,7 @@
   {{ end }}
 {{ else }}
   {{ range first 4 (where site.RegularPages "Params.page_type" "event") }}
-    {{ if ne .RelPermalink $page.RelPermalink }}
+    {{ if and (ne .RelPermalink $page.RelPermalink) (.Params.event.start_date) (gt (time .Params.event.start_date).Unix $now) }}
       {{ $items = $items | append . }}
     {{ end }}
   {{ end }}

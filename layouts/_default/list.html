@@ -8,11 +8,25 @@
       <p class="lede">{{ .Params.description_short | default "Secure your place at the world's most exclusive events. Curated access, guaranteed entry." }}</p>
     </div>
   </section>
-
+  
   <section class="section section--full">
     <div class="section__inner">
       
-      {{ $featuredEvents := where .Pages "Params.featured" "true" }}
+      {{ $now := now.Unix }}
+      {{ $allUpcoming := where .Pages "Params.event.start_date" "!=" "" }}
+      {{ $featuredEvents := slice }}
+      {{ $regularEvents := slice }}
+
+      {{ range $allUpcoming }}
+        {{ if gt (time .Params.event.start_date).Unix $now }}
+          {{ if .Params.featured }}
+            {{ $featuredEvents = $featuredEvents | append . }}
+          {{ else }}
+            {{ $regularEvents = $regularEvents | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
       {{ if gt (len $featuredEvents) 0 }}
         <div class="section__header">
           <span class="eyebrow">Prime Selection</span>
@@ -32,10 +46,8 @@
       </div>
       
       <div class="card-grid">
-        {{ range .Pages }}
-          {{ if not .Params.featured }}
-            {{ partial "event-card.html" (dict "page" .) }}
-          {{ end }}
+        {{ range $regularEvents }}
+          {{ partial "event-card.html" (dict "page" .) }}
         {{ end }}
       </div>
     </div>
